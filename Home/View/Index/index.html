@@ -1,0 +1,91 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="renderer" content="webkit">
+	<link href="__PUBLIC__/css/bootstrap.min.css" type="text/css" rel="stylesheet" />
+	<link href="<{$Think.const.HOME_PUBLIC}>/css/common.css" type="text/css" rel="stylesheet" />
+	<title>首页</title>
+	<style>
+		.post-meta .glyphicon-time{
+		    margin-left: 0;
+		}
+	</style>
+</head>
+
+<body>
+	<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand">Travel Web</a>
+			</div>
+			<div class="collapse navbar-collapse" id="navbar">
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="__CONTROLLER__/index">首页</a></li>
+					<li><a href="__CONTROLLER__/tips">旅游攻略</a></li>
+					<li><a href="__CONTROLLER__/views">景点介绍</a></li>
+					<li><a href="__CONTROLLER__/chat">社区交流</a></li>
+                    <li>
+                        <if condition="$_SESSION['username'] eq true">
+                            <a href="__CONTROLLER__/mycenter"><{$_SESSION['username']}></a>
+                        <else /><a href="__CONTROLLER__/login">注册/登录</a>
+                        </if>
+                    </li>
+                    <if condition="$_SESSION['username'] eq true">
+                    	<li><a href="__CONTROLLER__/logout">退出登录</a></li>
+                    </if>
+				</ul>
+			</div><!--/.nav-collapse -->
+		</div>
+	</nav>
+
+	<div class="container margin-top-50">
+		<div class="row">
+			<div class="col-lg-3 col-lg-offset-7 col-md-5 col-md-offset-5 margin-top-20">
+				<form id="search" method="post">
+					<input type="text" class="form-control" name="search" placeholder="请输入关键字...">
+				</form>
+			</div>
+			<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1" id="showTips">
+				<div id="cont" class="hide-div">
+					<foreach name="result" item="v">
+						<div class="post-preview hide-div">
+                            <h2 class="post-title">
+                                <a href="__CONTROLLER__/showNew?id=<{$v.news_id}>" target="_blank">   
+                                    <{$v.news_title}>
+                                </a>
+                            </h2>
+                            <div class="post-content">
+                                <{$v.news_content|mb_substr=###,0,100,'utf-8'}>...
+                            </div>
+                            <p class="post-meta">
+								<span class="glyphicon glyphicon-time"><{$v.news_time}></span>
+							</p>
+                            <hr>
+                        </div>
+					</foreach>
+				</div>                
+				<div id="real-cont"></div>
+                <div id="holder" class="holder pull-right"></div>
+			</div>
+		</div>
+	</div>
+
+	<script type="text/javascript">
+      function getURL(){
+        return "__CONTROLLER__";
+      }
+    </script>
+	<script src="__PUBLIC__/js/jquery-2.2.2.min.js"></script>
+	<script src="__PUBLIC__/js/bootstrap.min.js"></script>
+    <script src="__PUBLIC__/js/jquery.pagination.js"></script>
+    <script src="<{$Think.const.HOME_PUBLIC}>/js/common.js"></script>
+    <script src="<{$Think.const.HOME_PUBLIC}>/js/index.js"></script>
+</body>
+</html>

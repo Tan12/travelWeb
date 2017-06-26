@@ -1,0 +1,18 @@
+[ 2017-03-07T09:19:49+08:00 ] ::1 /travelWeb/index.php/Admin/Index/%3C%7B/travelWeb%7D%3E/Admin/Public/css/login.css
+ERR: 非法操作:
+
+[ 2017-03-07T09:20:27+08:00 ] ::1 /travelWeb/index.php/Admin/Index/%3C%7B/travelWeb%7D%3E/Public/css/login.css
+ERR: 非法操作:
+
+[ 2017-03-07T09:20:33+08:00 ] ::1 /travelWeb/index.php/Admin/Index/%3C%7B/travelWeb%7D%3E/Public/css/login.css
+ERR: 非法操作:
+
+[ 2017-03-07T09:30:17+08:00 ] ::1 /travelWeb/index.php/Admin/Index/%3C%7BADMIN_PUBLIC%7D%3E/css/login.css
+ERR: 非法操作:
+
+[ 2017-03-07T09:32:00+08:00 ] ::1 /travelWeb/index.php/Admin/Index/%3C/travelWeb/Admin/Public%3E/css/login.css
+ERR: 非法操作:
+
+[ 2017-03-07T09:39:51+08:00 ] ::1 /travelWeb/index.php/Admin/Index/%3C/travelWeb/Admin/Public%3E/js/jquery-2.2.2.min.js
+ERR: 非法操作:
+

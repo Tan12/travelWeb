@@ -1,0 +1,7 @@
+[ 2017-04-19T08:19:52+08:00 ] ::1 /travelWeb/index.php/Home/Index/addPost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `posts` [ RunTime:0.0030s ]
+SQL: INSERT INTO `posts` (`posts_title`,`posts_content`,`posts_author`,`posts_time`) VALUES ('just a try','<p>哈哈哈哈哈hahahaahhhhaha</p>','Henry','2017-04-19 08:19:52') [ RunTime:0.0780s ]
+

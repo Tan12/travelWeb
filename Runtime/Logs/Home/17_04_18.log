@@ -1,0 +1,251 @@
+[ 2017-04-18T08:32:56+08:00 ] ::1 /travelWeb/index.php/Home/Index/searchPost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `posts` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `posts` WHERE `posts_title` LIKE '%h%' LIMIT 1   [ RunTime:0.0312s ]
+SQL: SELECT * FROM `posts` WHERE `posts_title` LIKE '%h%' LIMIT 0,5   [ RunTime:0.0000s ]
+
+[ 2017-04-18T08:33:40+08:00 ] ::1 /travelWeb/index.php/Home/Index/searchPost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `posts` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `posts` WHERE `posts_title` LIKE '%h%' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `posts` WHERE `posts_title` LIKE '%h%' LIMIT 0,5   [ RunTime:0.0000s ]
+
+[ 2017-04-18T08:37:11+08:00 ] ::1 /travelWeb/index.php/Home/Index/searchPost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `posts` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `posts` WHERE `posts_title` LIKE '%h%' ORDER BY posts_time desc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `comments` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `comments` WHERE `posts_id` = 4 ORDER BY comments_time desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `comments` WHERE `posts_id` = 3 ORDER BY comments_time desc  [ RunTime:0.0000s ]
+
+[ 2017-04-18T08:45:57+08:00 ] ::1 /travelWeb/index.php/Home/Index/searchTips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `tips` WHERE `tips_title` LIKE '%不%' ORDER BY tips_time desc  [ RunTime:0.0000s ]
+
+[ 2017-04-18T08:46:05+08:00 ] ::1 /travelWeb/index.php/Home/Index/searchViews
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016600s ]
+SQL: SHOW COLUMNS FROM `sights` [ RunTime:0.0342s ]
+SQL: SELECT * FROM `sights` WHERE `sights_name` LIKE '%无%' ORDER BY sights_id desc  [ RunTime:0.0010s ]
+
+[ 2017-04-18T08:46:08+08:00 ] ::1 /travelWeb/index.php/Home/Index/searchViews
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sights` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `sights` WHERE `sights_name` LIKE '%武%' ORDER BY sights_id desc  [ RunTime:0.0000s ]
+
+[ 2017-04-18T08:46:47+08:00 ] ::1 /travelWeb/index.php/Home/Index/searchViews
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sights` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sights` WHERE `sights_name` LIKE '%武%' ORDER BY sights_id desc  [ RunTime:0.0000s ]
+
+[ 2017-04-18T08:46:50+08:00 ] ::1 /travelWeb/index.php/Home/Index/searchViews
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sights` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `sights` WHERE `sights_name` LIKE '%da%' ORDER BY sights_id desc  [ RunTime:0.0000s ]
+
+[ 2017-04-18T08:46:58+08:00 ] ::1 /travelWeb/index.php/Home/Index/searchViews
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sights` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `sights` WHERE `sights_name` LIKE '%武%' ORDER BY sights_id desc  [ RunTime:0.0000s ]
+
+[ 2017-04-18T08:54:58+08:00 ] ::1 /travelWeb/index.php/Home/Index/searchPost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `posts` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `posts` WHERE `posts_title` LIKE '%hh%' ORDER BY posts_time desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `comments` [ RunTime:0.0000s ]
+
+[ 2017-04-18T08:56:40+08:00 ] ::1 /travelWeb/index.php/Home/Index/searchPost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `posts` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `posts` WHERE `posts_title` LIKE '%hh%' ORDER BY posts_time desc  [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `comments` [ RunTime:0.0000s ]
+
+[ 2017-04-18T08:56:48+08:00 ] ::1 /travelWeb/index.php/Home/Index/searchPost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `posts` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `posts` WHERE `posts_title` LIKE '%h%' ORDER BY posts_time desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `comments` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `comments` WHERE `posts_id` = 4 ORDER BY comments_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comments` WHERE `posts_id` = 3 ORDER BY comments_time desc  [ RunTime:0.0000s ]
+
+[ 2017-04-18T08:57:14+08:00 ] ::1 /travelWeb/index.php/Home/Index/searchPost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `posts` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `posts` WHERE `posts_title` LIKE '%h%' ORDER BY posts_time desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `comments` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comments` WHERE `posts_id` = 4 ORDER BY comments_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comments` WHERE `posts_id` = 3 ORDER BY comments_time desc  [ RunTime:0.0000s ]
+
+[ 2017-04-18T08:57:59+08:00 ] ::1 /travelWeb/index.php/Home/Index/searchPost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `posts` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `posts` WHERE `posts_title` LIKE '%h%' ORDER BY posts_time desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `comments` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comments` WHERE `posts_id` = 4 ORDER BY comments_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comments` WHERE `posts_id` = 3 ORDER BY comments_time desc  [ RunTime:0.0000s ]
+
+[ 2017-04-18T08:59:04+08:00 ] ::1 /travelWeb/index.php/Home/Index/searchPost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `posts` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `posts` WHERE `posts_title` LIKE '%h%' ORDER BY posts_time desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `comments` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `comments` WHERE `posts_id` = 4 ORDER BY comments_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comments` WHERE `posts_id` = 3 ORDER BY comments_time desc  [ RunTime:0.0000s ]
+
+[ 2017-04-18T08:59:46+08:00 ] ::1 /travelWeb/index.php/Home/Index/searchPost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `posts` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `posts` WHERE `posts_title` LIKE '%个%' ORDER BY posts_time desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `comments` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `comments` WHERE `posts_id` = 6 ORDER BY comments_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comments` WHERE `posts_id` = 1 ORDER BY comments_time desc  [ RunTime:0.0156s ]
+
+[ 2017-04-18T09:00:56+08:00 ] ::1 /travelWeb/index.php/Home/Index/searchPost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `posts` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `posts` WHERE `posts_title` LIKE '%h%' ORDER BY posts_time desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `comments` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comments` WHERE `posts_id` = 4 ORDER BY comments_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comments` WHERE `posts_id` = 3 ORDER BY comments_time desc  [ RunTime:0.0000s ]
+
+[ 2017-04-18T09:01:16+08:00 ] ::1 /travelWeb/index.php/Home/Index/searchPost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `posts` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `posts` WHERE `posts_title` LIKE '%as%' ORDER BY posts_time desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `comments` [ RunTime:0.0000s ]
+
+[ 2017-04-18T09:01:18+08:00 ] ::1 /travelWeb/index.php/Home/Index/searchPost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `posts` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `posts` WHERE `posts_title` LIKE '%h%' ORDER BY posts_time desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `comments` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comments` WHERE `posts_id` = 4 ORDER BY comments_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comments` WHERE `posts_id` = 3 ORDER BY comments_time desc  [ RunTime:0.0000s ]
+
+[ 2017-04-18T09:02:05+08:00 ] ::1 /travelWeb/index.php/Home/Index/searchPost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `posts` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `posts` WHERE `posts_title` LIKE '%h%' ORDER BY posts_time desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `comments` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comments` WHERE `posts_id` = 4 ORDER BY comments_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comments` WHERE `posts_id` = 3 ORDER BY comments_time desc  [ RunTime:0.0000s ]
+
+[ 2017-04-18T09:19:23+08:00 ] ::1 /travelWeb/index.php/Home/Index/searchTips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tips` WHERE `tips_title` LIKE '%hh%' ORDER BY tips_time desc  [ RunTime:0.0312s ]
+
+[ 2017-04-18T09:19:29+08:00 ] ::1 /travelWeb/index.php/Home/Index/searchTips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0166s ]
+SQL: SELECT * FROM `tips` WHERE `tips_title` LIKE '%不%' ORDER BY tips_time desc  [ RunTime:0.0000s ]
+
+[ 2017-04-18T09:21:04+08:00 ] ::1 /travelWeb/index.php/Home/Index/searchTips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tips` WHERE `tips_title` LIKE '%不%' ORDER BY tips_time desc  [ RunTime:0.0156s ]
+
+[ 2017-04-18T09:21:12+08:00 ] ::1 /travelWeb/index.php/Home/Index/searchTips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tips` WHERE `tips_title` LIKE '%不%' ORDER BY tips_time desc  [ RunTime:0.0000s ]
+
+[ 2017-04-18T09:21:14+08:00 ] ::1 /travelWeb/index.php/Home/Index/searchTips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `tips` WHERE `tips_title` LIKE '%不%' ORDER BY tips_time desc  [ RunTime:0.0000s ]
+
+[ 2017-04-18T09:21:22+08:00 ] ::1 /travelWeb/index.php/Home/Index/searchTips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tips` WHERE `tips_title` LIKE '%hh%' ORDER BY tips_time desc  [ RunTime:0.0000s ]
+
+[ 2017-04-18T11:44:32+08:00 ] ::1 /travelWeb/index.php/Home/Index/register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `users` WHERE `username` = 'Henry' LIMIT 1   [ RunTime:0.0400s ]
+SQL: INSERT INTO `users` (`username`,`email`,`pwd`,`img`) VALUES ('Henry','henry@163.com','666666','default.gif') [ RunTime:0.4182s ]
+
+[ 2017-04-18T11:45:32+08:00 ] ::1 /travelWeb/index.php/Home/Index/addCom
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `comments` [ RunTime:0.0000s ]
+SQL: INSERT INTO `comments` (`com_content`,`posts_id`,`user_id`,`comments_time`) VALUES ('hello','2','9','2017-04-18 11:45:31') [ RunTime:0.0312s ]
+
+[ 2017-04-18T11:47:13+08:00 ] ::1 /travelWeb/index.php/Home/Index/editInfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `users` WHERE `username` = 'Henry' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-04-18T11:47:21+08:00 ] ::1 /travelWeb/index.php/Home/Index/editInfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0040s ]
+SQL: UPDATE `users` SET `img`='1492487241719.jpeg' WHERE `user_id` = 9 [ RunTime:0.2010s ]
+NOTIC: [8] Undefined index: username D:\wamp\www\travelWeb\Home\Controller\IndexController.class.php 第 379 行.
+
+[ 2017-04-18T23:49:42+08:00 ] ::1 /travelWeb/index.php/Home/Index/checkLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.6590s ]
+SQL: SELECT * FROM `users` WHERE `username` = 'Henry' LIMIT 1   [ RunTime:0.2496s ]
+

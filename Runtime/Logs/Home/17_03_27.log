@@ -1,0 +1,103 @@
+[ 2017-03-27T09:57:44+08:00 ] ::1 /travelWeb/index.php/Home/Index/checkLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:1.0770s ]
+SQL: SELECT * FROM `users` WHERE `username` = 'abc' LIMIT 1   [ RunTime:0.1424s ]
+
+[ 2017-03-27T09:57:44+08:00 ] ::1 /travelWeb/index.php/Home/Index/checkLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.1460s ]
+SQL: SELECT * FROM `users` WHERE `username` = 'abc' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-03-27T09:57:45+08:00 ] ::1 /travelWeb/index.php/Home/Index/checkLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0340s ]
+SQL: SELECT * FROM `users` WHERE `username` = 'abc' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-03-27T09:57:54+08:00 ] ::1 /travelWeb/index.php/Home/Index/user
+ERR: 非法操作:user
+
+[ 2017-03-27T11:14:13+08:00 ] ::1 /travelWeb/index.php/Home/Index/checkRegister
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-03-27T11:14:47+08:00 ] ::1 /travelWeb/index.php/Home/Index/checkRegister
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-27T11:15:06+08:00 ] ::1 /travelWeb/index.php/Home/Index/checkRegister
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-03-27T11:15:46+08:00 ] ::1 /travelWeb/index.php/Home/Index/register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined variable: name D:\wamp\www\travelWeb\Home\Controller\IndexController.class.php 第 82 行.
+SQL: SELECT * FROM `users` WHERE `username` = null LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `users` (`username`,`email`,`pwd`) VALUES ('haha','haha@163.com','') [ RunTime:0.4138s ]
+
+[ 2017-03-27T11:17:35+08:00 ] ::1 /travelWeb/index.php/Home/Index/register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined variable: name D:\wamp\www\travelWeb\Home\Controller\IndexController.class.php 第 82 行.
+SQL: SELECT * FROM `users` WHERE `username` = null LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `users` (`username`,`email`,`pwd`) VALUES ('','haha@163.com','') [ RunTime:0.0390s ]
+
+[ 2017-03-27T11:22:30+08:00 ] ::1 /travelWeb/index.php/Home/Index/register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined variable: name D:\wamp\www\travelWeb\Home\Controller\IndexController.class.php 第 82 行.
+SQL: SELECT * FROM `users` WHERE `username` = null LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `users` (`username`,`email`,`pwd`) VALUES ('haha','haha@163.com','') [ RunTime:0.0010s ]
+
+[ 2017-03-27T11:23:41+08:00 ] ::1 /travelWeb/index.php/Home/Index/register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined variable: name D:\wamp\www\travelWeb\Home\Controller\IndexController.class.php 第 82 行.
+SQL: SELECT * FROM `users` WHERE `username` = null LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `users` (`username`,`email`,`pwd`) VALUES ('haha','haha@163.com','456789') [ RunTime:0.0470s ]
+
+[ 2017-03-27T11:24:07+08:00 ] ::1 /travelWeb/index.php/Home/Index/register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: name D:\wamp\www\travelWeb\Home\Controller\IndexController.class.php 第 82 行.
+SQL: SELECT * FROM `users` WHERE `username` = null LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `users` (`username`,`email`,`pwd`) VALUES ('haha','haha@163.com','123') [ RunTime:0.0140s ]
+
+[ 2017-03-27T11:25:32+08:00 ] ::1 /travelWeb/index.php/Home/Index/register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `users` WHERE `username` = 'haha' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-03-27T11:26:20+08:00 ] ::1 /travelWeb/index.php/Home/Index/checkLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-03-27T11:26:30+08:00 ] ::1 /travelWeb/index.php/Home/Index/checkLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `users` WHERE `username` = 'haha' LIMIT 1   [ RunTime:0.0000s ]
+

@@ -1,0 +1,29 @@
+.sort-part hr{
+	margin-top: 5px;
+}
+.form-control{
+	display: inline-block;
+	width: 50%;
+}
+#search .form-control{
+	width: 200px;
+	height: 30px;
+}
+.sort{
+	font-size: 16px;
+	line-height: 30px;
+}
+#post{
+	width: 120px;
+	padding: 5px;
+	font-size: 16px;
+}
+.hide-part{
+	display: none;
+}
+#add-post input[type=submit],
+#add-post input[type=button]{
+	display: inline-block;
+	width: 20%;
+	margin: 10px 5px;
+}

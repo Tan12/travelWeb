@@ -1,0 +1,20 @@
+/* CSS Document */
+#addTips{
+	display:none;
+}
+.form-control{
+	display: inline-block;
+	width: 70%;
+	height: 30px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+#submit{
+	display: block;
+	width: 20%;
+	margin: 10px auto;
+}
+#tips,
+#tips .post-preview{
+	display: none;
+}

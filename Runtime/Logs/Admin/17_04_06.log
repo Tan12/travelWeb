@@ -1,0 +1,209 @@
+[ 2017-04-06T09:39:18+08:00 ] ::1 /travelWeb/index.php/Admin/Index/function%20URL()%20%7B%20[native%20code]%20%7D/addtip
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:function URL() { [native code] }
+
+[ 2017-04-06T09:44:05+08:00 ] ::1 /travelWeb/index.php/Admin/Index/function%20URL()%20%7B%20[native%20code]%20%7D/managetips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:function URL() { [native code] }
+
+[ 2017-04-06T09:45:50+08:00 ] ::1 /travelWeb/index.php/Admin/Index/managetips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `tips` WHERE ( tips_id>=1 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-06T09:45:55+08:00 ] ::1 /travelWeb/index.php/Admin/Index/managetips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `tips` WHERE ( tips_id>=1 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-06T09:51:18+08:00 ] ::1 /travelWeb/index.php/Admin/Index/managetips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `tips` WHERE ( tips_id>=1 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-06T10:00:13+08:00 ] ::1 /travelWeb/index.php/Admin/Index/managetips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tips` WHERE ( tips_id>=1 )  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-06T10:01:07+08:00 ] ::1 /travelWeb/index.php/Admin/Index/managetips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `tips` WHERE ( tips_id>=1 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-06T10:02:19+08:00 ] ::1 /travelWeb/index.php/Admin/Index/managetips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.071004s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `tips` WHERE ( tips_id>=1 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-04-06T10:02:44+08:00 ] ::1 /travelWeb/index.php/Admin/Index/managetips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008000s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `tips` WHERE ( tips_id>=1 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.014001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009001s ]
+
+[ 2017-04-06T10:06:03+08:00 ] ::1 /travelWeb/index.php/Admin/Index/managetips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `tips` WHERE ( tips_id>=1 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-06T11:03:50+08:00 ] ::1 /travelWeb/index.php/Admin/Index/addtip
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0040s ]
+ERR: 1048:Column 'tips_author' cannot be null
+ [ SQL语句 ] : INSERT INTO `tips` (`tips_title`,`tags`,`tips_content`,`tips_author`) VALUES ('555','666','<p>请输入内容...</p>',NULL)
+ERR: 1048:Column 'tips_author' cannot be null
+ [ SQL语句 ] : INSERT INTO `tips` (`tips_title`,`tags`,`tips_content`,`tips_author`) VALUES ('555','666','<p>请输入内容...</p>',NULL)
+
+[ 2017-04-06T11:05:34+08:00 ] ::1 /travelWeb/index.php/Admin/Index/addtip
+ERR: 1048:Column 'tips_author' cannot be null
+ [ SQL语句 ] : INSERT INTO `tips` (`tips_title`,`tags`,`tips_content`,`tips_author`) VALUES ('','','',NULL)
+
+[ 2017-04-06T11:07:32+08:00 ] ::1 /travelWeb/index.php/Admin/Index/addtip
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0080s ]
+SQL: INSERT INTO `tips` (`tips_title`,`tags`,`tips_content`,`tips_author`) VALUES ('123','32131','<p>请输入内容...</p>','admin') [ RunTime:0.1230s ]
+
+[ 2017-04-06T11:08:27+08:00 ] ::1 /travelWeb/index.php/Admin/Index/message?id=5
+ERR: 模板不存在:D:/wamp/www/travelWeb/Admin/View/Index/message.html
+
+[ 2017-04-06T11:12:32+08:00 ] ::1 /travelWeb/index.php/Admin/Index/addtip
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0060s ]
+SQL: INSERT INTO `tips` (`tips_title`,`tags`,`tips_content`,`tips_author`,`tips_time`) VALUES ('12333','45666','<p>请输入内容...</p><p><img src=\"/travelWeb/Public/upload/image/20170406/1491448348315681.jpg\" title=\"1491448348315681.jpg\" alt=\"40e604bdac49b2ecb0e948b8dc4c25f1.jpg\"/></p>','admin','1491448352') [ RunTime:0.0420s ]
+
+[ 2017-04-06T15:57:40+08:00 ] ::1 /travelWeb/index.php/Admin/Index/addtip
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0050s ]
+SQL: INSERT INTO `tips` (`tips_title`,`tags`,`tips_content`,`tips_author`,`tips_time`) VALUES ('123','124','<p><strong>12132423</strong></p><p><img src=\"/travelWeb/Public/upload/image/20170406/1491465432418914.jpg\" title=\"1491465432418914.jpg\" alt=\"9e6b213e3a10bdd4b2581044f50a502c.jpg\"/></p><p>dadsdasd</p>','admin','2017-04-06 15:57:40') [ RunTime:0.0170s ]
+
+[ 2017-04-06T17:39:25+08:00 ] ::1 /travelWeb/index.php/Admin/Index/addtip
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0030s ]
+SQL: INSERT INTO `tips` (`tips_title`,`tags`,`tips_content`,`tips_author`,`tips_time`) VALUES ('清明将至，不如相约去赏油菜花？','婺源，油菜花','<p><span style=\"color: rgb(51, 51, 51); font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 14px; background-color: rgb(255, 255, 255);\">3-4月间油菜花开时是游览婺源的最佳时节，其它季节亦适合。桃花、洁白的梨花点缀在漫山遍野金黄色的油菜花中，掩映着白墙灰瓦的徽派建筑，是婺源最亮眼的景色。夏季的婺源一片绿色且不热，可以在此避暑的同时游览景色。秋季为丰收的季节，晨雾缭绕，但是早晚温差大要适当带衣物。冬天的婺源不太冷，亦宁静许多，可以体会独自旅游的悠然自在感，但要记得做好防冻措施。</span></p><p><span style=\"background-color: rgb(255, 255, 255); color: rgb(51, 51, 51); font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 14px;\"></span></p><p><span style=\"background-color: rgb(255, 255, 255); color: rgb(51, 51, 51); font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 14px;\">婺源为江西上饶市下属县城，位于江西省东北部、上饶市北部，是古徽州六县之一，也是徽州文化的发祥地之一。 婺源素有“书乡”、“茶乡”之称，被外界誉为“中国最美的乡村”、“一颗镶嵌在最有名的是油菜花和徽派建筑，其乡村之美，在于浑然天成的和谐。“青山向晚盈轩翠，碧水含春傍槛流”。村村是画，步步皆景。山水间飘渺着的朦胧雾纱、古意盎然的民居、石径、廊桥，青山绿水环绕其间，全然剔透着一派水墨丹青的韵味。 婺源的景点围绕其村落展开，最有名的是油菜花和徽派建筑，其乡村之美，在于浑然天成的和谐。</span><br/></p><p><span style=\"background-color: rgb(255, 255, 255); color: rgb(51, 51, 51); font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 14px;\"><br/></span></p><p><span style=\"color: rgb(51, 51, 51); font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 14px; background-color: rgb(255, 255, 255);\">3-4月间梯田上黄灿灿的油菜花，江岭村便是婺源看油菜花的最佳地点，油菜花与徽派民居相呼应，描绘出一幅清丽的田园画卷。 现在，婺源旅游已形成东、西、北三条旅游精品线路，游客可在不同线路的景区体验婺源温婉的山水小镇景色与其深厚的徽州文化。精品三线中，东线主要景区有江湾、篁岭、李坑、汪口、晓起、江岭、庆源。江岭的油菜花最具特色，江湾则以古老的徽派建筑及秀丽的山水风景为最，徽派建筑的代表村落和有明清民居的晓起皆有宁静古朴之感。在婺源县海拔1260米的石耳中的一个有五百年历史的幽静山村篁岭，更为东线增添了一份沉淀。西线是婺源良好生态环境的浓缩，鸳鸯湖景区是世界最大的野生鸳鸯栖息地，湖光山色。文公山风景区是文化与生态并重的江南文化名山，因山腰葬有朱熹（文公）祖墓，故名文公山。北线景区以原汁原味的明清古村落和田园自然风光为主。思溪延村、长滩摄影地、彩虹桥、灵岩洞、大鄣山卧龙谷等景点都是自古以来文人墨客会聚之地，可谓物华天宝、人杰地灵。&nbsp;</span></p><p><span style=\"color: rgb(51, 51, 51); font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 14px; background-color: rgb(255, 255, 255);\"><br/></span></p><p><strong><span style=\"color: rgb(51, 51, 51); font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 14px; background-color: rgb(255, 255, 255);\">到达与离开：</span></strong></p><p style=\"text-indent: 2em;\"><span style=\"color: rgb(51, 51, 51); font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 14px; background-color: rgb(255, 255, 255);\">合福高铁已经于2015年6月28日开通，设有婺源站。每天有近30班高铁停靠婺源。北上广以及合肥、福州、厦门、济南、天津等城市均可通过高铁直达婺源。</span></p><p style=\"text-indent: 2em;\"><span style=\"color: rgb(51, 51, 51); font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 14px; background-color: rgb(255, 255, 255);\">若选择飞机的话，可飞至景德镇机场、南昌机场、衢州机场、黄山机场等，再转乘发往婺源的大巴。&nbsp;</span></p><p style=\"text-indent: 2em;\"><span style=\"color: rgb(51, 51, 51); font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 14px; background-color: rgb(255, 255, 255);\">如果选择火车的话，建议到景德镇、九江、南昌、上饶、黄山、衢州等地，再转车至婺源。 从南昌、上饶、景德镇等地坐汽车前往婺源也相当方便。</span></p><p style=\"text-indent: 2em;\"><span style=\"color: rgb(51, 51, 51); font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 14px; background-color: rgb(255, 255, 255);\">婺源景点多而分散，自驾游也是一种不错的选择。自驾游也多半会从景德镇、上饶、黄山、衢州等地入境婺源，路况良好。</span></p><p><span style=\"color: rgb(51, 51, 51); font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 14px; background-color: rgb(255, 255, 255);\"><br/></span></p><p><strong><span style=\"color: rgb(51, 51, 51); font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 14px; background-color: rgb(255, 255, 255);\">建议游玩：</span></strong><span style=\"color: rgb(51, 51, 51); font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 14px; background-color: rgb(255, 255, 255);\">1-2天&nbsp;</span></p><p><strong><span style=\"color: rgb(51, 51, 51); font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 14px; background-color: rgb(255, 255, 255);\">门票：</span></strong></p><p style=\"text-indent: 2em;\"><span style=\"color: rgb(51, 51, 51); font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 14px; background-color: rgb(255, 255, 255);\">江岭、晓起、汪口 、李坑、卧龙谷、灵岩洞、思溪延村、彩虹桥、严田、文公山、鸳鸯湖、百柱宗祠、石城等14个景点均为：60.00元&nbsp;</span></p><p style=\"text-indent: 2em;\"><span style=\"color: rgb(51, 51, 51); font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 14px; background-color: rgb(255, 255, 255);\">江湾：120.00元&nbsp;</span></p><p style=\"text-indent: 2em;\"><span style=\"color: rgb(51, 51, 51); font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 14px; background-color: rgb(255, 255, 255);\">理坑：60.00元&nbsp;</span></p><p style=\"text-indent: 2em;\"><span style=\"color: rgb(51, 51, 51); font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 14px; background-color: rgb(255, 255, 255);\">清风洞：55.00元&nbsp;</span></p><p style=\"text-indent: 2em;\"><span style=\"color: rgb(51, 51, 51); font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 14px; background-color: rgb(255, 255, 255);\">五龙源漂流：168.00元&nbsp;</span></p><p style=\"text-indent: 2em;\"><span style=\"color: rgb(51, 51, 51); font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 14px; background-color: rgb(255, 255, 255);\">丛溪漂流：80.00元&nbsp;</span></p><p style=\"text-indent: 2em;\"><span style=\"color: rgb(51, 51, 51); font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 14px; background-color: rgb(255, 255, 255);\">篁岭:110.00元&nbsp;</span></p><p style=\"text-indent: 2em;\"><span style=\"color: rgb(51, 51, 51); font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 14px; background-color: rgb(255, 255, 255);\">婺源联票：210.00元&nbsp;</span></p><p><strong><span style=\"color: rgb(51, 51, 51); font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 14px; background-color: rgb(255, 255, 255);\">Tips：</span></strong><span style=\"color: rgb(51, 51, 51); font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 14px; background-color: rgb(255, 255, 255);\">联票含江岭、晓起、江湾、汪口 、李坑、卧龙谷、灵岩洞、思溪延村、彩虹桥、严田、文公山、鸳鸯湖、百柱宗祠、石城14个景点，有效时间为五天。&nbsp;</span></p><p><strong><span style=\"color: rgb(51, 51, 51); font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 14px; background-color: rgb(255, 255, 255);\">开放时间：</span></strong></p><p style=\"text-indent: 2em;\"><span style=\"color: rgb(51, 51, 51); font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 14px; background-color: rgb(255, 255, 255);\">旺季（3月1日~11月31日）：08:00~18:00&nbsp;</span></p><p style=\"text-indent: 2em;\"><span style=\"color: rgb(51, 51, 51); font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 14px; background-color: rgb(255, 255, 255);\">淡季（12月1日~2月28日）：08:00~17:30&nbsp;</span></p><p><strong><span style=\"color: rgb(51, 51, 51); font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 14px; background-color: rgb(255, 255, 255);\">地址：</span></strong><span style=\"color: rgb(51, 51, 51); font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 14px; background-color: rgb(255, 255, 255);\">江西省上饶市北部&nbsp;</span></p><p><strong><span style=\"color: rgb(51, 51, 51); font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 14px; background-color: rgb(255, 255, 255);\">电话：</span></strong><span style=\"color: rgb(51, 51, 51); font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 14px; background-color: rgb(255, 255, 255);\">0793-7343605</span></p>','admin','2017-04-06 17:39:25') [ RunTime:0.3600s ]
+

@@ -1,0 +1,1514 @@
+[ 2017-04-23T08:33:16+08:00 ] ::1 /travelWeb/index.php/Home/Index/checkLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0312s ]
+SQL: SELECT * FROM `users` WHERE `username` = 'Henry' LIMIT 1   [ RunTime:0.0312s ]
+
+[ 2017-04-23T11:38:49+08:00 ] ::1 /travelWeb/index.php/Home/Index/searchPost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `posts` [ RunTime:0.0312s ]
+SQL: SELECT * FROM `posts` WHERE `posts_title` LIKE '%jus%' ORDER BY posts_time desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `comments` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `comments` WHERE `posts_id` = 7 ORDER BY comments_time desc  [ RunTime:0.0000s ]
+
+[ 2017-04-23T11:39:27+08:00 ] ::1 /travelWeb/index.php/Home/Index/searchTips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `tips` WHERE `tips_title` LIKE '%不%' ORDER BY tips_time desc  [ RunTime:0.0000s ]
+
+[ 2017-04-23T11:39:47+08:00 ] ::1 /travelWeb/index.php/Home/Index/searchViews
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sights` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sights` WHERE `sights_name` LIKE '%仙女%' ORDER BY sights_id desc  [ RunTime:0.0000s ]
+
+[ 2017-04-23T11:42:36+08:00 ] ::1 /travelWeb/index.php/Home/Index/searchPost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `posts` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `posts` WHERE `posts_title` LIKE '%j%' ORDER BY posts_time desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `comments` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comments` WHERE `posts_id` = 7 ORDER BY comments_time desc  [ RunTime:0.0000s ]
+
+[ 2017-04-23T11:42:51+08:00 ] ::1 /travelWeb/index.php/Home/Index/searchPost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `posts` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `posts` WHERE `posts_title` LIKE '%j%' ORDER BY posts_time desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `comments` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comments` WHERE `posts_id` = 7 ORDER BY comments_time desc  [ RunTime:0.0000s ]
+
+[ 2017-04-23T13:15:20+08:00 ] ::1 /travelWeb/index.php/Home/Index/searchPost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `posts` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `posts` WHERE `posts_title` LIKE '%j%' ORDER BY posts_time desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `comments` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comments` WHERE `posts_id` = 7 ORDER BY comments_time desc  [ RunTime:0.0000s ]
+
+[ 2017-04-23T13:15:27+08:00 ] ::1 /travelWeb/index.php/Home/Index/searchPost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `posts` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `posts` WHERE `posts_title` LIKE '%777%' ORDER BY posts_time desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `comments` [ RunTime:0.0156s ]
+
+[ 2017-04-23T13:15:28+08:00 ] ::1 /travelWeb/index.php/Home/Index/searchPost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016600s ]
+SQL: SHOW COLUMNS FROM `posts` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `posts` WHERE `posts_title` LIKE '%777%' ORDER BY posts_time desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `comments` [ RunTime:0.0000s ]
+
+[ 2017-04-23T13:15:30+08:00 ] ::1 /travelWeb/index.php/Home/Index/searchPost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `posts` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `posts` WHERE `posts_title` LIKE '%j%' ORDER BY posts_time desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `comments` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comments` WHERE `posts_id` = 7 ORDER BY comments_time desc  [ RunTime:0.0000s ]
+
+[ 2017-04-23T13:15:34+08:00 ] ::1 /travelWeb/index.php/Home/Index/searchPost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `posts` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `posts` WHERE `posts_title` LIKE '%哈哈%' ORDER BY posts_time desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `comments` [ RunTime:0.0156s ]
+
+[ 2017-04-23T13:15:34+08:00 ] ::1 /travelWeb/index.php/Home/Index/searchPost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `posts` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `posts` WHERE `posts_title` LIKE '%哈哈%' ORDER BY posts_time desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `comments` [ RunTime:0.0000s ]
+
+[ 2017-04-23T13:15:37+08:00 ] ::1 /travelWeb/index.php/Home/Index/searchPost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `posts` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `posts` WHERE `posts_title` LIKE '%h%' ORDER BY posts_time desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `comments` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comments` WHERE `posts_id` = 4 ORDER BY comments_time desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comments` WHERE `posts_id` = 3 ORDER BY comments_time desc  [ RunTime:0.0000s ]
+
+[ 2017-04-23T13:35:24+08:00 ] ::1 /travelWeb/index.php/Home/Index/addPost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `posts` [ RunTime:0.0000s ]
+SQL: INSERT INTO `posts` (`posts_title`,`posts_content`,`posts_author`,`posts_time`) VALUES ('test','<p>这是内容这是内容这是内容这是内容这是内容这是内容这是内容这是内容这是内容这是内容这是内容这是内容这是内容这是内容这是内容这是内容这是内容这是内容这是内容这是内容这是内容这是内容这是内容这是内容这是内容</p>','Henry','2017-04-23 13:35:23') [ RunTime:0.1092s ]
+
+[ 2017-04-23T13:35:51+08:00 ] ::1 /travelWeb/index.php/Home/Index/addCom
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `comments` [ RunTime:0.0000s ]
+SQL: INSERT INTO `comments` (`com_content`,`posts_id`,`user_id`,`comments_time`) VALUES ('hello','8','9','2017-04-23 13:35:51') [ RunTime:0.0000s ]
+
+[ 2017-04-23T14:33:19+08:00 ] ::1 /travelWeb/index.php/Home/Index/addPost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `posts` [ RunTime:0.0000s ]
+SQL: INSERT INTO `posts` (`posts_title`,`posts_content`,`posts_author`,`posts_time`) VALUES ('abcdefg','<p>This is content</p><p>This is content</p><p>This is content</p><p>This is content<br/></p><p>This is content</p><p>This is content</p>','Henry','2017-04-23 14:33:19') [ RunTime:0.0156s ]
+
+[ 2017-04-23T14:34:15+08:00 ] ::1 /travelWeb/index.php/Home/Index/addCom
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `comments` [ RunTime:0.0000s ]
+SQL: INSERT INTO `comments` (`com_content`,`posts_id`,`user_id`,`comments_time`) VALUES ('1','9','9','2017-04-23 14:34:15') [ RunTime:0.0000s ]
+
+[ 2017-04-23T14:34:19+08:00 ] ::1 /travelWeb/index.php/Home/Index/addCom
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `comments` [ RunTime:0.0156s ]
+SQL: INSERT INTO `comments` (`com_content`,`posts_id`,`user_id`,`comments_time`) VALUES ('2','9','9','2017-04-23 14:34:19') [ RunTime:0.0000s ]
+
+[ 2017-04-23T14:34:24+08:00 ] ::1 /travelWeb/index.php/Home/Index/addCom
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `comments` [ RunTime:0.0000s ]
+SQL: INSERT INTO `comments` (`com_content`,`posts_id`,`user_id`,`comments_time`) VALUES ('3','9','9','2017-04-23 14:34:24') [ RunTime:0.0156s ]
+
+[ 2017-04-23T14:34:28+08:00 ] ::1 /travelWeb/index.php/Home/Index/addCom
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `comments` [ RunTime:0.0156s ]
+SQL: INSERT INTO `comments` (`com_content`,`posts_id`,`user_id`,`comments_time`) VALUES ('4','9','9','2017-04-23 14:34:28') [ RunTime:0.0000s ]
+
+[ 2017-04-23T14:34:30+08:00 ] ::1 /travelWeb/index.php/Home/Index/addCom
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `comments` [ RunTime:0.0156s ]
+SQL: INSERT INTO `comments` (`com_content`,`posts_id`,`user_id`,`comments_time`) VALUES ('5','9','9','2017-04-23 14:34:30') [ RunTime:0.0000s ]
+
+[ 2017-04-23T14:34:38+08:00 ] ::1 /travelWeb/index.php/Home/Index/addCom
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `comments` [ RunTime:0.0156s ]
+SQL: INSERT INTO `comments` (`com_content`,`posts_id`,`user_id`,`comments_time`) VALUES ('5','9','9','2017-04-23 14:34:38') [ RunTime:0.0000s ]
+
+[ 2017-04-23T14:34:47+08:00 ] ::1 /travelWeb/index.php/Home/Index/addCom
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `comments` [ RunTime:0.0020s ]
+SQL: INSERT INTO `comments` (`com_content`,`posts_id`,`user_id`,`comments_time`) VALUES ('6','9','9','2017-04-23 14:34:47') [ RunTime:0.0020s ]
+
+[ 2017-04-23T15:00:26+08:00 ] ::1 /travelWeb/index.php/Home/Index/delCom
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `comments` [ RunTime:0.0000s ]
+SQL: DELETE FROM `comments` WHERE `comments_id` = 23 [ RunTime:0.0312s ]
+
+[ 2017-04-23T15:05:29+08:00 ] ::1 /travelWeb/index.php/Home/Index/addPost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `posts` [ RunTime:0.0030s ]
+SQL: INSERT INTO `posts` (`posts_title`,`posts_content`,`posts_author`,`posts_time`) VALUES ('testda','<p>请输入内容...</p>','Henry','2017-04-23 15:05:28') [ RunTime:0.0312s ]
+
+[ 2017-04-23T15:06:35+08:00 ] ::1 /travelWeb/index.php/Home/Index/delPost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `posts` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `comments` [ RunTime:0.0000s ]
+SQL: DELETE FROM `posts` WHERE `posts_id` = 10 [ RunTime:0.1404s ]
+
+[ 2017-04-23T15:07:14+08:00 ] ::1 /travelWeb/index.php/Home/Index/addPost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `posts` [ RunTime:0.0156s ]
+SQL: INSERT INTO `posts` (`posts_title`,`posts_content`,`posts_author`,`posts_time`) VALUES ('safsdfasdf','<p>dsfasdgasdgadfgdgsdasdfsd</p>','Henry','2017-04-23 15:07:14') [ RunTime:0.0000s ]
+
+[ 2017-04-23T15:08:01+08:00 ] ::1 /travelWeb/index.php/Home/Index/delPost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `posts` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `comments` [ RunTime:0.0000s ]
+SQL: DELETE FROM `posts` WHERE `posts_id` = 11 [ RunTime:0.0312s ]
+
+[ 2017-04-23T15:12:24+08:00 ] ::1 /travelWeb/index.php/Home/Index/addPost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `posts` [ RunTime:0.0000s ]
+SQL: INSERT INTO `posts` (`posts_title`,`posts_content`,`posts_author`,`posts_time`) VALUES ('fasfsdf','<p>fasdfasdfsdfsfs</p>','Henry','2017-04-23 15:12:24') [ RunTime:0.0156s ]
+
+[ 2017-04-23T15:12:34+08:00 ] ::1 /travelWeb/index.php/Home/Index/addCom
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `comments` [ RunTime:0.0000s ]
+SQL: INSERT INTO `comments` (`com_content`,`posts_id`,`user_id`,`comments_time`) VALUES ('fds','12','9','2017-04-23 15:12:34') [ RunTime:0.0000s ]
+
+[ 2017-04-23T15:12:42+08:00 ] ::1 /travelWeb/index.php/Home/Index/addPost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `posts` [ RunTime:0.0000s ]
+SQL: INSERT INTO `posts` (`posts_title`,`posts_content`,`posts_author`,`posts_time`) VALUES ('dasdad','<p>请输入内容...</p>','Henry','2017-04-23 15:12:42') [ RunTime:0.0156s ]
+
+[ 2017-04-23T15:15:15+08:00 ] ::1 /travelWeb/index.php/Home/Index/delPost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `posts` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `comments` [ RunTime:0.0000s ]
+SQL: DELETE FROM `posts` WHERE `posts_id` = 13 [ RunTime:0.0000s ]
+
+[ 2017-04-23T15:15:25+08:00 ] ::1 /travelWeb/index.php/Home/Index/delPost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `posts` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `comments` [ RunTime:0.0156s ]
+SQL: DELETE FROM `posts` WHERE `posts_id` = 12 [ RunTime:0.0000s ]
+
+[ 2017-04-23T15:17:26+08:00 ] ::1 /travelWeb/index.php/Home/Index/addPost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `posts` [ RunTime:0.0000s ]
+SQL: INSERT INTO `posts` (`posts_title`,`posts_content`,`posts_author`,`posts_time`) VALUES ('vcxvx','<p>请输入内容...</p>','Henry','2017-04-23 15:17:26') [ RunTime:0.0312s ]
+
+[ 2017-04-23T15:17:41+08:00 ] ::1 /travelWeb/index.php/Home/Index/addPost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `posts` [ RunTime:0.0030s ]
+SQL: INSERT INTO `posts` (`posts_title`,`posts_content`,`posts_author`,`posts_time`) VALUES ('zvsd','<p>fsfsdgdfhfghfghf</p>','Henry','2017-04-23 15:17:41') [ RunTime:0.0040s ]
+
+[ 2017-04-23T15:18:41+08:00 ] ::1 /travelWeb/index.php/Home/Index/delPost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `posts` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `comments` [ RunTime:0.0030s ]
+SQL: DELETE FROM `posts` WHERE `posts_id` = 15 [ RunTime:0.0010s ]
+
+[ 2017-04-23T15:29:33+08:00 ] ::1 /travelWeb/index.php/Home/Index/delPost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `posts` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `comments` [ RunTime:0.0000s ]
+SQL: DELETE FROM `posts` WHERE `posts_id` = 14 [ RunTime:0.0156s ]
+
+[ 2017-04-23T15:30:12+08:00 ] ::1 /travelWeb/index.php/Home/Index/addPost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `posts` [ RunTime:0.0040s ]
+SQL: INSERT INTO `posts` (`posts_title`,`posts_content`,`posts_author`,`posts_time`) VALUES ('dasdad','<p>dasdadasdasdas</p>','Henry','2017-04-23 15:30:12') [ RunTime:0.0050s ]
+
+[ 2017-04-23T15:33:29+08:00 ] ::1 /travelWeb/index.php/Home/Index/delCom
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `comments` [ RunTime:0.0000s ]
+SQL: DELETE FROM `comments` WHERE `comments_id` = 24 [ RunTime:0.0000s ]
+
+[ 2017-04-23T15:33:33+08:00 ] ::1 /travelWeb/index.php/Home/Index/delCom
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `comments` [ RunTime:0.0040s ]
+SQL: DELETE FROM `comments` WHERE `comments_id` = 21 [ RunTime:0.0010s ]
+
+[ 2017-04-23T15:34:06+08:00 ] ::1 /travelWeb/index.php/Home/Index/delPost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `posts` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `comments` [ RunTime:0.0000s ]
+SQL: DELETE FROM `posts` WHERE `posts_id` = 16 [ RunTime:0.0000s ]
+
+[ 2017-04-23T15:35:11+08:00 ] ::1 /travelWeb/index.php/Home/Index/addPost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `posts` [ RunTime:0.0000s ]
+SQL: INSERT INTO `posts` (`posts_title`,`posts_content`,`posts_author`,`posts_time`) VALUES ('fsdfsfd','<p>fsdfsdfsdfsdfsdfsfsdczdvzfgd</p>','Henry','2017-04-23 15:35:11') [ RunTime:0.0156s ]
+
+[ 2017-04-23T15:35:23+08:00 ] ::1 /travelWeb/index.php/Home/Index/addCom
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `comments` [ RunTime:0.0000s ]
+SQL: INSERT INTO `comments` (`com_content`,`posts_id`,`user_id`,`comments_time`) VALUES ('hello','17','9','2017-04-23 15:35:23') [ RunTime:0.0000s ]
+
+[ 2017-04-23T15:35:43+08:00 ] ::1 /travelWeb/index.php/Home/Index/delPost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `posts` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `comments` [ RunTime:0.0000s ]
+SQL: DELETE FROM `posts` WHERE `posts_id` = 17 [ RunTime:0.0000s ]
+
+[ 2017-04-23T15:37:18+08:00 ] ::1 /travelWeb/index.php/Home/Index/delCom
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `comments` [ RunTime:0.0040s ]
+SQL: DELETE FROM `comments` WHERE `comments_id` = 25 [ RunTime:0.0000s ]
+
+[ 2017-04-23T15:37:36+08:00 ] ::1 /travelWeb/index.php/Home/Index/addPost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `posts` [ RunTime:0.0000s ]
+SQL: INSERT INTO `posts` (`posts_title`,`posts_content`,`posts_author`,`posts_time`) VALUES ('fdsfasf','<p>fsafsdcsdvsdvs</p>','Henry','2017-04-23 15:37:36') [ RunTime:0.0156s ]
+
+[ 2017-04-23T15:37:54+08:00 ] ::1 /travelWeb/index.php/Home/Index/addPost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `posts` [ RunTime:0.0000s ]
+SQL: INSERT INTO `posts` (`posts_title`,`posts_content`,`posts_author`,`posts_time`) VALUES ('dsasasda','<p>dasdddaxasc</p>','Henry','2017-04-23 15:37:54') [ RunTime:0.0156s ]
+
+[ 2017-04-23T15:38:14+08:00 ] ::1 /travelWeb/index.php/Home/Index/addCom
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `comments` [ RunTime:0.0000s ]
+SQL: INSERT INTO `comments` (`com_content`,`posts_id`,`user_id`,`comments_time`) VALUES ('hello','19','9','2017-04-23 15:38:13') [ RunTime:0.0000s ]
+
+[ 2017-04-23T15:38:21+08:00 ] ::1 /travelWeb/index.php/Home/Index/addCom
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `comments` [ RunTime:0.0156s ]
+SQL: INSERT INTO `comments` (`com_content`,`posts_id`,`user_id`,`comments_time`) VALUES ('good','19','9','2017-04-23 15:38:21') [ RunTime:0.0000s ]
+
+[ 2017-04-23T15:38:38+08:00 ] ::1 /travelWeb/index.php/Home/Index/delPost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `posts` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `comments` [ RunTime:0.0000s ]
+SQL: DELETE FROM `posts` WHERE `posts_id` = 18 [ RunTime:0.0000s ]
+
+[ 2017-04-23T15:38:41+08:00 ] ::1 /travelWeb/index.php/Home/Index/delPost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `posts` [ RunTime:0.0446s ]
+SQL: SHOW COLUMNS FROM `comments` [ RunTime:0.0000s ]
+SQL: DELETE FROM `comments` WHERE `posts_id` = 19 [ RunTime:0.0000s ]
+SQL: DELETE FROM `posts` WHERE `posts_id` = 19 [ RunTime:0.0000s ]
+
+[ 2017-04-23T16:40:10+08:00 ] ::1 /travelWeb/index.php/Home/Index/follow
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0000s ]
+ERR: 1054:Unknown column 'follow' in 'field list'
+ [ SQL语句 ] : SELECT `follow` FROM `users` WHERE ( username=Anna ) LIMIT 1  
+ERR: 1054:Unknown column 'follow' in 'field list'
+ [ SQL语句 ] : SELECT `follow` FROM `users` WHERE ( username=Anna ) LIMIT 1  
+
+[ 2017-04-23T16:40:21+08:00 ] ::1 /travelWeb/index.php/Home/Index/follow
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0000s ]
+ERR: 1054:Unknown column 'follow' in 'field list'
+ [ SQL语句 ] : SELECT `follow` FROM `users` WHERE ( username=Anna ) LIMIT 1  
+ERR: 1054:Unknown column 'follow' in 'field list'
+ [ SQL语句 ] : SELECT `follow` FROM `users` WHERE ( username=Anna ) LIMIT 1  
+
+[ 2017-04-23T16:41:37+08:00 ] ::1 /travelWeb/index.php/Home/Index/follow
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0000s ]
+ERR: 1054:Unknown column 'follow' in 'field list'
+ [ SQL语句 ] : SELECT `follow` FROM `users` WHERE ( username=Anna ) LIMIT 1  
+ERR: 1054:Unknown column 'follow' in 'field list'
+ [ SQL语句 ] : SELECT `follow` FROM `users` WHERE ( username=Anna ) LIMIT 1  
+
+[ 2017-04-23T16:42:45+08:00 ] ::1 /travelWeb/index.php/Home/Index/follow
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0030s ]
+ERR: 1054:Unknown column 'follow' in 'field list'
+ [ SQL语句 ] : SELECT `follow` FROM `users` WHERE ( username=Anna ) LIMIT 1  
+ERR: 1054:Unknown column 'follow' in 'field list'
+ [ SQL语句 ] : SELECT `follow` FROM `users` WHERE ( username=Anna ) LIMIT 1  
+
+[ 2017-04-23T16:43:46+08:00 ] ::1 /travelWeb/index.php/Home/Index/follow
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0050s ]
+
+[ 2017-04-23T16:44:21+08:00 ] ::1 /travelWeb/index.php/Home/Index/follow
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0156s ]
+ERR: 1054:Unknown column 'follow' in 'field list'
+ [ SQL语句 ] : SELECT `follow` FROM `users` WHERE ( 'username=Anna' ) LIMIT 1  
+ERR: 1054:Unknown column 'follow' in 'field list'
+ [ SQL语句 ] : SELECT `follow` FROM `users` WHERE ( 'username=Anna' ) LIMIT 1  
+
+[ 2017-04-23T16:45:13+08:00 ] ::1 /travelWeb/index.php/Home/Index/follow
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0030s ]
+ERR: 1054:Unknown column 'follow' in 'field list'
+ [ SQL语句 ] : SELECT `follow` FROM `users` WHERE ( 'username=Anna' ) LIMIT 1  
+ERR: 1054:Unknown column 'follow' in 'field list'
+ [ SQL语句 ] : SELECT `follow` FROM `users` WHERE ( 'username=Anna' ) LIMIT 1  
+
+[ 2017-04-23T16:46:09+08:00 ] ::1 /travelWeb/index.php/Home/Index/follow
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0156s ]
+SQL: SELECT `follows` FROM `users` WHERE ( 'username=Anna' ) LIMIT 1   [ RunTime:0.0312s ]
+
+[ 2017-04-23T16:46:16+08:00 ] ::1 /travelWeb/index.php/Home/Index/follow
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0156s ]
+SQL: SELECT `follows` FROM `users` WHERE ( 'username=Anna' ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-04-23T16:50:12+08:00 ] ::1 /travelWeb/index.php/Home/Index/follow
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0000s ]
+SQL: SELECT `follows` FROM `users` WHERE ( 'username=Anna' ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-04-23T16:50:15+08:00 ] ::1 /travelWeb/index.php/Home/Index/follow
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0000s ]
+SQL: SELECT `follows` FROM `users` WHERE ( 'username=5' ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-04-23T16:58:17+08:00 ] ::1 /travelWeb/index.php/Home/Index/follow
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0000s ]
+SQL: SELECT `follows` FROM `users` WHERE ( 'user_id=5' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `followers` FROM `users` WHERE ( 'user_id=9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `users` SET `follows`='5' WHERE ( 'user_id=5' ) [ RunTime:0.0312s ]
+SQL: UPDATE `users` SET `followers`='9' WHERE ( 'user_id=9' ) [ RunTime:0.0000s ]
+
+[ 2017-04-23T16:58:19+08:00 ] ::1 /travelWeb/index.php/Home/Index/follow
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0000s ]
+SQL: SELECT `follows` FROM `users` WHERE ( 'user_id=5' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `followers` FROM `users` WHERE ( 'user_id=9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `users` SET `follows`='5' WHERE ( 'user_id=5' ) [ RunTime:0.0000s ]
+SQL: UPDATE `users` SET `followers`='9' WHERE ( 'user_id=9' ) [ RunTime:0.0000s ]
+
+[ 2017-04-23T17:00:06+08:00 ] ::1 /travelWeb/index.php/Home/Index/follow
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0020s ]
+SQL: SELECT `follows` FROM `users` WHERE ( 'user_id=5' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `followers` FROM `users` WHERE ( 'user_id=9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `users` SET `follows`='5' WHERE ( 'user_id=5' ) [ RunTime:0.0000s ]
+SQL: UPDATE `users` SET `followers`='9' WHERE ( 'user_id=9' ) [ RunTime:0.0000s ]
+
+[ 2017-04-23T17:00:35+08:00 ] ::1 /travelWeb/index.php/Home/Index/follow
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0000s ]
+SQL: SELECT `follows` FROM `users` WHERE ( 'user_id=5' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `followers` FROM `users` WHERE ( 'user_id=9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `users` SET `follows`='5' WHERE ( 'user_id=5' ) [ RunTime:0.0000s ]
+SQL: UPDATE `users` SET `followers`='9' WHERE ( 'user_id=9' ) [ RunTime:0.0000s ]
+
+[ 2017-04-23T17:01:52+08:00 ] ::1 /travelWeb/index.php/Home/Index/follow
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0000s ]
+SQL: SELECT `follows` FROM `users` WHERE ( 'user_id=5' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `followers` FROM `users` WHERE ( 'user_id=9' ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-04-23T17:02:58+08:00 ] ::1 /travelWeb/index.php/Home/Index/follow
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0000s ]
+SQL: SELECT `follows` FROM `users` WHERE ( 'user_id=5' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `followers` FROM `users` WHERE ( 'user_id=9' ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-04-23T17:03:48+08:00 ] ::1 /travelWeb/index.php/Home/Index/follow
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0030s ]
+SQL: SELECT `follows` FROM `users` WHERE ( 'user_id=5' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `followers` FROM `users` WHERE ( 'user_id=9' ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-04-23T17:07:28+08:00 ] ::1 /travelWeb/index.php/Home/Index/follow
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0000s ]
+SQL: SELECT `follows` FROM `users` WHERE ( 'user_id=5' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `followers` FROM `users` WHERE ( 'user_id=9' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `users` SET `follows`='5' WHERE ( 'user_id=5' ) [ RunTime:0.0010s ]
+SQL: UPDATE `users` SET `followers`='9' WHERE ( 'user_id=9' ) [ RunTime:0.0010s ]
+
+[ 2017-04-23T17:08:24+08:00 ] ::1 /travelWeb/index.php/Home/Index/follow
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0000s ]
+SQL: SELECT `follows` FROM `users` WHERE ( 'user_id=5' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `followers` FROM `users` WHERE ( 'user_id=9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `users` SET `follows`='\'5\'' WHERE ( 'user_id=5' ) [ RunTime:0.0000s ]
+SQL: UPDATE `users` SET `followers`='\'9\'' WHERE ( 'user_id=9' ) [ RunTime:0.0000s ]
+
+[ 2017-04-23T17:08:47+08:00 ] ::1 /travelWeb/index.php/Home/Index/follow
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0050s ]
+SQL: SELECT `follows` FROM `users` WHERE ( 'user_id=5' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `followers` FROM `users` WHERE ( 'user_id=9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `users` SET `follows`='\'5\'' WHERE ( 'user_id=5' ) [ RunTime:0.0000s ]
+SQL: UPDATE `users` SET `followers`='\'9\'' WHERE ( 'user_id=9' ) [ RunTime:0.0000s ]
+
+[ 2017-04-23T17:08:48+08:00 ] ::1 /travelWeb/index.php/Home/Index/follow
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0010s ]
+SQL: SELECT `follows` FROM `users` WHERE ( 'user_id=5' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `followers` FROM `users` WHERE ( 'user_id=9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `users` SET `follows`='\'5\'' WHERE ( 'user_id=5' ) [ RunTime:0.0000s ]
+SQL: UPDATE `users` SET `followers`='\'9\'' WHERE ( 'user_id=9' ) [ RunTime:0.0000s ]
+
+[ 2017-04-23T17:08:49+08:00 ] ::1 /travelWeb/index.php/Home/Index/follow
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0000s ]
+SQL: SELECT `follows` FROM `users` WHERE ( 'user_id=5' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `followers` FROM `users` WHERE ( 'user_id=9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `users` SET `follows`='\'5\'' WHERE ( 'user_id=5' ) [ RunTime:0.0000s ]
+SQL: UPDATE `users` SET `followers`='\'9\'' WHERE ( 'user_id=9' ) [ RunTime:0.0000s ]
+
+[ 2017-04-23T17:08:49+08:00 ] ::1 /travelWeb/index.php/Home/Index/follow
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0030s ]
+SQL: SELECT `follows` FROM `users` WHERE ( 'user_id=5' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `followers` FROM `users` WHERE ( 'user_id=9' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `users` SET `follows`='\'5\'' WHERE ( 'user_id=5' ) [ RunTime:0.0000s ]
+SQL: UPDATE `users` SET `followers`='\'9\'' WHERE ( 'user_id=9' ) [ RunTime:0.0000s ]
+
+[ 2017-04-23T17:08:49+08:00 ] ::1 /travelWeb/index.php/Home/Index/follow
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0080s ]
+SQL: SELECT `follows` FROM `users` WHERE ( 'user_id=5' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `followers` FROM `users` WHERE ( 'user_id=9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `users` SET `follows`='\'5\'' WHERE ( 'user_id=5' ) [ RunTime:0.0000s ]
+SQL: UPDATE `users` SET `followers`='\'9\'' WHERE ( 'user_id=9' ) [ RunTime:0.0000s ]
+
+[ 2017-04-23T17:08:49+08:00 ] ::1 /travelWeb/index.php/Home/Index/follow
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0030s ]
+SQL: SELECT `follows` FROM `users` WHERE ( 'user_id=5' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `followers` FROM `users` WHERE ( 'user_id=9' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `users` SET `follows`='\'5\'' WHERE ( 'user_id=5' ) [ RunTime:0.0000s ]
+SQL: UPDATE `users` SET `followers`='\'9\'' WHERE ( 'user_id=9' ) [ RunTime:0.0000s ]
+
+[ 2017-04-23T17:08:50+08:00 ] ::1 /travelWeb/index.php/Home/Index/follow
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0040s ]
+SQL: SELECT `follows` FROM `users` WHERE ( 'user_id=5' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `followers` FROM `users` WHERE ( 'user_id=9' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `users` SET `follows`='\'5\'' WHERE ( 'user_id=5' ) [ RunTime:0.0000s ]
+SQL: UPDATE `users` SET `followers`='\'9\'' WHERE ( 'user_id=9' ) [ RunTime:0.0010s ]
+
+[ 2017-04-23T17:08:50+08:00 ] ::1 /travelWeb/index.php/Home/Index/follow
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0030s ]
+SQL: SELECT `follows` FROM `users` WHERE ( 'user_id=5' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `followers` FROM `users` WHERE ( 'user_id=9' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `users` SET `follows`='\'5\'' WHERE ( 'user_id=5' ) [ RunTime:0.0000s ]
+SQL: UPDATE `users` SET `followers`='\'9\'' WHERE ( 'user_id=9' ) [ RunTime:0.0000s ]
+
+[ 2017-04-23T17:08:56+08:00 ] ::1 /travelWeb/index.php/Home/Index/follow
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0030s ]
+SQL: SELECT `follows` FROM `users` WHERE ( 'user_id=5' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `followers` FROM `users` WHERE ( 'user_id=9' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `users` SET `follows`='\'5\'' WHERE ( 'user_id=5' ) [ RunTime:0.0000s ]
+SQL: UPDATE `users` SET `followers`='\'9\'' WHERE ( 'user_id=9' ) [ RunTime:0.0000s ]
+
+[ 2017-04-23T17:10:25+08:00 ] ::1 /travelWeb/index.php/Home/Index/follow
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0000s ]
+SQL: SELECT `follows` FROM `users` WHERE ( 'user_id=5' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `followers` FROM `users` WHERE ( 'user_id=9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `users` SET `follows`='\'5\'' WHERE ( 'user_id=5' ) [ RunTime:0.0156s ]
+SQL: UPDATE `users` SET `followers`='\'9\'' WHERE ( 'user_id=9' ) [ RunTime:0.0000s ]
+
+[ 2017-04-23T17:10:52+08:00 ] ::1 /travelWeb/index.php/Home/Index/follow
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0000s ]
+SQL: SELECT `follows` FROM `users` WHERE ( 'user_id=5' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `followers` FROM `users` WHERE ( 'user_id=9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `users` SET `follows`='\'5\'' WHERE ( 'user_id=5' ) [ RunTime:0.0000s ]
+
+[ 2017-04-23T17:11:44+08:00 ] ::1 /travelWeb/index.php/Home/Index/follow
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0050s ]
+SQL: SELECT `follows` FROM `users` WHERE ( 'user_id=5' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `followers` FROM `users` WHERE ( 'user_id=9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `users` SET `follows`='3' WHERE ( 'user_id=5' ) [ RunTime:0.0000s ]
+
+[ 2017-04-23T17:12:44+08:00 ] ::1 /travelWeb/index.php/Home/Index/follow
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0000s ]
+SQL: SELECT `follows` FROM `users` WHERE ( 'user_id=5' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `followers` FROM `users` WHERE ( 'user_id=9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `users` SET `follows`='\'5\'' WHERE ( 'user_id=5' ) [ RunTime:0.0000s ]
+SQL: UPDATE `users` SET `followers`='\'9\'' WHERE ( 'user_id=9' ) [ RunTime:0.0156s ]
+
+[ 2017-04-23T17:13:09+08:00 ] ::1 /travelWeb/index.php/Home/Index/follow
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0000s ]
+SQL: SELECT `follows` FROM `users` WHERE ( 'user_id=5' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `followers` FROM `users` WHERE ( 'user_id=9' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `users` SET `follows`='\'5\'' WHERE ( 'user_id=5' ) [ RunTime:0.0000s ]
+SQL: UPDATE `users` SET `followers`='\'9\'' WHERE ( 'user_id=9' ) [ RunTime:0.0000s ]
+
+[ 2017-04-23T17:15:18+08:00 ] ::1 /travelWeb/index.php/Home/Index/follow
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008001s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0030s ]
+SQL: SELECT `follows` FROM `users` WHERE `user_id` = 5 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `followers` FROM `users` WHERE `user_id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `users` SET `follows`='\'5\'' WHERE `user_id` = 5 [ RunTime:0.0492s ]
+SQL: UPDATE `users` SET `followers`='\'9\'' WHERE `user_id` = 9 [ RunTime:0.0156s ]
+
+[ 2017-04-23T17:17:30+08:00 ] ::1 /travelWeb/index.php/Home/Index/follow
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0030s ]
+SQL: SELECT `follows` FROM `users` WHERE `user_id` = 5 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `followers` FROM `users` WHERE `user_id` = 9 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `users` SET `follows`='\'5\',5' WHERE `user_id` = 5 [ RunTime:0.0432s ]
+SQL: UPDATE `users` SET `followers`='\'9\',9' WHERE `user_id` = 9 [ RunTime:0.0000s ]
+
+[ 2017-04-23T17:19:32+08:00 ] ::1 /travelWeb/index.php/Home/Index/follow
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0040s ]
+SQL: SELECT `follows` FROM `users` WHERE `user_id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `followers` FROM `users` WHERE `user_id` = 5 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `users` SET `follows`='5' WHERE `user_id` = 9 [ RunTime:0.0020s ]
+SQL: UPDATE `users` SET `followers`='9' WHERE `user_id` = 5 [ RunTime:0.0488s ]
+
+[ 2017-04-23T17:19:46+08:00 ] ::1 /travelWeb/index.php/Home/Index/follow
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0030s ]
+SQL: SELECT `follows` FROM `users` WHERE `user_id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `followers` FROM `users` WHERE `user_id` = 5 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `users` SET `follows`='5,5' WHERE `user_id` = 9 [ RunTime:0.0010s ]
+SQL: UPDATE `users` SET `followers`='9,9' WHERE `user_id` = 5 [ RunTime:0.0010s ]
+
+[ 2017-04-23T17:20:44+08:00 ] ::1 /travelWeb/index.php/Home/Index/follow
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0010s ]
+SQL: SELECT `follows` FROM `users` WHERE `user_id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `followers` FROM `users` WHERE `user_id` = 5 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `users` SET `follows`='5,5' WHERE `user_id` = 9 [ RunTime:0.0000s ]
+SQL: UPDATE `users` SET `followers`='9,9' WHERE `user_id` = 5 [ RunTime:0.0000s ]
+
+[ 2017-04-23T17:48:15+08:00 ] ::1 /travelWeb/index.php/Home/Index/follow
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0000s ]
+SQL: SELECT `follows` FROM `users` WHERE `user_id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `followers` FROM `users` WHERE `user_id` = 5 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: info D:\wamp\www\travelWeb\Home\Controller\IndexController.class.php 第 320 行.
+
+[ 2017-04-23T17:49:09+08:00 ] ::1 /travelWeb/index.php/Home/Index/follow
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0156s ]
+SQL: SELECT `follows` FROM `users` WHERE `user_id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `followers` FROM `users` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `users` SET `follows`='5,1' WHERE `user_id` = 9 [ RunTime:0.0000s ]
+SQL: UPDATE `users` SET `followers`='9' WHERE `user_id` = 1 [ RunTime:0.0186s ]
+
+[ 2017-04-23T17:54:12+08:00 ] ::1 /travelWeb/index.php/Home/Index/follow
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0000s ]
+SQL: SELECT `follows` FROM `users` WHERE `user_id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `followers` FROM `users` WHERE `user_id` = 5 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: info D:\wamp\www\travelWeb\Home\Controller\IndexController.class.php 第 320 行.
+
+[ 2017-04-23T18:19:54+08:00 ] ::1 /travelWeb/index.php/Home/Index/follow
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0040s ]
+SQL: SELECT `follows` FROM `users` WHERE `user_id` = 9 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `followers` FROM `users` WHERE `user_id` = 5 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] in_array() expects parameter 2 to be array, string given D:\wamp\www\travelWeb\Home\Controller\IndexController.class.php 第 321 行.
+
+[ 2017-04-23T18:19:59+08:00 ] ::1 /travelWeb/index.php/Home/Index/follow
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0000s ]
+SQL: SELECT `follows` FROM `users` WHERE `user_id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `followers` FROM `users` WHERE `user_id` = 5 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] in_array() expects parameter 2 to be array, string given D:\wamp\www\travelWeb\Home\Controller\IndexController.class.php 第 321 行.
+
+[ 2017-04-23T18:20:36+08:00 ] ::1 /travelWeb/index.php/Home/Index/follow
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0000s ]
+SQL: SELECT `follows` FROM `users` WHERE `user_id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `followers` FROM `users` WHERE `user_id` = 5 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] in_array() expects parameter 2 to be array, string given D:\wamp\www\travelWeb\Home\Controller\IndexController.class.php 第 321 行.
+
+[ 2017-04-23T18:20:37+08:00 ] ::1 /travelWeb/index.php/Home/Index/follow
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0000s ]
+SQL: SELECT `follows` FROM `users` WHERE `user_id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `followers` FROM `users` WHERE `user_id` = 5 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] in_array() expects parameter 2 to be array, string given D:\wamp\www\travelWeb\Home\Controller\IndexController.class.php 第 321 行.
+
+[ 2017-04-23T18:21:51+08:00 ] ::1 /travelWeb/index.php/Home/Index/follow
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0030s ]
+SQL: SELECT `follows` FROM `users` WHERE `user_id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `followers` FROM `users` WHERE `user_id` = 5 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] in_array() expects parameter 2 to be array, string given D:\wamp\www\travelWeb\Home\Controller\IndexController.class.php 第 322 行.
+
+[ 2017-04-23T18:22:24+08:00 ] ::1 /travelWeb/index.php/Home/Index/follow
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0030s ]
+SQL: SELECT `follows` FROM `users` WHERE `user_id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `followers` FROM `users` WHERE `user_id` = 5 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] in_array() expects parameter 2 to be array, string given D:\wamp\www\travelWeb\Home\Controller\IndexController.class.php 第 321 行.
+
+[ 2017-04-23T18:23:02+08:00 ] ::1 /travelWeb/index.php/Home/Index/follow
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0000s ]
+SQL: SELECT `follows` FROM `users` WHERE `user_id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `followers` FROM `users` WHERE `user_id` = 5 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] in_array() expects parameter 2 to be array, string given D:\wamp\www\travelWeb\Home\Controller\IndexController.class.php 第 322 行.
+
+[ 2017-04-23T18:23:07+08:00 ] ::1 /travelWeb/index.php/Home/Index/follow
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0060s ]
+SQL: SELECT `follows` FROM `users` WHERE `user_id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `followers` FROM `users` WHERE `user_id` = 5 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] in_array() expects parameter 2 to be array, string given D:\wamp\www\travelWeb\Home\Controller\IndexController.class.php 第 322 行.
+
+[ 2017-04-23T18:24:32+08:00 ] ::1 /travelWeb/index.php/Home/Index/follow
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0156s ]
+SQL: SELECT `follows` FROM `users` WHERE `user_id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `followers` FROM `users` WHERE `user_id` = 5 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] in_array() expects parameter 2 to be array, string given D:\wamp\www\travelWeb\Home\Controller\IndexController.class.php 第 322 行.
+
+[ 2017-04-23T18:25:12+08:00 ] ::1 /travelWeb/index.php/Home/Index/follow
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0156s ]
+SQL: SELECT `follows` FROM `users` WHERE `user_id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `followers` FROM `users` WHERE `user_id` = 5 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] in_array() expects parameter 2 to be array, string given D:\wamp\www\travelWeb\Home\Controller\IndexController.class.php 第 322 行.
+
+[ 2017-04-23T18:25:34+08:00 ] ::1 /travelWeb/index.php/Home/Index/follow
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0030s ]
+SQL: SELECT `follows` FROM `users` WHERE `user_id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `followers` FROM `users` WHERE `user_id` = 5 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] in_array() expects parameter 2 to be array, string given D:\wamp\www\travelWeb\Home\Controller\IndexController.class.php 第 322 行.
+
+[ 2017-04-23T18:25:57+08:00 ] ::1 /travelWeb/index.php/Home/Index/follow
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0000s ]
+SQL: SELECT `follows` FROM `users` WHERE `user_id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `followers` FROM `users` WHERE `user_id` = 5 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] in_array() expects parameter 2 to be array, string given D:\wamp\www\travelWeb\Home\Controller\IndexController.class.php 第 322 行.
+
+[ 2017-04-23T18:26:13+08:00 ] ::1 /travelWeb/index.php/Home/Index/follow
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0030s ]
+SQL: SELECT `follows` FROM `users` WHERE `user_id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `followers` FROM `users` WHERE `user_id` = 5 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] in_array() expects parameter 2 to be array, string given D:\wamp\www\travelWeb\Home\Controller\IndexController.class.php 第 322 行.
+
+[ 2017-04-23T18:26:15+08:00 ] ::1 /travelWeb/index.php/Home/Index/follow
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0176s ]
+SQL: SELECT `follows` FROM `users` WHERE `user_id` = 9 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `followers` FROM `users` WHERE `user_id` = 5 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] in_array() expects parameter 2 to be array, string given D:\wamp\www\travelWeb\Home\Controller\IndexController.class.php 第 322 行.
+
+[ 2017-04-23T18:26:37+08:00 ] ::1 /travelWeb/index.php/Home/Index/follow
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0000s ]
+SQL: SELECT `follows` FROM `users` WHERE `user_id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `followers` FROM `users` WHERE `user_id` = 5 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] in_array() expects parameter 2 to be array, string given D:\wamp\www\travelWeb\Home\Controller\IndexController.class.php 第 322 行.
+
+[ 2017-04-23T18:26:41+08:00 ] ::1 /travelWeb/index.php/Home/Index/follow
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0020s ]
+SQL: SELECT `follows` FROM `users` WHERE `user_id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `followers` FROM `users` WHERE `user_id` = 5 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] in_array() expects parameter 2 to be array, string given D:\wamp\www\travelWeb\Home\Controller\IndexController.class.php 第 322 行.
+
+[ 2017-04-23T18:27:11+08:00 ] ::1 /travelWeb/index.php/Home/Index/follow
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0000s ]
+SQL: SELECT `follows` FROM `users` WHERE `user_id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `followers` FROM `users` WHERE `user_id` = 5 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] in_array() expects parameter 2 to be array, string given D:\wamp\www\travelWeb\Home\Controller\IndexController.class.php 第 322 行.
+
+[ 2017-04-23T18:27:15+08:00 ] ::1 /travelWeb/index.php/Home/Index/follow
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0156s ]
+SQL: SELECT `follows` FROM `users` WHERE `user_id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `followers` FROM `users` WHERE `user_id` = 5 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] in_array() expects parameter 2 to be array, string given D:\wamp\www\travelWeb\Home\Controller\IndexController.class.php 第 322 行.
+
+[ 2017-04-23T18:27:19+08:00 ] ::1 /travelWeb/index.php/Home/Index/follow
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0000s ]
+SQL: SELECT `follows` FROM `users` WHERE `user_id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `followers` FROM `users` WHERE `user_id` = 5 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] in_array() expects parameter 2 to be array, string given D:\wamp\www\travelWeb\Home\Controller\IndexController.class.php 第 322 行.
+
+[ 2017-04-23T18:28:50+08:00 ] ::1 /travelWeb/index.php/Home/Index/checkLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `users` WHERE `username` = 'Henry' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-04-23T18:29:15+08:00 ] ::1 /travelWeb/index.php/Home/Index/follow
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0156s ]
+SQL: SELECT `follows` FROM `users` WHERE `user_id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `followers` FROM `users` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] in_array() expects parameter 2 to be array, string given D:\wamp\www\travelWeb\Home\Controller\IndexController.class.php 第 322 行.
+
+[ 2017-04-23T18:29:18+08:00 ] ::1 /travelWeb/index.php/Home/Index/follow
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0000s ]
+SQL: SELECT `follows` FROM `users` WHERE `user_id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `followers` FROM `users` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] in_array() expects parameter 2 to be array, string given D:\wamp\www\travelWeb\Home\Controller\IndexController.class.php 第 322 行.
+
+[ 2017-04-23T18:30:21+08:00 ] ::1 /travelWeb/index.php/Home/Index/follow
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0050s ]
+SQL: SELECT `follows` FROM `users` WHERE `user_id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `followers` FROM `users` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] in_array() expects parameter 2 to be array, string given D:\wamp\www\travelWeb\Home\Controller\IndexController.class.php 第 322 行.
+
+[ 2017-04-23T18:30:25+08:00 ] ::1 /travelWeb/index.php/Home/Index/follow
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0030s ]
+SQL: SELECT `follows` FROM `users` WHERE `user_id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `followers` FROM `users` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] in_array() expects parameter 2 to be array, string given D:\wamp\www\travelWeb\Home\Controller\IndexController.class.php 第 322 行.
+
+[ 2017-04-23T18:32:41+08:00 ] ::1 /travelWeb/index.php/Home/Index/follow
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0176s ]
+SQL: SELECT `follows` FROM `users` WHERE `user_id` = 9 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `followers` FROM `users` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] in_array() expects parameter 2 to be array, string given D:\wamp\www\travelWeb\Home\Controller\IndexController.class.php 第 322 行.
+
+[ 2017-04-23T18:34:00+08:00 ] ::1 /travelWeb/index.php/Home/Index/follow
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0030s ]
+SQL: SELECT `follows` FROM `users` WHERE `user_id` = 9 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `followers` FROM `users` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] in_array() expects parameter 2 to be array, string given D:\wamp\www\travelWeb\Home\Controller\IndexController.class.php 第 321 行.
+
+[ 2017-04-23T18:34:15+08:00 ] ::1 /travelWeb/index.php/Home/Index/follow
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0050s ]
+SQL: SELECT `follows` FROM `users` WHERE `user_id` = 9 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `followers` FROM `users` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] in_array() expects parameter 2 to be array, string given D:\wamp\www\travelWeb\Home\Controller\IndexController.class.php 第 321 行.
+
+[ 2017-04-23T18:34:19+08:00 ] ::1 /travelWeb/index.php/Home/Index/follow
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0040s ]
+SQL: SELECT `follows` FROM `users` WHERE `user_id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `followers` FROM `users` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] in_array() expects parameter 2 to be array, string given D:\wamp\www\travelWeb\Home\Controller\IndexController.class.php 第 321 行.
+
+[ 2017-04-23T18:36:54+08:00 ] ::1 /travelWeb/index.php/Home/Index/follow
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0000s ]
+SQL: SELECT `follows` FROM `users` WHERE `user_id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `followers` FROM `users` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] in_array() expects parameter 2 to be array, string given D:\wamp\www\travelWeb\Home\Controller\IndexController.class.php 第 321 行.
+
+[ 2017-04-23T18:36:58+08:00 ] ::1 /travelWeb/index.php/Home/Index/follow
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0050s ]
+SQL: SELECT `follows` FROM `users` WHERE `user_id` = 9 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `followers` FROM `users` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] in_array() expects parameter 2 to be array, string given D:\wamp\www\travelWeb\Home\Controller\IndexController.class.php 第 321 行.
+
+[ 2017-04-23T18:56:45+08:00 ] ::1 /travelWeb/index.php/Home/Index/follow
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0000s ]
+SQL: SELECT `follows` FROM `users` WHERE `user_id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `followers` FROM `users` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] array_keys() expects parameter 1 to be array, string given D:\wamp\www\travelWeb\Home\Controller\IndexController.class.php 第 322 行.
+
+[ 2017-04-23T18:56:51+08:00 ] ::1 /travelWeb/index.php/Home/Index/follow
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0000s ]
+SQL: SELECT `follows` FROM `users` WHERE `user_id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `followers` FROM `users` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] array_keys() expects parameter 1 to be array, string given D:\wamp\www\travelWeb\Home\Controller\IndexController.class.php 第 322 行.
+
+[ 2017-04-23T18:57:22+08:00 ] ::1 /travelWeb/index.php/Home/Index/follow
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0040s ]
+SQL: SELECT `follows` FROM `users` WHERE `user_id` = 9 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `followers` FROM `users` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] array_keys() expects parameter 1 to be array, string given D:\wamp\www\travelWeb\Home\Controller\IndexController.class.php 第 322 行.
+
+[ 2017-04-23T18:57:38+08:00 ] ::1 /travelWeb/index.php/Home/Index/follow
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0030s ]
+SQL: SELECT `follows` FROM `users` WHERE `user_id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `followers` FROM `users` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] array_keys() expects parameter 1 to be array, string given D:\wamp\www\travelWeb\Home\Controller\IndexController.class.php 第 322 行.
+
+[ 2017-04-23T19:00:56+08:00 ] ::1 /travelWeb/index.php/Home/Index/follow
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0000s ]
+SQL: SELECT `follows` FROM `users` WHERE `user_id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `followers` FROM `users` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-04-23T19:01:18+08:00 ] ::1 /travelWeb/index.php/Home/Index/follow
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0000s ]
+SQL: SELECT `follows` FROM `users` WHERE `user_id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `followers` FROM `users` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] in_array() expects parameter 2 to be array, string given D:\wamp\www\travelWeb\Home\Controller\IndexController.class.php 第 323 行.
+
+[ 2017-04-23T19:01:33+08:00 ] ::1 /travelWeb/index.php/Home/Index/follow
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0156s ]
+SQL: SELECT `follows` FROM `users` WHERE `user_id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `followers` FROM `users` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-04-23T19:02:11+08:00 ] ::1 /travelWeb/index.php/Home/Index/follow
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0156s ]
+SQL: SELECT `follows` FROM `users` WHERE `user_id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `followers` FROM `users` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-04-23T19:09:09+08:00 ] ::1 /travelWeb/index.php/Home/Index/follow
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0000s ]
+SQL: SELECT `follows` FROM `users` WHERE `user_id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `followers` FROM `users` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\travelWeb\Home\Controller\IndexController.class.php 第 324 行.
+
+[ 2017-04-23T19:11:08+08:00 ] ::1 /travelWeb/index.php/Home/Index/follow
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0000s ]
+SQL: SELECT `follows` FROM `users` WHERE `user_id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `followers` FROM `users` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-04-23T19:11:42+08:00 ] ::1 /travelWeb/index.php/Home/Index/follow
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0030s ]
+SQL: SELECT `follows` FROM `users` WHERE `user_id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `followers` FROM `users` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-04-23T19:12:01+08:00 ] ::1 /travelWeb/index.php/Home/Index/follow
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0030s ]
+SQL: SELECT `follows` FROM `users` WHERE `user_id` = 9 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `followers` FROM `users` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-04-23T19:14:28+08:00 ] ::1 /travelWeb/index.php/Home/Index/follow
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0000s ]
+SQL: SELECT `follows` FROM `users` WHERE `user_id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `followers` FROM `users` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-04-23T19:14:34+08:00 ] ::1 /travelWeb/index.php/Home/Index/follow
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0020s ]
+SQL: SELECT `follows` FROM `users` WHERE `user_id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `followers` FROM `users` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-04-23T19:14:50+08:00 ] ::1 /travelWeb/index.php/Home/Index/follow
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0000s ]
+SQL: SELECT `follows` FROM `users` WHERE `user_id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `followers` FROM `users` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-04-23T19:14:54+08:00 ] ::1 /travelWeb/index.php/Home/Index/follow
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0000s ]
+SQL: SELECT `follows` FROM `users` WHERE `user_id` = 9 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT `followers` FROM `users` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-04-23T19:15:07+08:00 ] ::1 /travelWeb/index.php/Home/Index/follow
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0000s ]
+SQL: SELECT `follows` FROM `users` WHERE `user_id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `followers` FROM `users` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-04-23T19:16:31+08:00 ] ::1 /travelWeb/index.php/Home/Index/follow
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0040s ]
+SQL: SELECT `follows` FROM `users` WHERE `user_id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `followers` FROM `users` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-04-23T19:17:38+08:00 ] ::1 /travelWeb/index.php/Home/Index/follow
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0050s ]
+SQL: SELECT `follows` FROM `users` WHERE `user_id` = 9 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `followers` FROM `users` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-04-23T19:21:32+08:00 ] ::1 /travelWeb/index.php/Home/Index/follow
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0000s ]
+SQL: SELECT `follows` FROM `users` WHERE `user_id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `followers` FROM `users` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `users` SET `follows`='5' WHERE `user_id` = 9 [ RunTime:0.1346s ]
+SQL: UPDATE `users` SET `followers`='' WHERE `user_id` = 9 [ RunTime:0.0648s ]
+
+[ 2017-04-23T19:21:35+08:00 ] ::1 /travelWeb/index.php/Home/Index/follow
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0030s ]
+SQL: SELECT `follows` FROM `users` WHERE `user_id` = 9 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `followers` FROM `users` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\travelWeb\Home\Controller\IndexController.class.php 第 324 行.
+SQL: UPDATE `users` SET `follows`='' WHERE `user_id` = 9 [ RunTime:0.0306s ]
+SQL: UPDATE `users` SET `followers`='' WHERE `user_id` = 9 [ RunTime:0.0156s ]
+
+[ 2017-04-23T19:24:14+08:00 ] ::1 /travelWeb/index.php/Home/Index/follow
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0050s ]
+SQL: SELECT `follows` FROM `users` WHERE `user_id` = 9 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `followers` FROM `users` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: re_1 D:\wamp\www\travelWeb\Home\Controller\IndexController.class.php 第 333 行.
+
+[ 2017-04-23T19:24:31+08:00 ] ::1 /travelWeb/index.php/Home/Index/follow
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0040s ]
+SQL: SELECT `follows` FROM `users` WHERE `user_id` = 9 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `followers` FROM `users` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: re_1 D:\wamp\www\travelWeb\Home\Controller\IndexController.class.php 第 333 行.
+
+[ 2017-04-23T19:25:31+08:00 ] ::1 /travelWeb/index.php/Home/Index/follow
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0030s ]
+SQL: SELECT `follows` FROM `users` WHERE `user_id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `followers` FROM `users` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: re_1 D:\wamp\www\travelWeb\Home\Controller\IndexController.class.php 第 333 行.
+
+[ 2017-04-23T19:26:08+08:00 ] ::1 /travelWeb/index.php/Home/Index/follow
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0040s ]
+SQL: SELECT `follows` FROM `users` WHERE `user_id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `followers` FROM `users` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `users` SET `follows`='5' WHERE `user_id` = 9 [ RunTime:0.0180s ]
+SQL: UPDATE `users` SET `followers`='' WHERE `user_id` = 1 [ RunTime:0.0156s ]
+
+[ 2017-04-23T19:26:41+08:00 ] ::1 /travelWeb/index.php/Home/Index/follow
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0000s ]
+SQL: SELECT `follows` FROM `users` WHERE `user_id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `followers` FROM `users` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `users` SET `follows`='5,1' WHERE `user_id` = 9 [ RunTime:0.0322s ]
+SQL: UPDATE `users` SET `followers`='9' WHERE `user_id` = 1 [ RunTime:0.0000s ]
+
+[ 2017-04-23T19:26:42+08:00 ] ::1 /travelWeb/index.php/Home/Index/follow
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0030s ]
+SQL: SELECT `follows` FROM `users` WHERE `user_id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `followers` FROM `users` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `users` SET `follows`='5' WHERE `user_id` = 9 [ RunTime:0.0160s ]
+SQL: UPDATE `users` SET `followers`='' WHERE `user_id` = 1 [ RunTime:0.0110s ]
+
+[ 2017-04-23T19:26:44+08:00 ] ::1 /travelWeb/index.php/Home/Index/follow
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0226s ]
+SQL: SELECT `follows` FROM `users` WHERE `user_id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `followers` FROM `users` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `users` SET `follows`='5,1' WHERE `user_id` = 9 [ RunTime:0.0166s ]
+SQL: UPDATE `users` SET `followers`='9' WHERE `user_id` = 1 [ RunTime:0.0156s ]
+
+[ 2017-04-23T19:26:47+08:00 ] ::1 /travelWeb/index.php/Home/Index/follow
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0000s ]
+SQL: SELECT `follows` FROM `users` WHERE `user_id` = 9 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT `followers` FROM `users` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `users` SET `follows`='5' WHERE `user_id` = 9 [ RunTime:0.0000s ]
+SQL: UPDATE `users` SET `followers`='' WHERE `user_id` = 1 [ RunTime:0.0156s ]
+
+[ 2017-04-23T19:26:50+08:00 ] ::1 /travelWeb/index.php/Home/Index/follow
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0030s ]
+SQL: SELECT `follows` FROM `users` WHERE `user_id` = 9 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `followers` FROM `users` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `users` SET `follows`='5,1' WHERE `user_id` = 9 [ RunTime:0.0020s ]
+SQL: UPDATE `users` SET `followers`='9' WHERE `user_id` = 1 [ RunTime:0.0080s ]
+
+[ 2017-04-23T19:30:35+08:00 ] ::1 /travelWeb/index.php/Home/Index/follow
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0000s ]
+SQL: SELECT `follows` FROM `users` WHERE `user_id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `followers` FROM `users` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `users` SET `follows`='5' WHERE `user_id` = 9 [ RunTime:0.0156s ]
+SQL: UPDATE `users` SET `followers`='' WHERE `user_id` = 1 [ RunTime:0.0156s ]
+
+[ 2017-04-23T19:30:36+08:00 ] ::1 /travelWeb/index.php/Home/Index/follow
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0000s ]
+SQL: SELECT `follows` FROM `users` WHERE `user_id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `followers` FROM `users` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `users` SET `follows`='5,1' WHERE `user_id` = 9 [ RunTime:0.0156s ]
+SQL: UPDATE `users` SET `followers`='9' WHERE `user_id` = 1 [ RunTime:0.0156s ]
+
+[ 2017-04-23T19:30:43+08:00 ] ::1 /travelWeb/index.php/Home/Index/follow
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0000s ]
+SQL: SELECT `follows` FROM `users` WHERE `user_id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `followers` FROM `users` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `users` SET `follows`='5' WHERE `user_id` = 9 [ RunTime:0.0010s ]
+SQL: UPDATE `users` SET `followers`='' WHERE `user_id` = 1 [ RunTime:0.0156s ]
+
+[ 2017-04-23T19:30:43+08:00 ] ::1 /travelWeb/index.php/Home/Index/follow
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0156s ]
+SQL: SELECT `follows` FROM `users` WHERE `user_id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `followers` FROM `users` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `users` SET `follows`='5,1' WHERE `user_id` = 9 [ RunTime:0.0156s ]
+SQL: UPDATE `users` SET `followers`='9' WHERE `user_id` = 1 [ RunTime:0.0000s ]
+
+[ 2017-04-23T19:31:07+08:00 ] ::1 /travelWeb/index.php/Home/Index/follow
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006001s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0030s ]
+SQL: SELECT `follows` FROM `users` WHERE `user_id` = 9 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `followers` FROM `users` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `users` SET `follows`='5' WHERE `user_id` = 9 [ RunTime:0.0080s ]
+SQL: UPDATE `users` SET `followers`='' WHERE `user_id` = 1 [ RunTime:0.0000s ]
+
+[ 2017-04-23T19:31:08+08:00 ] ::1 /travelWeb/index.php/Home/Index/follow
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0000s ]
+SQL: SELECT `follows` FROM `users` WHERE `user_id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `followers` FROM `users` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `users` SET `follows`='5,1' WHERE `user_id` = 9 [ RunTime:0.0156s ]
+SQL: UPDATE `users` SET `followers`='9' WHERE `user_id` = 1 [ RunTime:0.0156s ]
+
+[ 2017-04-23T19:33:33+08:00 ] ::1 /travelWeb/index.php/Home/Index/follow
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0166s ]
+SQL: SELECT `follows` FROM `users` WHERE `user_id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `followers` FROM `users` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `users` SET `follows`='5' WHERE `user_id` = 9 [ RunTime:0.0000s ]
+SQL: UPDATE `users` SET `followers`='' WHERE `user_id` = 1 [ RunTime:0.0156s ]
+
+[ 2017-04-23T19:33:34+08:00 ] ::1 /travelWeb/index.php/Home/Index/follow
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0040s ]
+SQL: SELECT `follows` FROM `users` WHERE `user_id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `followers` FROM `users` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `users` SET `follows`='5,1' WHERE `user_id` = 9 [ RunTime:0.0156s ]
+SQL: UPDATE `users` SET `followers`='9' WHERE `user_id` = 1 [ RunTime:0.0156s ]
+
+[ 2017-04-23T19:33:35+08:00 ] ::1 /travelWeb/index.php/Home/Index/follow
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0156s ]
+SQL: SELECT `follows` FROM `users` WHERE `user_id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `followers` FROM `users` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `users` SET `follows`='5' WHERE `user_id` = 9 [ RunTime:0.0000s ]
+SQL: UPDATE `users` SET `followers`='' WHERE `user_id` = 1 [ RunTime:0.0156s ]
+
+[ 2017-04-23T19:33:35+08:00 ] ::1 /travelWeb/index.php/Home/Index/follow
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0020s ]
+SQL: SELECT `follows` FROM `users` WHERE `user_id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `followers` FROM `users` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `users` SET `follows`='5,1' WHERE `user_id` = 9 [ RunTime:0.0000s ]
+SQL: UPDATE `users` SET `followers`='9' WHERE `user_id` = 1 [ RunTime:0.0000s ]
+
+[ 2017-04-23T19:34:00+08:00 ] ::1 /travelWeb/index.php/Home/Index/follow
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0000s ]
+SQL: SELECT `follows` FROM `users` WHERE `user_id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `followers` FROM `users` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `users` SET `follows`='5' WHERE `user_id` = 9 [ RunTime:0.0010s ]
+SQL: UPDATE `users` SET `followers`='' WHERE `user_id` = 1 [ RunTime:0.0000s ]
+
+[ 2017-04-23T19:34:02+08:00 ] ::1 /travelWeb/index.php/Home/Index/follow
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0030s ]
+SQL: SELECT `follows` FROM `users` WHERE `user_id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `followers` FROM `users` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `users` SET `follows`='5,1' WHERE `user_id` = 9 [ RunTime:0.0010s ]
+SQL: UPDATE `users` SET `followers`='9' WHERE `user_id` = 1 [ RunTime:0.0010s ]
+
+[ 2017-04-23T19:41:45+08:00 ] ::1 /travelWeb/index.php/Home/Index/showFollow?type=follows
+ERR: 非法操作:showFollow
+
+[ 2017-04-23T19:42:57+08:00 ] ::1 /travelWeb/index.php/Home/Index/showFollow?type=follows
+ERR: 模板不存在:D:/wamp/www/travelWeb/Home/View/Index/showFollow.html
+
+[ 2017-04-23T20:47:24+08:00 ] ::1 /travelWeb/index.php/Home/Index/function%20()%7B%20%20%20%20var%20search%20=%20window.location.search,%20%20%20%20type%20=%20search.split('&&')[0].split('=')[1],%20//%20%E8%8E%B7%E5%8F%96%E5%9C%B0%E5%9D%80%E6%A0%8Ftype%E7%9A%84%E5%80%BC%20%20%20%20userid%20=%20search.split('&&')[1].split('=')[1],%20//%20%E8%8E%B7%E5%8F%96%E5%9C%B0%E5%9D%80%E6%A0%8Fuserid%E7%9A%84%E5%80%BC%20%20%20%20h1=%20'';%20%20%20%20if(type%20===%20'follows'%20&&%20userid%20===%20%229%22)%7B%20%20%20%20h1%20=%20'%E6%88%91%E7%9A%84%E5%85%B3%E6%B3%A8';%20%20%20%20%7Delse%20if(type%20===%20'followers'%20&&%20userid%20===%20%229%22)%7B%20%20%20%20h1%20=%20'%E6%88%91%E7%9A%84%E7%B2%89%E4%B8%9D';%20%20%20%20%7Delse%20if(type%20===%20'follows'%20&&%20userid)%7B%20%20%20%20h1%20=%20'Ta%E7%9A%84%E5%85%B3%E6%B3%A8';%20%20%20%20%7Delse%7B%20%20%20%20h1%20=%20'Ta%E7%9A%84%E7%B2%89%E4%B8%9D';%20%20%20%20%7D%20%20%20%20document.getElementsByTagName('h1').text(h1);%20%20%20%20%7D
+ERR: 非法操作:function (){    var search = window.location.search,    type = search.split('&&')[0].split('=')[1],
+
+[ 2017-04-23T20:48:06+08:00 ] ::1 /travelWeb/index.php/Home/Index/function%20()%7B%20%20%20%20var%20search%20=%20window.location.search,%20%20%20%20type%20=%20search.split('&&')[0].split('=')[1],%20//%20%E8%8E%B7%E5%8F%96%E5%9C%B0%E5%9D%80%E6%A0%8Ftype%E7%9A%84%E5%80%BC%20%20%20%20userid%20=%20search.split('&&')[1].split('=')[1],%20//%20%E8%8E%B7%E5%8F%96%E5%9C%B0%E5%9D%80%E6%A0%8Fuserid%E7%9A%84%E5%80%BC%20%20%20%20h1=%20'';%20%20%20%20if(type%20===%20'follows'%20&&%20userid%20===%20%229%22)%7B%20%20%20%20h1%20=%20'%E6%88%91%E7%9A%84%E5%85%B3%E6%B3%A8';%20%20%20%20%7Delse%20if(type%20===%20'followers'%20&&%20userid%20===%20%229%22)%7B%20%20%20%20h1%20=%20'%E6%88%91%E7%9A%84%E7%B2%89%E4%B8%9D';%20%20%20%20%7Delse%20if(type%20===%20'follows'%20&&%20userid)%7B%20%20%20%20h1%20=%20'Ta%E7%9A%84%E5%85%B3%E6%B3%A8';%20%20%20%20%7Delse%7B%20%20%20%20h1%20=%20'Ta%E7%9A%84%E7%B2%89%E4%B8%9D';%20%20%20%20%7D%20%20%20%20document.getElementsByTagName('h1').text(h1);%20%20%20%20%7D
+ERR: 非法操作:function (){    var search = window.location.search,    type = search.split('&&')[0].split('=')[1],
+
+[ 2017-04-23T20:48:16+08:00 ] ::1 /travelWeb/index.php/Home/Index/function%20()%7B%20%20%20%20var%20search%20=%20window.location.search,%20%20%20%20type%20=%20search.split('&&')[0].split('=')[1],%20//%20%E8%8E%B7%E5%8F%96%E5%9C%B0%E5%9D%80%E6%A0%8Ftype%E7%9A%84%E5%80%BC%20%20%20%20userid%20=%20search.split('&&')[1].split('=')[1],%20//%20%E8%8E%B7%E5%8F%96%E5%9C%B0%E5%9D%80%E6%A0%8Fuserid%E7%9A%84%E5%80%BC%20%20%20%20h1=%20'';%20%20%20%20if(type%20===%20'follows'%20&&%20userid%20===%20%229%22)%7B%20%20%20%20h1%20=%20'%E6%88%91%E7%9A%84%E5%85%B3%E6%B3%A8';%20%20%20%20%7Delse%20if(type%20===%20'followers'%20&&%20userid%20===%20%229%22)%7B%20%20%20%20h1%20=%20'%E6%88%91%E7%9A%84%E7%B2%89%E4%B8%9D';%20%20%20%20%7Delse%20if(type%20===%20'follows'%20&&%20userid)%7B%20%20%20%20h1%20=%20'Ta%E7%9A%84%E5%85%B3%E6%B3%A8';%20%20%20%20%7Delse%7B%20%20%20%20h1%20=%20'Ta%E7%9A%84%E7%B2%89%E4%B8%9D';%20%20%20%20%7D%20%20%20%20document.getElementsByTagName('h1').text(h1);%20%20%20%20%7D
+ERR: 非法操作:function (){    var search = window.location.search,    type = search.split('&&')[0].split('=')[1],
+
+[ 2017-04-23T20:48:18+08:00 ] ::1 /travelWeb/index.php/Home/Index/function%20()%7B%20%20%20%20var%20search%20=%20window.location.search,%20%20%20%20type%20=%20search.split('&&')[0].split('=')[1],%20//%20%E8%8E%B7%E5%8F%96%E5%9C%B0%E5%9D%80%E6%A0%8Ftype%E7%9A%84%E5%80%BC%20%20%20%20userid%20=%20search.split('&&')[1].split('=')[1],%20//%20%E8%8E%B7%E5%8F%96%E5%9C%B0%E5%9D%80%E6%A0%8Fuserid%E7%9A%84%E5%80%BC%20%20%20%20h1=%20'';%20%20%20%20if(type%20===%20'follows'%20&&%20userid%20===%20%229%22)%7B%20%20%20%20h1%20=%20'%E6%88%91%E7%9A%84%E5%85%B3%E6%B3%A8';%20%20%20%20%7Delse%20if(type%20===%20'followers'%20&&%20userid%20===%20%229%22)%7B%20%20%20%20h1%20=%20'%E6%88%91%E7%9A%84%E7%B2%89%E4%B8%9D';%20%20%20%20%7Delse%20if(type%20===%20'follows'%20&&%20userid)%7B%20%20%20%20h1%20=%20'Ta%E7%9A%84%E5%85%B3%E6%B3%A8';%20%20%20%20%7Delse%7B%20%20%20%20h1%20=%20'Ta%E7%9A%84%E7%B2%89%E4%B8%9D';%20%20%20%20%7D%20%20%20%20document.getElementsByTagName('h1').text(h1);%20%20%20%20%7D
+ERR: 非法操作:function (){    var search = window.location.search,    type = search.split('&&')[0].split('=')[1],
+
+[ 2017-04-23T20:48:56+08:00 ] ::1 /travelWeb/index.php/Home/Index/function%20()%7B%20%20%20%20var%20search%20=%20window.location.search,%20%20%20%20type%20=%20search.split('&&')[0].split('=')[1],%20//%20%E8%8E%B7%E5%8F%96%E5%9C%B0%E5%9D%80%E6%A0%8Ftype%E7%9A%84%E5%80%BC%20%20%20%20userid%20=%20search.split('&&')[1].split('=')[1],%20//%20%E8%8E%B7%E5%8F%96%E5%9C%B0%E5%9D%80%E6%A0%8Fuserid%E7%9A%84%E5%80%BC%20%20%20%20h1=%20'';%20%20%20%20if(type%20===%20'follows'%20&&%20userid%20===%20%229%22)%7B%20%20%20%20h1%20=%20'%E6%88%91%E7%9A%84%E5%85%B3%E6%B3%A8';%20%20%20%20%7Delse%20if(type%20===%20'followers'%20&&%20userid%20===%20%229%22)%7B%20%20%20%20h1%20=%20'%E6%88%91%E7%9A%84%E7%B2%89%E4%B8%9D';%20%20%20%20%7Delse%20if(type%20===%20'follows'%20&&%20userid)%7B%20%20%20%20h1%20=%20'Ta%E7%9A%84%E5%85%B3%E6%B3%A8';%20%20%20%20%7Delse%7B%20%20%20%20h1%20=%20'Ta%E7%9A%84%E7%B2%89%E4%B8%9D';%20%20%20%20%7D%20%20%20%20document.getElementsByTagName('h1').text(h1);%20%20%20%20%7D
+ERR: 非法操作:function (){    var search = window.location.search,    type = search.split('&&')[0].split('=')[1],
+
+[ 2017-04-23T20:48:57+08:00 ] ::1 /travelWeb/index.php/Home/Index/function%20()%7B%20%20%20%20var%20search%20=%20window.location.search,%20%20%20%20type%20=%20search.split('&&')[0].split('=')[1],%20//%20%E8%8E%B7%E5%8F%96%E5%9C%B0%E5%9D%80%E6%A0%8Ftype%E7%9A%84%E5%80%BC%20%20%20%20userid%20=%20search.split('&&')[1].split('=')[1],%20//%20%E8%8E%B7%E5%8F%96%E5%9C%B0%E5%9D%80%E6%A0%8Fuserid%E7%9A%84%E5%80%BC%20%20%20%20h1=%20'';%20%20%20%20if(type%20===%20'follows'%20&&%20userid%20===%20%229%22)%7B%20%20%20%20h1%20=%20'%E6%88%91%E7%9A%84%E5%85%B3%E6%B3%A8';%20%20%20%20%7Delse%20if(type%20===%20'followers'%20&&%20userid%20===%20%229%22)%7B%20%20%20%20h1%20=%20'%E6%88%91%E7%9A%84%E7%B2%89%E4%B8%9D';%20%20%20%20%7Delse%20if(type%20===%20'follows'%20&&%20userid)%7B%20%20%20%20h1%20=%20'Ta%E7%9A%84%E5%85%B3%E6%B3%A8';%20%20%20%20%7Delse%7B%20%20%20%20h1%20=%20'Ta%E7%9A%84%E7%B2%89%E4%B8%9D';%20%20%20%20%7D%20%20%20%20document.getElementsByTagName('h1').text(h1);%20%20%20%20%7D
+ERR: 非法操作:function (){    var search = window.location.search,    type = search.split('&&')[0].split('=')[1],
+
+[ 2017-04-23T20:49:01+08:00 ] ::1 /travelWeb/index.php/Home/Index/function%20()%7B%20%20%20%20var%20search%20=%20window.location.search,%20%20%20%20type%20=%20search.split('&&')[0].split('=')[1],%20//%20%E8%8E%B7%E5%8F%96%E5%9C%B0%E5%9D%80%E6%A0%8Ftype%E7%9A%84%E5%80%BC%20%20%20%20userid%20=%20search.split('&&')[1].split('=')[1],%20//%20%E8%8E%B7%E5%8F%96%E5%9C%B0%E5%9D%80%E6%A0%8Fuserid%E7%9A%84%E5%80%BC%20%20%20%20h1=%20'';%20%20%20%20if(type%20===%20'follows'%20&&%20userid%20===%20%229%22)%7B%20%20%20%20h1%20=%20'%E6%88%91%E7%9A%84%E5%85%B3%E6%B3%A8';%20%20%20%20%7Delse%20if(type%20===%20'followers'%20&&%20userid%20===%20%229%22)%7B%20%20%20%20h1%20=%20'%E6%88%91%E7%9A%84%E7%B2%89%E4%B8%9D';%20%20%20%20%7Delse%20if(type%20===%20'follows'%20&&%20userid)%7B%20%20%20%20h1%20=%20'Ta%E7%9A%84%E5%85%B3%E6%B3%A8';%20%20%20%20%7Delse%7B%20%20%20%20h1%20=%20'Ta%E7%9A%84%E7%B2%89%E4%B8%9D';%20%20%20%20%7D%20%20%20%20document.getElementsByTagName('h1').text(h1);%20%20%20%20%7D
+ERR: 非法操作:function (){    var search = window.location.search,    type = search.split('&&')[0].split('=')[1],
+
+[ 2017-04-23T20:49:44+08:00 ] ::1 /travelWeb/index.php/Home/Index/function%20()%7B%20%20%20%20var%20search%20=%20window.location.search,%20%20%20%20type%20=%20search.split('&&')[0].split('=')[1],%20//%20%E8%8E%B7%E5%8F%96%E5%9C%B0%E5%9D%80%E6%A0%8Ftype%E7%9A%84%E5%80%BC%20%20%20%20userid%20=%20search.split('&&')[1].split('=')[1],%20//%20%E8%8E%B7%E5%8F%96%E5%9C%B0%E5%9D%80%E6%A0%8Fuserid%E7%9A%84%E5%80%BC%20%20%20%20h1=%20'';%20%20%20%20if(type%20===%20'follows'%20&&%20userid%20===%20%229%22)%7B%20%20%20%20h1%20=%20'%E6%88%91%E7%9A%84%E5%85%B3%E6%B3%A8';%20%20%20%20%7Delse%20if(type%20===%20'followers'%20&&%20userid%20===%20%229%22)%7B%20%20%20%20h1%20=%20'%E6%88%91%E7%9A%84%E7%B2%89%E4%B8%9D';%20%20%20%20%7Delse%20if(type%20===%20'follows'%20&&%20userid)%7B%20%20%20%20h1%20=%20'Ta%E7%9A%84%E5%85%B3%E6%B3%A8';%20%20%20%20%7Delse%7B%20%20%20%20h1%20=%20'Ta%E7%9A%84%E7%B2%89%E4%B8%9D';%20%20%20%20%7D%20%20%20%20document.getElementsByTagName('h1').text(h1);%20%20%20%20%7D
+ERR: 非法操作:function (){    var search = window.location.search,    type = search.split('&&')[0].split('=')[1],
+
+[ 2017-04-23T20:49:56+08:00 ] ::1 /travelWeb/index.php/Home/Index/function%20()%7B%20%20%20%20var%20search%20=%20window.location.search,%20%20%20%20type%20=%20search.split('&&')[0].split('=')[1],%20//%20%E8%8E%B7%E5%8F%96%E5%9C%B0%E5%9D%80%E6%A0%8Ftype%E7%9A%84%E5%80%BC%20%20%20%20userid%20=%20search.split('&&')[1].split('=')[1],%20//%20%E8%8E%B7%E5%8F%96%E5%9C%B0%E5%9D%80%E6%A0%8Fuserid%E7%9A%84%E5%80%BC%20%20%20%20h1=%20'';%20%20%20%20if(type%20===%20'follows'%20&&%20userid%20===%20%229%22)%7B%20%20%20%20h1%20=%20'%E6%88%91%E7%9A%84%E5%85%B3%E6%B3%A8';%20%20%20%20%7Delse%20if(type%20===%20'followers'%20&&%20userid%20===%20%229%22)%7B%20%20%20%20h1%20=%20'%E6%88%91%E7%9A%84%E7%B2%89%E4%B8%9D';%20%20%20%20%7Delse%20if(type%20===%20'follows'%20&&%20userid)%7B%20%20%20%20h1%20=%20'Ta%E7%9A%84%E5%85%B3%E6%B3%A8';%20%20%20%20%7Delse%7B%20%20%20%20h1%20=%20'Ta%E7%9A%84%E7%B2%89%E4%B8%9D';%20%20%20%20%7D%20%20%20%20document.getElementsByTagName('h1').text(h1);%20%20%20%20%7D
+ERR: 非法操作:function (){    var search = window.location.search,    type = search.split('&&')[0].split('=')[1],
+
+[ 2017-04-23T22:10:57+08:00 ] ::1 /travelWeb/index.php/Home/Index/follow
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0040s ]
+SQL: SELECT `follows` FROM `users` WHERE `user_id` = 9 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `followers` FROM `users` WHERE `user_id` = 5 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `users` SET `follows`='1' WHERE `user_id` = 9 [ RunTime:0.0950s ]
+SQL: UPDATE `users` SET `followers`='' WHERE `user_id` = 5 [ RunTime:0.0468s ]
+
+[ 2017-04-23T22:10:59+08:00 ] ::1 /travelWeb/index.php/Home/Index/follow
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0030s ]
+SQL: SELECT `follows` FROM `users` WHERE `user_id` = 9 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `followers` FROM `users` WHERE `user_id` = 5 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `users` SET `follows`='1,5' WHERE `user_id` = 9 [ RunTime:0.0100s ]
+SQL: UPDATE `users` SET `followers`='9' WHERE `user_id` = 5 [ RunTime:0.0020s ]
+
+[ 2017-04-23T22:52:42+08:00 ] ::1 /travelWeb/index.php/Home/Index/addPost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `posts` [ RunTime:0.0080s ]
+SQL: INSERT INTO `posts` (`posts_title`,`posts_content`,`posts_author`,`posts_time`) VALUES ('dada','<p>请输入内容...</p>','Henry','2017-04-23 22:52:42') [ RunTime:0.1888s ]
+
+[ 2017-04-23T23:14:37+08:00 ] ::1 /travelWeb/index.php/Home/Index/searchNews
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` WHERE `news_title` LIKE '%江%' ORDER BY news_time desc  [ RunTime:0.0624s ]
+
+[ 2017-04-23T23:14:48+08:00 ] ::1 /travelWeb/index.php/Home/Index/searchNews
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` WHERE `news_title` LIKE '%江%' ORDER BY news_time desc  [ RunTime:0.0000s ]
+
+[ 2017-04-23T23:15:01+08:00 ] ::1 /travelWeb/index.php/Home/Index/searchNews
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `news` WHERE `news_title` LIKE '%新闻%' ORDER BY news_time desc  [ RunTime:0.0000s ]
+

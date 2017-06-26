@@ -1,0 +1,180 @@
+[ 2017-04-17T06:54:46+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchTips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `tips` WHERE `tips_title` LIKE '%哈哈%'  [ RunTime:0.0720s ]
+
+[ 2017-04-17T07:01:00+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchTips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `tips` WHERE `tips_title` LIKE '%哈哈%'  [ RunTime:0.0000s ]
+
+[ 2017-04-17T07:01:01+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchTips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `tips` WHERE `tips_title` LIKE '%哈哈%'  [ RunTime:0.0000s ]
+
+[ 2017-04-17T07:02:24+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchViews
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:searchViews
+
+[ 2017-04-17T07:04:31+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchViews
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `sights` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sights` WHERE `sights_name` LIKE '%123%'  [ RunTime:0.0000s ]
+
+[ 2017-04-17T07:04:35+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchViews
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sights` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sights` WHERE `sights_name` LIKE '%哈哈%'  [ RunTime:0.0000s ]
+
+[ 2017-04-17T07:04:38+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchViews
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sights` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sights` WHERE `sights_name` LIKE '%清明%'  [ RunTime:0.0000s ]
+
+[ 2017-04-17T07:04:45+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchViews
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sights` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sights` WHERE `sights_name` LIKE '%武功山%'  [ RunTime:0.0000s ]
+
+[ 2017-04-17T07:04:51+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchViews
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sights` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sights` WHERE `sights_name` LIKE '%武%'  [ RunTime:0.0000s ]
+
+[ 2017-04-17T07:04:52+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchViews
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sights` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sights` WHERE `sights_name` LIKE '%武%'  [ RunTime:0.0000s ]
+
+[ 2017-04-17T07:09:08+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchViews
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sights` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `sights` WHERE `sights_name` LIKE '%哈哈%'  [ RunTime:0.0000s ]
+
+[ 2017-04-17T07:09:15+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchViews
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sights` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `sights` WHERE `sights_name` LIKE '%武%'  [ RunTime:0.0010s ]
+
+[ 2017-04-17T07:13:50+08:00 ] ::1 /travelWeb/index.php/Admin/Index/delView
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sights` [ RunTime:0.0030s ]
+SQL: DELETE FROM `sights` WHERE `sights_id` = 0 [ RunTime:0.0196s ]
+
+[ 2017-04-17T07:18:03+08:00 ] ::1 /travelWeb/index.php/Admin/Index/delView
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sights` [ RunTime:0.0040s ]
+SQL: DELETE FROM `sights` WHERE `sights_id` = 2 [ RunTime:0.0010s ]
+
+[ 2017-04-17T07:18:13+08:00 ] ::1 /travelWeb/index.php/Admin/Index/delView
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sights` [ RunTime:0.0050s ]
+SQL: DELETE FROM `sights` WHERE `sights_id` = 3 [ RunTime:0.0020s ]
+
+[ 2017-04-17T07:24:33+08:00 ] ::1 /travelWeb/index.php/Admin/Index/delView
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sights` [ RunTime:0.0030s ]
+SQL: DELETE FROM `sights` WHERE `sights_id` = 4 [ RunTime:0.0010s ]
+
+[ 2017-04-17T07:26:47+08:00 ] ::1 /travelWeb/index.php/Admin/Index/addView
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sights` [ RunTime:0.0030s ]
+SQL: INSERT INTO `sights` (`sights_name`,`city`,`address`,`ticket`,`intro`) VALUES ('武功山','萍乡市','江西省萍乡市芦溪县164县道','70元','<p style=\"text-align:center\"><img src=\"https://timg01.bdimg.com/timg?wapbaike&quality=80&size=b500_330&sec=1349839550&di=b01b5c4de6580ce813911914888406d7&src=http://imgsrc.baidu.com/baike/pic/item/77c6a7efce1b9d16613c46eafadeb48f8d546446.jpg\"/></p><p style=\"margin-top: 0px; margin-bottom: 0px; color: rgb(63, 63, 63); font-family: Helvetica, sans-serif; white-space: normal; background-color: rgb(255, 255, 255);\">武功山位于中国江西省中西部，居<a href=\"https://wapbaike.baidu.com/item/%E7%BD%97%E9%9C%84%E5%B1%B1%E8%84%89\" style=\"color: rgb(58, 127, 222); text-decoration: none;\">罗霄山脉</a>北支，山体呈东北——西南走向，地跨江西萍乡市芦溪县、吉安市安福县，宜春市袁州区，主脉绵延120余千米，总面积约970平方千米。</p><p style=\"margin-top: 0px; margin-bottom: 0px; color: rgb(63, 63, 63); font-family: Helvetica, sans-serif; white-space: normal; background-color: rgb(255, 255, 255);\">武功山围绕金顶已设立“<a href=\"https://wapbaike.baidu.com/item/%E6%AD%A6%E5%8A%9F%E5%B1%B1%E5%9B%BD%E5%AE%B6%E5%9C%B0%E8%B4%A8%E5%85%AC%E5%9B%AD\" style=\"color: rgb(58, 127, 222); text-decoration: none;\">武功山国家地质公园</a>”（面积约378.3平方千米）、“<a href=\"https://wapbaike.baidu.com/item/%E6%AD%A6%E5%8A%9F%E5%B1%B1%E5%9B%BD%E5%AE%B6%E6%A3%AE%E6%9E%97%E5%85%AC%E5%9B%AD\" style=\"color: rgb(58, 127, 222); text-decoration: none;\">武功山国家森林公园</a>”（面积约260平方千米）、“<a href=\"https://wapbaike.baidu.com/item/%E6%98%8E%E6%9C%88%E5%B1%B1%E5%9B%BD%E5%AE%B6%E6%A3%AE%E6%9E%97%E5%85%AC%E5%9B%AD\" style=\"color: rgb(58, 127, 222); text-decoration: none;\">明月山国家森林公园</a>”（面积约136平方千米）。武功山主峰<a href=\"https://wapbaike.baidu.com/item/%E7%99%BD%E9%B9%A4%E5%B3%B0\" style=\"color: rgb(58, 127, 222); text-decoration: none;\">白鹤峰</a>（金顶）海拔1918.3米。自汉晋起，武功山被道佛两家择为修身养性之洞天福地，明朝时香火达到鼎盛时期，山南山北建进了庵、堂、寺、观达100多处。自唐宋以来，诸多仰慕其名而登山游赏吟诗作赋的名人学士络绎不绝。武功山有山岳型国家重点风景名胜区、<a href=\"https://wapbaike.baidu.com/item/%E5%9B%BD%E5%AE%B6AAAA%E7%BA%A7%E6%97%85%E6%B8%B8%E6%99%AF%E5%8C%BA\" style=\"color: rgb(58, 127, 222); text-decoration: none;\">国家AAAA级旅游景区</a>、<a href=\"https://wapbaike.baidu.com/item/%E5%9B%BD%E5%AE%B6%E7%BA%A7%E9%A3%8E%E6%99%AF%E5%90%8D%E8%83%9C%E5%8C%BA\" style=\"color: rgb(58, 127, 222); text-decoration: none;\">国家级风景名胜区</a>、<a href=\"https://wapbaike.baidu.com/item/%E5%9B%BD%E5%AE%B6%E6%A3%AE%E6%9E%97%E5%85%AC%E5%9B%AD\" style=\"color: rgb(58, 127, 222); text-decoration: none;\">国家森林公园</a>、<a href=\"https://wapbaike.baidu.com/item/%E5%9B%BD%E5%AE%B6%E5%9C%B0%E8%B4%A8%E5%85%AC%E5%9B%AD\" style=\"color: rgb(58, 127, 222); text-decoration: none;\">国家地质公园</a>、<a href=\"https://wapbaike.baidu.com/item/%E5%9B%BD%E5%AE%B6%E8%87%AA%E7%84%B6%E9%81%97%E4%BA%A7\" style=\"color: rgb(58, 127, 222); text-decoration: none;\">国家自然遗产</a>、中国青少年户外体育运动营地等。</p><p style=\"margin-top: 0px; margin-bottom: 0px; color: rgb(63, 63, 63); font-family: Helvetica, sans-serif; white-space: normal; background-color: rgb(255, 255, 255);\">2009年，武功山被<a href=\"https://wapbaike.baidu.com/item/%E4%B8%AD%E5%9B%BD%E5%9B%BD%E5%AE%B6%E5%9C%B0%E7%90%86\" style=\"color: rgb(58, 127, 222); text-decoration: none;\">中国国家地理</a>评为中国十大“非著名”山峰之一。2017年1月，江西省出台《武功山经营管理体制改革方案》，明确将对武功山进行统一规划、统一整合、统一经营。</p><p><br/></p>') [ RunTime:0.0300s ]
+
+[ 2017-04-17T07:43:59+08:00 ] ::1 /travelWeb/index.php/Admin/Index/returnView
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sights` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `sights` WHERE `sights_id` = 5 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-04-17T07:47:12+08:00 ] ::1 /travelWeb/index.php/Admin/Index/returnView
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sights` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `sights` WHERE `sights_id` = 5 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-04-17T07:48:36+08:00 ] ::1 /travelWeb/index.php/Admin/Index/returnView
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sights` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `sights` WHERE `sights_id` = 5 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-04-17T07:49:50+08:00 ] ::1 /travelWeb/index.php/Admin/Index/returnView
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sights` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `sights` WHERE `sights_id` = 5 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-04-17T07:51:56+08:00 ] ::1 /travelWeb/index.php/Admin/Index/returnView
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sights` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `sights` WHERE `sights_id` = 5 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-04-17T07:52:08+08:00 ] ::1 /travelWeb/index.php/Admin/Index/addView
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined variable: result D:\wamp\www\travelWeb\Admin\Controller\IndexController.class.php 第 114 行.
+
+[ 2017-04-17T08:14:51+08:00 ] ::1 /travelWeb/index.php/Admin/Index/returnView
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sights` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `sights` WHERE `sights_id` = 5 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-04-17T08:17:05+08:00 ] ::1 /travelWeb/index.php/Admin/Index/returnView
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sights` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `sights` WHERE `sights_id` = 5 LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2017-04-17T08:17:18+08:00 ] ::1 /travelWeb/index.php/Admin/Index/addView
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sights` [ RunTime:0.0040s ]
+SQL: UPDATE `sights` SET `sights_name`='武功山',`city`='江西省萍乡市',`address`='江西省萍乡市芦溪县164县道',`ticket`='70元',`intro`='<p style=\"text-align:center\"><img src=\"https://timg01.bdimg.com/timg?wapbaike&quality=80&size=b500_330&sec=1349839550&di=b01b5c4de6580ce813911914888406d7&src=http://imgsrc.baidu.com/baike/pic/item/77c6a7efce1b9d16613c46eafadeb48f8d546446.jpg\"/></p><p style=\"margin-top: 0px; margin-bottom: 0px; color: rgb(63, 63, 63); font-family: Helvetica, sans-serif; white-space: normal; background-color: rgb(255, 255, 255);\">武功山位于中国江西省中西部，居<a href=\"https://wapbaike.baidu.com/item/%E7%BD%97%E9%9C%84%E5%B1%B1%E8%84%89\" style=\"color: rgb(58, 127, 222); text-decoration: none;\">罗霄山脉</a>北支，山体呈东北——西南走向，地跨江西萍乡市芦溪县、吉安市安福县，宜春市袁州区，主脉绵延120余千米，总面积约970平方千米。</p><p style=\"margin-top: 0px; margin-bottom: 0px; color: rgb(63, 63, 63); font-family: Helvetica, sans-serif; white-space: normal; background-color: rgb(255, 255, 255);\">武功山围绕金顶已设立“<a href=\"https://wapbaike.baidu.com/item/%E6%AD%A6%E5%8A%9F%E5%B1%B1%E5%9B%BD%E5%AE%B6%E5%9C%B0%E8%B4%A8%E5%85%AC%E5%9B%AD\" style=\"color: rgb(58, 127, 222); text-decoration: none;\">武功山国家地质公园</a>”（面积约378.3平方千米）、“<a href=\"https://wapbaike.baidu.com/item/%E6%AD%A6%E5%8A%9F%E5%B1%B1%E5%9B%BD%E5%AE%B6%E6%A3%AE%E6%9E%97%E5%85%AC%E5%9B%AD\" style=\"color: rgb(58, 127, 222); text-decoration: none;\">武功山国家森林公园</a>”（面积约260平方千米）、“<a href=\"https://wapbaike.baidu.com/item/%E6%98%8E%E6%9C%88%E5%B1%B1%E5%9B%BD%E5%AE%B6%E6%A3%AE%E6%9E%97%E5%85%AC%E5%9B%AD\" style=\"color: rgb(58, 127, 222); text-decoration: none;\">明月山国家森林公园</a>”（面积约136平方千米）。武功山主峰<a href=\"https://wapbaike.baidu.com/item/%E7%99%BD%E9%B9%A4%E5%B3%B0\" style=\"color: rgb(58, 127, 222); text-decoration: none;\">白鹤峰</a>（金顶）海拔1918.3米。自汉晋起，武功山被道佛两家择为修身养性之洞天福地，明朝时香火达到鼎盛时期，山南山北建进了庵、堂、寺、观达100多处。自唐宋以来，诸多仰慕其名而登山游赏吟诗作赋的名人学士络绎不绝。武功山有山岳型国家重点风景名胜区、<a href=\"https://wapbaike.baidu.com/item/%E5%9B%BD%E5%AE%B6AAAA%E7%BA%A7%E6%97%85%E6%B8%B8%E6%99%AF%E5%8C%BA\" style=\"color: rgb(58, 127, 222); text-decoration: none;\">国家AAAA级旅游景区</a>、<a href=\"https://wapbaike.baidu.com/item/%E5%9B%BD%E5%AE%B6%E7%BA%A7%E9%A3%8E%E6%99%AF%E5%90%8D%E8%83%9C%E5%8C%BA\" style=\"color: rgb(58, 127, 222); text-decoration: none;\">国家级风景名胜区</a>、<a href=\"https://wapbaike.baidu.com/item/%E5%9B%BD%E5%AE%B6%E6%A3%AE%E6%9E%97%E5%85%AC%E5%9B%AD\" style=\"color: rgb(58, 127, 222); text-decoration: none;\">国家森林公园</a>、<a href=\"https://wapbaike.baidu.com/item/%E5%9B%BD%E5%AE%B6%E5%9C%B0%E8%B4%A8%E5%85%AC%E5%9B%AD\" style=\"color: rgb(58, 127, 222); text-decoration: none;\">国家地质公园</a>、<a href=\"https://wapbaike.baidu.com/item/%E5%9B%BD%E5%AE%B6%E8%87%AA%E7%84%B6%E9%81%97%E4%BA%A7\" style=\"color: rgb(58, 127, 222); text-decoration: none;\">国家自然遗产</a>、中国青少年户外体育运动营地等。</p><p style=\"margin-top: 0px; margin-bottom: 0px; color: rgb(63, 63, 63); font-family: Helvetica, sans-serif; white-space: normal; background-color: rgb(255, 255, 255);\">2009年，武功山被<a href=\"https://wapbaike.baidu.com/item/%E4%B8%AD%E5%9B%BD%E5%9B%BD%E5%AE%B6%E5%9C%B0%E7%90%86\" style=\"color: rgb(58, 127, 222); text-decoration: none;\">中国国家地理</a>评为中国十大“非著名”山峰之一。2017年1月，江西省出台《武功山经营管理体制改革方案》，明确将对武功山进行统一规划、统一整合、统一经营。</p><p><br/></p>' WHERE `sights_id` = 5 [ RunTime:0.2260s ]
+

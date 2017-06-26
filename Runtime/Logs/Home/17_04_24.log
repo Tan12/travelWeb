@@ -1,0 +1,26 @@
+[ 2017-04-24T15:18:41+08:00 ] ::1 /travelWeb/index.php/Home/Index/follow
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0040s ]
+SQL: SELECT `follows` FROM `users` WHERE `user_id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `followers` FROM `users` WHERE `user_id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `users` SET `follows`='9' WHERE `user_id` = 0 [ RunTime:0.0674s ]
+SQL: UPDATE `users` SET `followers`='' WHERE `user_id` = 9 [ RunTime:0.0000s ]
+
+[ 2017-04-24T16:29:34+08:00 ] ::1 /travelWeb/index.php/Home/Index/checkLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `users` WHERE `username` = 'Henry' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-04-24T17:07:38+08:00 ] ::1 /travelWeb/index.php/Home/Index/searchPost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `posts` [ RunTime:0.0286s ]
+SQL: SELECT * FROM `posts` WHERE `posts_title` LIKE '%t%' ORDER BY posts_time desc  [ RunTime:0.0488s ]
+SQL: SHOW COLUMNS FROM `comments` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `comments` WHERE `posts_id` = 8 ORDER BY comments_time desc  [ RunTime:0.0000s ]
+

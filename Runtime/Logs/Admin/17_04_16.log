@@ -1,0 +1,111 @@
+[ 2017-04-16T09:22:31+08:00 ] ::1 /travelWeb/index.php/Admin/Index/user?id=1
+ERR: 非法操作:user
+
+[ 2017-04-16T09:22:37+08:00 ] ::1 /travelWeb/index.php/Admin/Index/user?id=5
+ERR: 非法操作:user
+
+[ 2017-04-16T10:00:48+08:00 ] ::1 /travelWeb/index.php/Admin/Index/delUser
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0030s ]
+SQL: DELETE FROM `users` WHERE `user_id` = 6 [ RunTime:0.0624s ]
+
+[ 2017-04-16T10:16:33+08:00 ] ::1 /travelWeb/index.php/Admin/Index/addTip
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0030s ]
+SQL: INSERT INTO `tips` (`tips_title`,`tags`,`tips_content`,`tips_author`,`tips_time`) VALUES ('不可错过的美景 旅行摄影之茫茫冬日','摄影，技巧','<p style=\"margin-top: 0px; margin-bottom: 15px; padding: 0px; line-height: 30px; color: rgb(51, 51, 51); font-family: &quot;Microsoft YaHei&quot;; white-space: normal;\">洁白的雪是<a href=\"http://bbs.fengniao.com/forum/forum_15.html\" class=\"inner-link\" style=\"text-decoration: none; color: rgb(51, 51, 51); border-bottom: 1px dashed rgb(0, 0, 0);\">旅行</a><a href=\"http://www.fengniao.com/\" class=\"inner-link\" style=\"text-decoration: none; color: rgb(51, 51, 51); border-bottom: 1px dashed rgb(0, 0, 0);\">摄影</a>中绝不可错过的美景之一，可是如何拍摄雪景却往往难倒了很多摄影爱好者。如何在大片的白色之中寻找主题、搭配配角，进而拍摄出一张上佳的照片，这个问题我想很多影友都曾经问过。</p><p style=\"margin-top: 0px; margin-bottom: 15px; padding: 0px; line-height: 30px; color: rgb(51, 51, 51); font-family: &quot;Microsoft YaHei&quot;; white-space: normal;\">&nbsp; &nbsp; 其实，办法很多。不同的场景下、不同的主题背景有着不同的拍摄技巧，只需灵活掌握这些技巧，便能拍出精彩的雪景照片。<br/>&nbsp;<br/><strong>1. 选择合适的地方拍摄雪景</strong><br/>&nbsp;<br/>&nbsp; &nbsp; 我们所说的雪景较为广泛，其包括了季节性降下的飞雪，也包括雪山之中常年的积雪。<br/>&nbsp;<br/>&nbsp; &nbsp; 因此，在拍摄雪景之前，我们应该根据这两种雪景的不同，选择合适的地方拍摄。例如在拍摄山顶的雪景时，我们可以从山脚仰视拍摄整座大山，也可以深入山中，拍摄眼前的雪色山景；又例如恰逢冬季降雪，可以选择雪景较为漂亮的地方，通过拍摄技巧选择合适的角度来拍摄。</p><p style=\"margin-top: 0px; margin-bottom: 15px; padding: 0px; line-height: 30px; color: rgb(51, 51, 51); font-family: &quot;Microsoft YaHei&quot;; white-space: normal; text-align: center;\"><a href=\"http://img2.fengniao.com/g2/M00/05/0C/Cg-4k1dOhSmIXbJ3AAS1FxZk6oUAAH2ZAG48BYABLUv509.png\" style=\"text-decoration: none; color: rgb(51, 51, 51);\"><img src=\"/travelWeb/Public/upload/image/20170416/1492308946105513.png\" width=\"700\" height=\"466\" title=\"旅行摄影之茫茫雪景\" alt=\"旅行摄影之茫茫雪景\"/></a></p><p style=\"margin-top: 0px; margin-bottom: 15px; padding: 0px; line-height: 30px; color: rgb(51, 51, 51); font-family: &quot;Microsoft YaHei&quot;; white-space: normal;\">&nbsp; &nbsp; 拍摄山顶积雪时，选择在山脚位置拍摄，可以更为直白地表现山脉整体。</p><p style=\"margin-top: 0px; margin-bottom: 15px; padding: 0px; line-height: 30px; color: rgb(51, 51, 51); font-family: &quot;Microsoft YaHei&quot;; white-space: normal; text-align: center;\"><a href=\"http://img2.fengniao.com/g2/M00/05/0C/Cg-4kldOhSqIEneCAAhPNyVjO_IAAH2ZAG9pUUACE9P795.png\" style=\"text-decoration: none; color: rgb(51, 51, 51);\"><img src=\"/travelWeb/Public/upload/image/20170416/1492308948523524.png\" width=\"700\" height=\"523\" title=\"旅行摄影之茫茫雪景\" alt=\"旅行摄影之茫茫雪景\"/></a></p><p style=\"margin-top: 0px; margin-bottom: 15px; padding: 0px; line-height: 30px; color: rgb(51, 51, 51); font-family: &quot;Microsoft YaHei&quot;; white-space: normal;\">&nbsp; &nbsp; 选择一些较为偏僻、不能及时充电的地方拍摄雪景时，应尽量多携带几块电池，确保拍摄时电量充足。<br/>&nbsp;<br/><strong>2.城市中的雪景</strong><br/>&nbsp;<br/>&nbsp; &nbsp; 对于喜欢雪的人来说，每当城市被皑皑白雪覆盖，仿佛城市会开口说话，诉说着它的过往。此时此刻，茫茫的白雪也像是在追忆着往事，就如同很多人说的，南京下雪以后会变成金陵，西安雪后变成长安一般。<br/>&nbsp;<br/>&nbsp; &nbsp; 在城市雪景拍摄，最为常见的主体便是街道、建筑，以及雪中拍摄人像、宠物等。<br/>&nbsp;<br/>&nbsp; &nbsp; 另外，如果恰逢春节还可以在傍晚时拍摄街道边的新年元素，如红色灯笼等。<br/>&nbsp;<br/>&nbsp; &nbsp; 另外，在城市拍摄时，为了使照片更加漂亮，我们还会选择在古建筑比较集中的地方拍摄。<br/>&nbsp;<br/>&nbsp; &nbsp; 城市拍摄建筑，取景尤为重要。即便是在同一个地方，取景的不同也会导致画面完全不同的视觉效果。所以，在这些比较熟悉的地方拍摄雪景，我们应该换个角度，用以往不一样的视角来观察拍摄。<br/>&nbsp;<br/>&nbsp; &nbsp; 白雪可以让整个世界都是白茫茫一片，在没有鲜艳色彩的情况下，城市会变成黑白灰，这也为城市增添了几分历史的味道。我们可以充分借助白雪的这一特点，增加照片的艺术效果。</p><p style=\"margin-top: 0px; margin-bottom: 15px; padding: 0px; line-height: 30px; color: rgb(51, 51, 51); font-family: &quot;Microsoft YaHei&quot;; white-space: normal; text-align: center;\"><a href=\"http://img2.fengniao.com/g2/M00/05/0C/Cg-4kldOhVmICtPvAAOfREBzMHAAAH2ZAKMEN8AA59c666.jpg\" style=\"text-decoration: none; color: rgb(51, 51, 51);\"><img src=\"/travelWeb/Public/upload/image/20170416/1492308948533766.jpg\" width=\"700\" height=\"444\" title=\"旅行摄影之茫茫雪景\" alt=\"旅行摄影之茫茫雪景\"/></a></p><p style=\"margin-top: 0px; margin-bottom: 15px; padding: 0px; line-height: 30px; color: rgb(51, 51, 51); font-family: &quot;Microsoft YaHei&quot;; white-space: normal;\">&nbsp; &nbsp; 下雪之后，整个城市都变成了暗色调，历史感和沧桑感很浓烈。</p><p style=\"margin-top: 0px; margin-bottom: 15px; padding: 0px; line-height: 30px; color: rgb(51, 51, 51); font-family: &quot;Microsoft YaHei&quot;; white-space: normal; text-align: center;\"><a href=\"http://img2.fengniao.com/g2/M00/05/0C/Cg-4k1dOhVqIH5Y_AANtn_SMYiAAAH2ZAKPsDsAA223357.png\" style=\"text-decoration: none; color: rgb(51, 51, 51);\"><img src=\"/travelWeb/Public/upload/image/20170416/1492308949683775.png\" width=\"700\" height=\"373\" title=\"旅行摄影之茫茫雪景\" alt=\"旅行摄影之茫茫雪景\"/></a></p><p style=\"margin-top: 0px; margin-bottom: 15px; padding: 0px; line-height: 30px; color: rgb(51, 51, 51); font-family: &quot;Microsoft YaHei&quot;; white-space: normal;\">&nbsp; &nbsp; 在下过雪的午后，天气虽然没有完全放晴，但是在柔和的光线下拍摄这些色彩较为绚丽的建筑，照片会显得更加唯美</p><p><a style=\"color: rgb(51, 51, 51); font-family: &quot;Microsoft YaHei&quot;; font-size: 12px; white-space: normal;\"></a></p><p style=\"margin-top: 0px; margin-bottom: 15px; padding: 0px; line-height: 30px; color: rgb(51, 51, 51); font-family: &quot;Microsoft YaHei&quot;; white-space: normal;\"><strong>3.增加曝光补偿让雪景更白</strong></p><p style=\"margin-top: 0px; margin-bottom: 15px; padding: 0px; line-height: 30px; color: rgb(51, 51, 51); font-family: &quot;Microsoft YaHei&quot;; white-space: normal;\">&nbsp; &nbsp; 通常在拍摄雪景时，我们会遵守“白加黑减”的拍摄原理。<br/>&nbsp;<br/>&nbsp; &nbsp; 所谓“白加黑减”，是指在拍摄雪景这些颜色较为亮白的主体场景时，我们会增加曝光补偿，从而使照片中场景看起来更亮一些，主体也能得到更好地表现。<br/>&nbsp;<br/>&nbsp; &nbsp; 不过，值得注意的是，曝光补偿增加要适度，避免过分增加曝光补偿导致照片的细节丢失。</p><p style=\"margin-top: 0px; margin-bottom: 15px; padding: 0px; line-height: 30px; color: rgb(51, 51, 51); font-family: &quot;Microsoft YaHei&quot;; white-space: normal; text-align: center;\"><a href=\"http://img2.fengniao.com/g1/M00/07/F0/Cg-4q1dOhoaIH7AyAAZpiCq7s9IAAScbAL4PDYABmmg405.png\" style=\"text-decoration: none; color: rgb(51, 51, 51);\"><img src=\"/travelWeb/Public/upload/image/20170416/1492308949105617.png\" width=\"700\" height=\"464\" title=\"旅行摄影之茫茫雪景\" alt=\"旅行摄影之茫茫雪景\"/></a></p><p style=\"margin-top: 0px; margin-bottom: 15px; padding: 0px; line-height: 30px; color: rgb(51, 51, 51); font-family: &quot;Microsoft YaHei&quot;; white-space: normal;\">&nbsp; &nbsp; 适当增加曝光补偿，照片中的雪景更加亮白，也不至于丢失细节。</p><p style=\"margin-top: 0px; margin-bottom: 15px; padding: 0px; line-height: 30px; color: rgb(51, 51, 51); font-family: &quot;Microsoft YaHei&quot;; white-space: normal; text-align: center;\"><a href=\"http://img2.fengniao.com/g1/M00/07/F0/Cg-4rFdOhoaIMkJKAAOOpzCKT9EAAScbAL-pdYAA46_232.png\" style=\"text-decoration: none; color: rgb(51, 51, 51);\"><img src=\"/travelWeb/Public/upload/image/20170416/1492308950455706.png\" width=\"700\" height=\"466\" title=\"旅行摄影之茫茫雪景\" alt=\"旅行摄影之茫茫雪景\"/></a></p><p style=\"margin-top: 0px; margin-bottom: 15px; padding: 0px; line-height: 30px; color: rgb(51, 51, 51); font-family: &quot;Microsoft YaHei&quot;; white-space: normal;\">&nbsp; &nbsp; 在拍摄雪景时，适当增加曝光补偿，照片中整体更显高调、亮白。<br/>&nbsp;<br/><strong>4.逆光拍摄雪粒的质感</strong><br/>&nbsp;<br/>&nbsp; &nbsp; 雪景摄影之中，光线如何运用也直接影响着照片的整体视觉感受。例如逆光或者侧逆光拍摄下，雪景会受到光影作用 影响，颗粒感更加明显，照片要比顺光拍摄更显质感。</p><p style=\"margin-top: 0px; margin-bottom: 15px; padding: 0px; line-height: 30px; color: rgb(51, 51, 51); font-family: &quot;Microsoft YaHei&quot;; white-space: normal; text-align: center;\"><a href=\"http://img2.fengniao.com/g2/M00/05/0C/Cg-4kldOhtiIAH3PAAzeXgQdXXsAAH2ZQHHZnEADN52365.png\" style=\"text-decoration: none; color: rgb(51, 51, 51);\"><img src=\"/travelWeb/Public/upload/image/20170416/1492308951286935.png\" width=\"700\" height=\"1005\" title=\"旅行摄影之茫茫雪景\" alt=\"旅行摄影之茫茫雪景\"/></a></p><p style=\"margin-top: 0px; margin-bottom: 15px; padding: 0px; line-height: 30px; color: rgb(51, 51, 51); font-family: &quot;Microsoft YaHei&quot;; white-space: normal;\">&nbsp; &nbsp; 有时，逆光拍摄雪景也是不错的选择。<br/>&nbsp;<br/><strong>5.改变白平衡拍摄蓝调雪景</strong></p><p style=\"margin-top: 0px; margin-bottom: 15px; padding: 0px; line-height: 30px; color: rgb(51, 51, 51); font-family: &quot;Microsoft YaHei&quot;; white-space: normal; text-align: center;\"><a href=\"http://img2.fengniao.com/g1/M00/07/F0/Cg-4rFdOhwyIUcfBAAZvQe1TgsUAAScbQBzZakABm9Z128.png\" style=\"text-decoration: none; color: rgb(51, 51, 51);\"><img src=\"/travelWeb/Public/upload/image/20170416/1492308951138157.png\" width=\"700\" height=\"433\" title=\"旅行摄影之茫茫雪景\" alt=\"旅行摄影之茫茫雪景\"/></a></p><p style=\"margin-top: 0px; margin-bottom: 15px; padding: 0px; line-height: 30px; color: rgb(51, 51, 51); font-family: &quot;Microsoft YaHei&quot;; white-space: normal;\">&nbsp; &nbsp; 选择钨丝灯白平衡，可以营造出一种蓝调氛围的雪景照片。</p><p><a style=\"color: rgb(51, 51, 51); font-family: &quot;Microsoft YaHei&quot;; font-size: 12px; white-space: normal;\"></a></p><p style=\"margin-top: 0px; margin-bottom: 15px; padding: 0px; line-height: 30px; color: rgb(51, 51, 51); font-family: &quot;Microsoft YaHei&quot;; white-space: normal;\"><strong>6.拍摄漫天飞舞的雪花</strong></p><p style=\"margin-top: 0px; margin-bottom: 15px; padding: 0px; line-height: 30px; color: rgb(51, 51, 51); font-family: &quot;Microsoft YaHei&quot;; white-space: normal;\">&nbsp; &nbsp; 很多人都热爱拍摄漫天飞舞的雪花。<br/>&nbsp;<br/>&nbsp; &nbsp; 众所周知，雪花颜色亮白且形状通常较小，若是背景颜色较浅较亮，雪花就很难被清晰地呈现出来。因此，在拍摄这种场景时，我们多选择深色背景进行衬托。<br/>&nbsp;<br/>&nbsp; &nbsp; 另外，在快门速度选择方面，高速快门可以定格雪花在空中飞舞的瞬间，相应的动感就会减少；较慢一点的快门可以拍摄一小段雪花划过天空的轨迹，从而在与地面积雪形成简单的虚实对比，增加画面的动感效果。</p><p style=\"margin-top: 0px; margin-bottom: 15px; padding: 0px; line-height: 30px; color: rgb(51, 51, 51); font-family: &quot;Microsoft YaHei&quot;; white-space: normal; text-align: center;\"><a href=\"http://img2.fengniao.com/g2/M00/05/0C/Cg-4kldOiJSIErFHAAfOm8YwdhQAAH2ZwEXL9EAB86z488.png\" style=\"text-decoration: none; color: rgb(51, 51, 51);\"><img src=\"/travelWeb/Public/upload/image/20170416/1492308952825865.png\" width=\"700\" height=\"467\" title=\"旅行摄影之茫茫雪景\" alt=\"旅行摄影之茫茫雪景\"/></a></p><p style=\"margin-top: 0px; margin-bottom: 15px; padding: 0px; line-height: 30px; color: rgb(51, 51, 51); font-family: &quot;Microsoft YaHei&quot;; white-space: normal;\">&nbsp; &nbsp; 选择深蓝色天空作为背景，可以更为明显地表现出雪花飞舞的场景。<br/>&nbsp;<br/><strong>7.浓雾环境下拍摄雪景</strong><br/>&nbsp;<br/>&nbsp; &nbsp; 在旅行拍摄时，有时会遇到浓雾天气，在这种天气下拍摄，照片大多会呈现出灰蒙蒙的样子，有时还会严重影响拍摄心情。为了更好地应对拍摄雪景时遇到的大雾天气，我们也需要掌握一定的拍摄技巧。<br/>&nbsp;<br/>·在浓雾影响下，相机自动对焦经常会判断失误，导致照片主体不清晰，因此，我们首先要选择使用手动对焦模式进行拍摄，当然为保证照片锐利度，我们还需要使用三脚架稳定相机。<br/>&nbsp;<br/>·有时，避免拍摄大场景，选择一些有趣的小地方进行拍摄，这样就可以很大程度避免雾天的影响。<br/>&nbsp;<br/>·借鉴中国传统黑白山水画作来发挥想象，认真观察环境。拍摄时，借助雾气营造一种虚无缥缈的氛围。</p><p style=\"margin-top: 0px; margin-bottom: 15px; padding: 0px; line-height: 30px; color: rgb(51, 51, 51); font-family: &quot;Microsoft YaHei&quot;; white-space: normal; text-align: center;\"><a href=\"http://img2.fengniao.com/g1/M00/07/F0/Cg-4rFdOiLuIe7h9AAYb1fbdcz8AAScbwBJEfkABhvt039.png\" style=\"text-decoration: none; color: rgb(51, 51, 51);\"><img src=\"/travelWeb/Public/upload/image/20170416/1492308953684205.png\" width=\"700\" height=\"433\" title=\"旅行摄影之茫茫雪景\" alt=\"旅行摄影之茫茫雪景\"/></a></p><p style=\"margin-top: 0px; margin-bottom: 15px; padding: 0px; line-height: 30px; color: rgb(51, 51, 51); font-family: &quot;Microsoft YaHei&quot;; white-space: normal;\">&nbsp; &nbsp; 使用手动对焦，可以保证照片的主体清晰。<br/>&nbsp;<br/><strong>8.拍摄晶莹剔透的冰块</strong><br/>&nbsp;<br/>&nbsp; &nbsp; 旅行途中，若赶上积雪融化的日子，拍摄这些晶莹剔透、犹如宝石般的冰晶，也是很让人欣喜的事情。<br/>&nbsp;<br/>&nbsp; &nbsp; 通常在拍摄冰块时，我们会选择逆光或者侧逆光的方向，在光线的照耀下，冰晶更显晶莹剔透，惹人喜欢。</p><p style=\"margin-top: 0px; margin-bottom: 15px; padding: 0px; line-height: 30px; color: rgb(51, 51, 51); font-family: &quot;Microsoft YaHei&quot;; white-space: normal; text-align: center;\"><a href=\"http://img2.fengniao.com/g2/M00/05/0C/Cg-4kldOiRSIAa34AA2bAEbrBuwAAH2aAGiiJAADZsY172.png\" style=\"text-decoration: none; color: rgb(51, 51, 51);\"><img src=\"/travelWeb/Public/upload/image/20170416/1492308954337541.png\" width=\"700\" height=\"847\" title=\"旅行摄影之茫茫雪景\" alt=\"旅行摄影之茫茫雪景\"/></a></p><p style=\"margin-top: 0px; margin-bottom: 15px; padding: 0px; line-height: 30px; color: rgb(51, 51, 51); font-family: &quot;Microsoft YaHei&quot;; white-space: normal;\">&nbsp; &nbsp; 利用开放式构图法只拍摄建筑物的局部，可以使欣赏者看到画面后产生更大的空间联想。<br/>&nbsp;<br/><strong>9. 在雪景中寻找鲜艳的主体</strong><br/>&nbsp;<br/>&nbsp; &nbsp; 在雪景中拍摄时，若是整幅照片全是白色场景，多少会造成审美疲劳。因此，适当寻找一些色彩较为艳丽的景物进行拍摄，让照片色彩鲜明，更显活泼。旅行中，我们可以选择诸如红色的灯笼、色彩艳丽的花朵等进行拍摄。在雪景中拍摄人像时，可以让模特身着一件鲜艳的衣服，这样照片会显得更加精彩。<br/>&nbsp;<br/>&nbsp; &nbsp; 走在茫茫大雪覆盖的森林中，看到几片沾满雪霜的黄色树叶，在黄色与白色的相互衬托下，照片更加清新。<br/>&nbsp;<br/>&nbsp; &nbsp; 旅途中，当遇到我们喜欢的小景物，而其色彩并不是那么鲜艳时，我们还可以借助天色，如黄昏时的昏黄色调或朝霞色彩来渲染画面，进行拍摄，这样，照片将会在天色影响下呈现出相应的色调，从而增加照片的新意。</p><p style=\"margin-top: 0px; margin-bottom: 15px; padding: 0px; line-height: 30px; color: rgb(51, 51, 51); font-family: &quot;Microsoft YaHei&quot;; white-space: normal; text-align: center;\"><a href=\"http://img2.fengniao.com/g2/M00/05/0C/Cg-4kldOiVaICAaoAAiOPYq1H6oAAH2aANXO40ACI5V440.png\" style=\"text-decoration: none; color: rgb(51, 51, 51);\"><img src=\"/travelWeb/Public/upload/image/20170416/1492308955878622.png\" width=\"700\" height=\"555\" title=\"旅行摄影之茫茫雪景\" alt=\"旅行摄影之茫茫雪景\"/></a></p><p style=\"margin-top: 0px; margin-bottom: 15px; padding: 0px; line-height: 30px; color: rgb(51, 51, 51); font-family: &quot;Microsoft YaHei&quot;; white-space: normal;\">&nbsp; &nbsp; 拍摄白雪时，我们还可以借助朝霞或黄昏时的昏黄色彩进行拍摄。</p><p><br/></p>','admin','2017-04-16 10:16:33') [ RunTime:0.1924s ]
+
+[ 2017-04-16T12:43:39+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchTips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.016601s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016601s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `tips` WHERE `tips_title` LIKE '%清明%'  [ RunTime:0.0624s ]
+
+[ 2017-04-16T12:43:43+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchTips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `tips` WHERE `tips_title` LIKE '%清明%'  [ RunTime:0.0000s ]
+
+[ 2017-04-16T12:43:44+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchTips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tips` WHERE `tips_title` LIKE '%清明%'  [ RunTime:0.0000s ]
+
+[ 2017-04-16T12:43:44+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchTips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tips` WHERE `tips_title` LIKE '%清明%'  [ RunTime:0.0000s ]
+
+[ 2017-04-16T12:43:44+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchTips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tips` WHERE `tips_title` LIKE '%清明%'  [ RunTime:0.0000s ]
+
+[ 2017-04-16T12:44:12+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchTips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `tips` WHERE `tips_title` LIKE '%清明%'  [ RunTime:0.0000s ]
+
+[ 2017-04-16T12:45:05+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchTips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tips` WHERE `tips_title` LIKE '%清明%'  [ RunTime:0.0000s ]
+
+[ 2017-04-16T12:45:10+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchTips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tips` WHERE `tips_title` LIKE '%手机%'  [ RunTime:0.0000s ]
+
+[ 2017-04-16T13:00:18+08:00 ] ::1 /travelWeb/index.php/Admin/Index/delTip
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0040s ]
+SQL: DELETE FROM `tips` WHERE `tips_id` = 8 [ RunTime:0.0940s ]
+
+[ 2017-04-16T13:40:48+08:00 ] ::1 /travelWeb/index.php/Admin/Index/delTip
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0040s ]
+SQL: DELETE FROM `tips` WHERE `tips_id` = 14 [ RunTime:0.0462s ]
+
+[ 2017-04-16T17:22:49+08:00 ] ::1 /travelWeb/index.php/Admin/Index/addView
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sights` [ RunTime:0.0040s ]
+SQL: INSERT INTO `sights` (`sights_name`,`city`,`address`,`ticket`) VALUES ('武功山','萍乡市','萍乡市芦溪县164县道','70元') [ RunTime:0.5124s ]
+
+[ 2017-04-16T17:25:53+08:00 ] ::1 /travelWeb/index.php/Admin/Index/addView
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sights` [ RunTime:0.0160s ]
+SQL: INSERT INTO `sights` (`sights_name`,`city`,`address`,`ticket`,`intro`) VALUES ('武功山','萍乡市','江西省萍乡市芦溪县164县道','70元','<p style=\"margin-top: 0px; margin-bottom: 0px; color: rgb(63, 63, 63); font-family: Helvetica, sans-serif; white-space: normal; background-color: rgb(255, 255, 255);\">武功山位于中国江西省中西部，居<a href=\"https://wapbaike.baidu.com/item/%E7%BD%97%E9%9C%84%E5%B1%B1%E8%84%89\" style=\"color: rgb(58, 127, 222); text-decoration: none;\">罗霄山脉</a>北支，山体呈东北——西南走向，地跨江西萍乡市芦溪县、吉安市安福县，宜春市袁州区，主脉绵延120余千米，总面积约970平方千米。</p><p style=\"text-align:center\"><img src=\"https://timg01.bdimg.com/timg?wapbaike&quality=80&size=b500_330&sec=1349839550&di=b01b5c4de6580ce813911914888406d7&src=http://imgsrc.baidu.com/baike/pic/item/77c6a7efce1b9d16613c46eafadeb48f8d546446.jpg\"/></p><p style=\"margin-top: 0px; margin-bottom: 0px; color: rgb(63, 63, 63); font-family: Helvetica, sans-serif; white-space: normal; background-color: rgb(255, 255, 255);\">武功山围绕金顶已设立“<a href=\"https://wapbaike.baidu.com/item/%E6%AD%A6%E5%8A%9F%E5%B1%B1%E5%9B%BD%E5%AE%B6%E5%9C%B0%E8%B4%A8%E5%85%AC%E5%9B%AD\" style=\"color: rgb(58, 127, 222); text-decoration: none;\">武功山国家地质公园</a>”（面积约378.3平方千米）、“<a href=\"https://wapbaike.baidu.com/item/%E6%AD%A6%E5%8A%9F%E5%B1%B1%E5%9B%BD%E5%AE%B6%E6%A3%AE%E6%9E%97%E5%85%AC%E5%9B%AD\" style=\"color: rgb(58, 127, 222); text-decoration: none;\">武功山国家森林公园</a>”（面积约260平方千米）、“<a href=\"https://wapbaike.baidu.com/item/%E6%98%8E%E6%9C%88%E5%B1%B1%E5%9B%BD%E5%AE%B6%E6%A3%AE%E6%9E%97%E5%85%AC%E5%9B%AD\" style=\"color: rgb(58, 127, 222); text-decoration: none;\">明月山国家森林公园</a>”（面积约136平方千米）。武功山主峰<a href=\"https://wapbaike.baidu.com/item/%E7%99%BD%E9%B9%A4%E5%B3%B0\" style=\"color: rgb(58, 127, 222); text-decoration: none;\">白鹤峰</a>（金顶）海拔1918.3米。自汉晋起，武功山被道佛两家择为修身养性之洞天福地，明朝时香火达到鼎盛时期，山南山北建进了庵、堂、寺、观达100多处。自唐宋以来，诸多仰慕其名而登山游赏吟诗作赋的名人学士络绎不绝。武功山有山岳型国家重点风景名胜区、<a href=\"https://wapbaike.baidu.com/item/%E5%9B%BD%E5%AE%B6AAAA%E7%BA%A7%E6%97%85%E6%B8%B8%E6%99%AF%E5%8C%BA\" style=\"color: rgb(58, 127, 222); text-decoration: none;\">国家AAAA级旅游景区</a>、<a href=\"https://wapbaike.baidu.com/item/%E5%9B%BD%E5%AE%B6%E7%BA%A7%E9%A3%8E%E6%99%AF%E5%90%8D%E8%83%9C%E5%8C%BA\" style=\"color: rgb(58, 127, 222); text-decoration: none;\">国家级风景名胜区</a>、<a href=\"https://wapbaike.baidu.com/item/%E5%9B%BD%E5%AE%B6%E6%A3%AE%E6%9E%97%E5%85%AC%E5%9B%AD\" style=\"color: rgb(58, 127, 222); text-decoration: none;\">国家森林公园</a>、<a href=\"https://wapbaike.baidu.com/item/%E5%9B%BD%E5%AE%B6%E5%9C%B0%E8%B4%A8%E5%85%AC%E5%9B%AD\" style=\"color: rgb(58, 127, 222); text-decoration: none;\">国家地质公园</a>、<a href=\"https://wapbaike.baidu.com/item/%E5%9B%BD%E5%AE%B6%E8%87%AA%E7%84%B6%E9%81%97%E4%BA%A7\" style=\"color: rgb(58, 127, 222); text-decoration: none;\">国家自然遗产</a>、中国青少年户外体育运动营地等。</p><p style=\"margin-top: 0px; margin-bottom: 0px; color: rgb(63, 63, 63); font-family: Helvetica, sans-serif; white-space: normal; background-color: rgb(255, 255, 255);\">2009年，武功山被<a href=\"https://wapbaike.baidu.com/item/%E4%B8%AD%E5%9B%BD%E5%9B%BD%E5%AE%B6%E5%9C%B0%E7%90%86\" style=\"color: rgb(58, 127, 222); text-decoration: none;\">中国国家地理</a>评为中国十大“非著名”山峰之一。2017年1月，江西省出台《武功山经营管理体制改革方案》，明确将对武功山进行统一规划、统一整合、统一经营。</p><p><br/></p>') [ RunTime:0.0180s ]
+
+[ 2017-04-16T19:17:24+08:00 ] ::1 /travelWeb/index.php/Admin/Index/delTip
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0100s ]
+SQL: DELETE FROM `tips` WHERE `tips_id` = 0 [ RunTime:0.0125s ]
+

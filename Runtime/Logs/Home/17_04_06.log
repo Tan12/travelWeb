@@ -1,0 +1,10 @@
+[ 2017-04-06T09:42:47+08:00 ] ::1 /travelWeb/index.php/Home/Index/checkLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-06T10:03:29+08:00 ] ::1 /travelWeb/index.php/Home/Index/checkLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+

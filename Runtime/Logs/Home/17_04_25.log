@@ -1,0 +1,234 @@
+[ 2017-04-25T09:31:17+08:00 ] ::1 /travelWeb/index.php/Home/Index/register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `users` WHERE `username` = 'Henry' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-04-25T09:31:33+08:00 ] ::1 /travelWeb/index.php/Home/Index/register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `users` WHERE `username` = 'Alice' LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `users` (`username`,`email`,`pwd`,`img`) VALUES ('Alice','alice@163.com','12345','default.gif') [ RunTime:0.0790s ]
+
+[ 2017-04-25T10:05:00+08:00 ] ::1 /travelWeb/index.php/Home/Index/addPost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `posts` [ RunTime:0.0040s ]
+SQL: INSERT INTO `posts` (`posts_title`,`posts_content`,`posts_author`,`posts_time`) VALUES ('test','<p>hello</p><p><img src=\"/travelWeb/Public/upload/image/20170425/1493085879186542.jpg\" title=\"1493085879186542.jpg\" alt=\"40e604bdac49b2ecb0e948b8dc4c25f1.jpg\"/><br/></p>','Alice','2017-04-25 10:05:00') [ RunTime:0.0270s ]
+
+[ 2017-04-25T10:05:12+08:00 ] ::1 /travelWeb/index.php/Home/Index/addCom
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `comments` [ RunTime:0.0000s ]
+SQL: INSERT INTO `comments` (`com_content`,`posts_id`,`user_id`,`comments_time`) VALUES ('hello','10','10','2017-04-25 10:05:12') [ RunTime:0.0000s ]
+
+[ 2017-04-25T10:05:32+08:00 ] ::1 /travelWeb/index.php/Home/Index/follow
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0050s ]
+SQL: SELECT `follows` FROM `users` WHERE `user_id` = 10 LIMIT 1   [ RunTime:0.0120s ]
+SQL: SELECT `followers` FROM `users` WHERE `user_id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `users` SET `follows`='9' WHERE `user_id` = 10 [ RunTime:0.0312s ]
+SQL: UPDATE `users` SET `followers`='10' WHERE `user_id` = 9 [ RunTime:0.0000s ]
+
+[ 2017-04-25T10:14:22+08:00 ] ::1 /travelWeb/index.php/Home/Index/follow
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0000s ]
+SQL: SELECT `follows` FROM `users` WHERE `user_id` = 10 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `followers` FROM `users` WHERE `user_id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `users` SET `follows`='' WHERE `user_id` = 10 [ RunTime:0.0000s ]
+SQL: UPDATE `users` SET `followers`='' WHERE `user_id` = 9 [ RunTime:0.0000s ]
+
+[ 2017-04-25T10:14:31+08:00 ] ::1 /travelWeb/index.php/Home/Index/follow
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0020s ]
+SQL: SELECT `follows` FROM `users` WHERE `user_id` = 10 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `followers` FROM `users` WHERE `user_id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `users` SET `follows`='9' WHERE `user_id` = 10 [ RunTime:0.0000s ]
+SQL: UPDATE `users` SET `followers`='10' WHERE `user_id` = 9 [ RunTime:0.0000s ]
+
+[ 2017-04-25T10:14:48+08:00 ] ::1 /travelWeb/index.php/Home/Index/delCom
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `comments` [ RunTime:0.0040s ]
+SQL: DELETE FROM `comments` WHERE `comments_id` = 21 [ RunTime:0.0472s ]
+
+[ 2017-04-25T10:15:05+08:00 ] ::1 /travelWeb/index.php/Home/Index/addCom
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `comments` [ RunTime:0.0000s ]
+SQL: INSERT INTO `comments` (`com_content`,`posts_id`,`user_id`,`comments_time`) VALUES ('hello','10','10','2017-04-25 10:15:05') [ RunTime:0.0000s ]
+
+[ 2017-04-25T10:15:17+08:00 ] ::1 /travelWeb/index.php/Home/Index/delCom
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `comments` [ RunTime:0.0050s ]
+SQL: DELETE FROM `comments` WHERE `comments_id` = 22 [ RunTime:0.0010s ]
+
+[ 2017-04-25T10:15:25+08:00 ] ::1 /travelWeb/index.php/Home/Index/delPost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `posts` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `comments` [ RunTime:0.0040s ]
+SQL: DELETE FROM `comments` WHERE `posts_id` = 10 [ RunTime:0.0000s ]
+SQL: DELETE FROM `posts` WHERE `posts_id` = 10 [ RunTime:0.0000s ]
+
+[ 2017-04-25T10:15:54+08:00 ] ::1 /travelWeb/index.php/Home/Index/addPost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `posts` [ RunTime:0.0040s ]
+SQL: INSERT INTO `posts` (`posts_title`,`posts_content`,`posts_author`,`posts_time`) VALUES ('dasdas','<p>请输入内容...</p><p><img src=\"/travelWeb/Public/upload/image/20170425/1493086552124951.jpg\" title=\"1493086552124951.jpg\" alt=\"40e604bdac49b2ecb0e948b8dc4c25f1.jpg\"/></p>','Alice','2017-04-25 10:15:54') [ RunTime:0.0000s ]
+
+[ 2017-04-25T10:16:06+08:00 ] ::1 /travelWeb/index.php/Home/Index/addCom
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `comments` [ RunTime:0.0000s ]
+SQL: INSERT INTO `comments` (`com_content`,`posts_id`,`user_id`,`comments_time`) VALUES ('hello','11','10','2017-04-25 10:16:06') [ RunTime:0.0000s ]
+
+[ 2017-04-25T10:16:09+08:00 ] ::1 /travelWeb/index.php/Home/Index/addCom
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `comments` [ RunTime:0.0000s ]
+SQL: INSERT INTO `comments` (`com_content`,`posts_id`,`user_id`,`comments_time`) VALUES ('hahha','11','10','2017-04-25 10:16:09') [ RunTime:0.0000s ]
+
+[ 2017-04-25T10:16:22+08:00 ] ::1 /travelWeb/index.php/Home/Index/delCom
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `comments` [ RunTime:0.0030s ]
+SQL: DELETE FROM `comments` WHERE `comments_id` = 23 [ RunTime:0.0010s ]
+
+[ 2017-04-25T10:16:33+08:00 ] ::1 /travelWeb/index.php/Home/Index/delCom
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `comments` [ RunTime:0.0040s ]
+SQL: DELETE FROM `comments` WHERE `comments_id` = 24 [ RunTime:0.0000s ]
+
+[ 2017-04-25T10:17:58+08:00 ] ::1 /travelWeb/index.php/Home/Index/delPost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `posts` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `comments` [ RunTime:0.0000s ]
+SQL: DELETE FROM `posts` WHERE `posts_id` = 11 [ RunTime:0.0000s ]
+
+[ 2017-04-25T10:24:21+08:00 ] ::1 /travelWeb/index.php/Home/Index/addPost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `posts` [ RunTime:0.0030s ]
+SQL: INSERT INTO `posts` (`posts_title`,`posts_content`,`posts_author`,`posts_time`) VALUES ('dasdas','<p>hello</p><p><img src=\"/travelWeb/Public/upload/image/20170425/1493087060139762.jpg\" title=\"1493087060139762.jpg\" alt=\"40e604bdac49b2ecb0e948b8dc4c25f1.jpg\"/></p>','Alice','2017-04-25 10:24:21') [ RunTime:0.0010s ]
+
+[ 2017-04-25T10:24:38+08:00 ] ::1 /travelWeb/index.php/Home/Index/addCom
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `comments` [ RunTime:0.0000s ]
+SQL: INSERT INTO `comments` (`com_content`,`posts_id`,`user_id`,`comments_time`) VALUES ('hello','12','10','2017-04-25 10:24:38') [ RunTime:0.0000s ]
+
+[ 2017-04-25T10:24:45+08:00 ] ::1 /travelWeb/index.php/Home/Index/delCom
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `comments` [ RunTime:0.0020s ]
+SQL: DELETE FROM `comments` WHERE `comments_id` = 25 [ RunTime:0.0010s ]
+
+[ 2017-04-25T10:25:31+08:00 ] ::1 /travelWeb/index.php/Home/Index/delPost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `posts` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `comments` [ RunTime:0.0010s ]
+SQL: DELETE FROM `posts` WHERE `posts_id` = 12 [ RunTime:0.0624s ]
+
+[ 2017-04-25T10:26:47+08:00 ] ::1 /travelWeb/index.php/Home/Index/addPost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `posts` [ RunTime:0.0000s ]
+SQL: INSERT INTO `posts` (`posts_title`,`posts_content`,`posts_author`,`posts_time`) VALUES ('hhhh','<p>hello</p><p><img src=\"/travelWeb/Public/upload/image/20170425/1493087206124671.jpg\" title=\"1493087206124671.jpg\" alt=\"40e604bdac49b2ecb0e948b8dc4c25f1.jpg\"/></p>','Alice','2017-04-25 10:26:47') [ RunTime:0.0000s ]
+
+[ 2017-04-25T10:26:54+08:00 ] ::1 /travelWeb/index.php/Home/Index/addCom
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `comments` [ RunTime:0.0000s ]
+SQL: INSERT INTO `comments` (`com_content`,`posts_id`,`user_id`,`comments_time`) VALUES ('hhh','13','10','2017-04-25 10:26:54') [ RunTime:0.0312s ]
+
+[ 2017-04-25T10:27:02+08:00 ] ::1 /travelWeb/index.php/Home/Index/delCom
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `comments` [ RunTime:0.0040s ]
+SQL: DELETE FROM `comments` WHERE `comments_id` = 26 [ RunTime:0.0020s ]
+
+[ 2017-04-25T10:27:33+08:00 ] ::1 /travelWeb/index.php/Home/Index/addCom
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `comments` [ RunTime:0.0000s ]
+SQL: INSERT INTO `comments` (`com_content`,`posts_id`,`user_id`,`comments_time`) VALUES ('hello','13','10','2017-04-25 10:27:33') [ RunTime:0.0156s ]
+
+[ 2017-04-25T10:27:38+08:00 ] ::1 /travelWeb/index.php/Home/Index/delCom
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `comments` [ RunTime:0.0040s ]
+SQL: DELETE FROM `comments` WHERE `comments_id` = 27 [ RunTime:0.0020s ]
+
+[ 2017-04-25T10:28:45+08:00 ] ::1 /travelWeb/index.php/Home/Index/delPost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `posts` [ RunTime:0.0166s ]
+SQL: SHOW COLUMNS FROM `comments` [ RunTime:0.0000s ]
+SQL: DELETE FROM `posts` WHERE `posts_id` = 13 [ RunTime:0.0322s ]
+
+[ 2017-04-25T10:29:05+08:00 ] ::1 /travelWeb/index.php/Home/Index/addPost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `posts` [ RunTime:0.0000s ]
+SQL: INSERT INTO `posts` (`posts_title`,`posts_content`,`posts_author`,`posts_time`) VALUES ('sd','<p>请输入内容...</p>','Alice','2017-04-25 10:29:05') [ RunTime:0.0156s ]
+
+[ 2017-04-25T10:29:17+08:00 ] ::1 /travelWeb/index.php/Home/Index/delPost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `posts` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `comments` [ RunTime:0.0030s ]
+SQL: DELETE FROM `posts` WHERE `posts_id` = 14 [ RunTime:0.0020s ]
+
+[ 2017-04-25T13:06:06+08:00 ] ::1 /travelWeb/index.php/Home/Index/editInfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0030s ]
+SQL: UPDATE `users` SET `img`='1493096765954.jpg' WHERE `user_id` = 10 [ RunTime:0.4800s ]
+NOTIC: [8] Undefined index: username D:\wamp\www\travelWeb\Home\Controller\IndexController.class.php 第 493 行.
+
+[ 2017-04-25T16:40:11+08:00 ] ::1 /travelWeb/index.php/Home/Index/searchNews
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` WHERE `news_title` LIKE '%江西%' ORDER BY news_time desc  [ RunTime:0.0156s ]
+

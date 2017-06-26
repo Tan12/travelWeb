@@ -1,0 +1,383 @@
+[ 2017-04-16T00:01:03+08:00 ] ::1 /travelWeb/index.php/Home/Index/editInfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-04-16T00:01:32+08:00 ] ::1 /travelWeb/index.php/Home/Index/editInfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-04-16T07:51:49+08:00 ] ::1 /travelWeb/index.php/Home/Index/checkLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0510s ]
+SQL: SELECT * FROM `users` WHERE `username` = 'haha' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-04-16T07:52:07+08:00 ] ::1 /travelWeb/index.php/Home/Index/editInfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-04-16T07:53:01+08:00 ] ::1 /travelWeb/index.php/Home/Index/editInfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-04-16T08:17:03+08:00 ] ::1 /travelWeb/index.php/Home/Index/editInfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `users` WHERE `username` = 'haha' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-04-16T08:23:43+08:00 ] ::1 /travelWeb/index.php/Home/Index/editInfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `users` WHERE `username` = 'haha' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-04-16T08:23:50+08:00 ] ::1 /travelWeb/index.php/Home/Index/editInfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `users` WHERE `username` = 'hahad' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-04-16T08:29:10+08:00 ] ::1 /travelWeb/index.php/Home/Index/editInfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `users` WHERE `username` = 'Anna' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-04-16T08:30:40+08:00 ] ::1 /travelWeb/index.php/Home/Index/editInfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `users` WHERE `username` = 'haha' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-04-16T08:30:45+08:00 ] ::1 /travelWeb/index.php/Home/Index/editInfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `users` WHERE `username` = 'Anna' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `users` SET `username`='Anna',`email`='haha@163.com' WHERE `user_id` = 5 [ RunTime:0.0930s ]
+
+[ 2017-04-16T08:33:21+08:00 ] ::1 /travelWeb/index.php/Home/Index/upload
+ERR: 非法操作:upload
+
+[ 2017-04-16T08:33:24+08:00 ] ::1 /travelWeb/index.php/Home/Index/upload
+ERR: 非法操作:upload
+
+[ 2017-04-16T08:33:42+08:00 ] ::1 /travelWeb/index.php/Home/Index/checkLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-16T08:33:49+08:00 ] ::1 /travelWeb/index.php/Home/Index/checkLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `users` WHERE `username` = 'Anna' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-04-16T08:34:04+08:00 ] ::1 /travelWeb/index.php/Home/Index/editInfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `users` WHERE `username` = 'Alice' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `users` SET `username`='Alice',`email`='haha@163.com' WHERE `user_id` = 5 [ RunTime:0.0520s ]
+
+[ 2017-04-16T08:34:19+08:00 ] ::1 /travelWeb/index.php/Home/Index/upload
+ERR: 非法操作:upload
+
+[ 2017-04-16T08:34:48+08:00 ] ::1 /travelWeb/index.php/Home/Index/upload
+ERR: 非法操作:upload
+
+[ 2017-04-16T08:34:57+08:00 ] ::1 /travelWeb/index.php/Home/Index/editInfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `users` WHERE `username` = 'Alice' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-04-16T08:36:04+08:00 ] ::1 /travelWeb/index.php/Home/Index/editInfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `users` WHERE `username` = 'Alice' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-04-16T08:36:09+08:00 ] ::1 /travelWeb/index.php/Home/Index/editInfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `users` WHERE `username` = 'Anna' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `users` SET `username`='Anna',`email`='haha@163.com',`img`='./Public/userImgs/1492302969175.jpg' WHERE `user_id` = 5 [ RunTime:0.0000s ]
+
+[ 2017-04-16T08:38:33+08:00 ] ::1 /travelWeb/index.php/Home/Index/editInfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `users` WHERE `username` = 'Anna' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-04-16T08:38:38+08:00 ] ::1 /travelWeb/index.php/Home/Index/editInfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `users` WHERE `username` = 'Ali' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `users` SET `username`='Ali',`email`='haha@163.com',`img`='1492303118160.jpg' WHERE `user_id` = 5 [ RunTime:0.0000s ]
+
+[ 2017-04-16T08:38:50+08:00 ] ::1 /travelWeb/index.php/Home/Index/editInfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `users` WHERE `username` = 'Alice' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `users` SET `username`='Alice',`email`='haha@163.com' WHERE `user_id` = 5 [ RunTime:0.0010s ]
+
+[ 2017-04-16T08:39:06+08:00 ] ::1 /travelWeb/index.php/Home/Index/editInfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `users` WHERE `username` = 'Alice' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-04-16T08:39:18+08:00 ] ::1 /travelWeb/index.php/Home/Index/editInfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0030s ]
+SQL: UPDATE `users` SET `email`='haha@163.com',`img`='1492303158413.jpg' WHERE `user_id` = 5 [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: username D:\wamp\www\travelWeb\Home\Controller\IndexController.class.php 第 181 行.
+
+[ 2017-04-16T08:41:40+08:00 ] ::1 /travelWeb/index.php/Home/Index/checkLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `users` WHERE `username` = 'Alice' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-04-16T08:41:50+08:00 ] ::1 /travelWeb/index.php/Home/Index/editInfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `users` WHERE `username` = 'Anna' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `users` SET `username`='Anna',`email`='haha@163.com' WHERE `user_id` = 5 [ RunTime:0.0020s ]
+
+[ 2017-04-16T08:42:09+08:00 ] ::1 /travelWeb/index.php/Home/Index/editInfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0070s ]
+SQL: UPDATE `users` SET `email`='anna@163.com' WHERE `user_id` = 5 [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: username D:\wamp\www\travelWeb\Home\Controller\IndexController.class.php 第 181 行.
+
+[ 2017-04-16T08:43:33+08:00 ] ::1 /travelWeb/index.php/Home/Index/editInfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0030s ]
+SQL: UPDATE `users` SET `email`='hello@163.com' WHERE `user_id` = 5 [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: username D:\wamp\www\travelWeb\Home\Controller\IndexController.class.php 第 181 行.
+
+[ 2017-04-16T08:46:50+08:00 ] ::1 /travelWeb/index.php/Home/Index/register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `users` WHERE `username` = 'Tom' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `users` (`username`,`email`,`pwd`,`img`) VALUES ('Tom','tom@163.com','12345','default.gif') [ RunTime:0.0624s ]
+
+[ 2017-04-16T13:57:06+08:00 ] ::1 /travelWeb/index.php/Home/Index/searchTips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tips` WHERE `tips_title` LIKE '%清明%'  [ RunTime:0.0000s ]
+
+[ 2017-04-16T13:57:12+08:00 ] ::1 /travelWeb/index.php/Home/Index/searchTips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tips` WHERE `tips_title` LIKE '%手机%'  [ RunTime:0.0000s ]
+
+[ 2017-04-16T13:58:14+08:00 ] ::1 /travelWeb/index.php/Home/Index/searchTips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tips` WHERE `tips_title` LIKE '%手机%'  [ RunTime:0.0000s ]
+
+[ 2017-04-16T13:59:18+08:00 ] ::1 /travelWeb/index.php/Home/Index/searchTips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tips` WHERE `tips_title` LIKE '%手机%'  [ RunTime:0.0000s ]
+
+[ 2017-04-16T14:01:53+08:00 ] ::1 /travelWeb/index.php/Home/Index/searchTips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tips` WHERE `tips_title` LIKE '%手机%'  [ RunTime:0.0000s ]
+
+[ 2017-04-16T23:38:32+08:00 ] ::1 /travelWeb/index.php/Home/Index/searchTips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tips` WHERE `tips_title` LIKE '%武功山%'  [ RunTime:0.0624s ]
+
+[ 2017-04-16T23:39:44+08:00 ] ::1 /travelWeb/index.php/Home/Index/searchTips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tips` WHERE `tips_title` LIKE '%武功山%'  [ RunTime:0.0000s ]
+
+[ 2017-04-16T23:40:52+08:00 ] ::1 /travelWeb/index.php/Home/Index/searchTips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `tips` WHERE `tips_title` LIKE '%武功%'  [ RunTime:0.0000s ]
+
+[ 2017-04-16T23:42:56+08:00 ] ::1 /travelWeb/index.php/Home/Index/searchViews
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sights` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sights` WHERE `sights_name` LIKE '%武%'  [ RunTime:0.0000s ]
+
+[ 2017-04-16T23:43:39+08:00 ] ::1 /travelWeb/index.php/Home/Index/searchViews
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `sights` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sights` WHERE `sights_name` LIKE '%武%'  [ RunTime:0.0000s ]
+
+[ 2017-04-16T23:44:34+08:00 ] ::1 /travelWeb/index.php/Home/Index/searchViews
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sights` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sights` WHERE `sights_name` LIKE '%武%'  [ RunTime:0.0000s ]
+
+[ 2017-04-16T23:44:37+08:00 ] ::1 /travelWeb/index.php/Home/Index/searchViews
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sights` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `sights` WHERE `sights_name` LIKE '%武%'  [ RunTime:0.0000s ]
+
+[ 2017-04-16T23:44:39+08:00 ] ::1 /travelWeb/index.php/Home/Index/searchViews
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sights` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sights` WHERE `sights_name` LIKE '%哈哈%'  [ RunTime:0.0000s ]
+
+[ 2017-04-16T23:44:57+08:00 ] ::1 /travelWeb/index.php/Home/Index/searchTips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `tips` WHERE `tips_title` LIKE '%哈哈%'  [ RunTime:0.0000s ]
+
+[ 2017-04-16T23:45:47+08:00 ] ::1 /travelWeb/index.php/Home/Index/searchTips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `tips` WHERE `tips_title` LIKE '%哈哈%'  [ RunTime:0.0000s ]
+
+[ 2017-04-16T23:46:41+08:00 ] ::1 /travelWeb/index.php/Home/Index/searchTips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tips` WHERE `tips_title` LIKE '%dad%'  [ RunTime:0.0000s ]
+
+[ 2017-04-16T23:47:48+08:00 ] ::1 /travelWeb/index.php/Home/Index/searchTips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tips` WHERE `tips_title` LIKE '%哈哈%'  [ RunTime:0.0000s ]
+
+[ 2017-04-16T23:47:53+08:00 ] ::1 /travelWeb/index.php/Home/Index/searchViews
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sights` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sights` WHERE `sights_name` LIKE '%哈哈%'  [ RunTime:0.0000s ]
+
+[ 2017-04-16T23:48:23+08:00 ] ::1 /travelWeb/index.php/Home/Index/searchViews
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sights` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `sights` WHERE `sights_name` LIKE '%哈哈%'  [ RunTime:0.0000s ]
+
+[ 2017-04-16T23:48:27+08:00 ] ::1 /travelWeb/index.php/Home/Index/searchTips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tips` WHERE `tips_title` LIKE '%哈哈%'  [ RunTime:0.0000s ]
+
+[ 2017-04-16T23:48:52+08:00 ] ::1 /travelWeb/index.php/Home/Index/searchViews
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sights` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `sights` WHERE `sights_name` LIKE '%哈哈%'  [ RunTime:0.0000s ]
+
+[ 2017-04-16T23:48:55+08:00 ] ::1 /travelWeb/index.php/Home/Index/searchTips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tips` WHERE `tips_title` LIKE '%哈哈%'  [ RunTime:0.0000s ]
+
+[ 2017-04-16T23:49:03+08:00 ] ::1 /travelWeb/index.php/Home/Index/searchTips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `tips` WHERE `tips_title` LIKE '%清明%'  [ RunTime:0.0000s ]
+
+[ 2017-04-16T23:51:07+08:00 ] ::1 /travelWeb/index.php/Home/Index/searchTips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tips` WHERE `tips_title` LIKE '%哈哈%'  [ RunTime:0.0000s ]
+
+[ 2017-04-16T23:51:11+08:00 ] ::1 /travelWeb/index.php/Home/Index/searchTips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tips` WHERE `tips_title` LIKE '%清明%'  [ RunTime:0.0000s ]
+
+[ 2017-04-16T23:51:17+08:00 ] ::1 /travelWeb/index.php/Home/Index/searchTips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `tips` WHERE `tips_title` LIKE '%手机%'  [ RunTime:0.0000s ]
+

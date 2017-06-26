@@ -1,0 +1,7 @@
+[ 2017-04-19T08:26:31+08:00 ] ::1 /travelWeb/index.php/Admin/Index/addView
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sights` [ RunTime:0.0030s ]
+SQL: INSERT INTO `sights` (`sights_name`,`city`,`address`,`ticket`,`intro`) VALUES ('仙女湖','新余市','江西省新余市西南郊16公里处','160元','<p>仙女湖风景名胜区是国家重点风景名胜区，位于江西省西部的新余市，因东晋文学家干宝的《搜神记》中“毛衣女”下凡豫章新喻县的神话传说而得名。仙女湖地处江西省“三清山—龙虎山—南昌—仙女湖—萍乡”和“庐山—鄱阳湖—南昌—仙女湖—井冈山—赣州”两条旅游线路的交汇点，区位条件优越。</p><p>仙女湖风景名胜区分为舞龙湖景区、钟山峡景区、钤阳湖景区、大岗山景区、九龙湾景区五个部分。这里人文荟萃，有古溶洞、古建筑、水下古城、古墓、石刻、古代名著、革命历史遗址、渔家风情等人文景观。《天仙配》有文字记载的最早神话传说、江西第一个状元卢肇、明朝权相严嵩、古代科技巨著《天工开物》、现代国画大师傅抱石等就诞生在这里；这里气候宜人，仙女湖是典型的亚热带气候，四季分明，日照充足，雨量充沛，无霜期长，年平均气温 17 ℃左右。这里风光秀美，仙女湖最大的特点是：青山绿水、山水相映、水天一色。有植物230科、 3000多种，其中名贵树种200多种，森林覆盖率达95%以上。水质达地表水二级标准，能见度达2米以上，良好的生态环境滋养了众多的动物，有鹿、狐、猴等兽类动物37种，鹰、隼、雁、白鹭、斑鸠等鸟类动物39种。每到清晨与傍晚，都能见到湖光山色之间百鸟翔集的美景，是人、动物和大自然和谐共处的天堂。</p><p style=\"text-align: center;\"><img src=\"https://gss0.baidu.com/6b1IcTe9R1gBo1vgoIiO_jowehsv/maps/services/thumbnails?width=525&height=295&quality=100&align=middle,middle&src=http://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/lvpics/pic/item/54fbb2fb43166d22eea3b546442309f79152d208.jpg\" alt=\"仙女湖图片\"/></p>') [ RunTime:0.0010s ]
+

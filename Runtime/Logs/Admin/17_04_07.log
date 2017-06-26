@@ -1,0 +1,830 @@
+[ 2017-04-07T08:57:00+08:00 ] ::1 /travelWeb/index.php/Admin/Index/addtip
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0000s ]
+SQL: INSERT INTO `tips` (`tips_title`,`tags`,`tips_content`,`tips_author`,`tips_time`) VALUES ('手机轻旅拍：手机旅拍3招实战技巧','摄影，技巧','<p style=\"text-align: left;\"><span style=\"font-size: 14px;\"><span style=\"color: rgb(153, 153, 153); font-family: &quot;Microsoft YaHei&quot;; font-size: 14px; letter-spacing: 2px; background-color: rgb(245, 245, 245);\">举起手机拍摄是一件再简单不过的事情，可是我们依然会听到这样的惊叹：“这怎么可能是用手机拍摄出来的？”选取场景，按下快门，进行后期，在旅行中用手机拍摄看似简单，但其中包含了不少小技巧。灵活运用这些技巧，就会让你握于掌间的方寸屏幕焕发出不一样的生机来。</span></span></p><p style=\"text-align: left;\"><span style=\"font-size: 14px;\"><br/></span></p><p style=\"text-align: left;\"><span style=\"font-size: 14px;\"></span></p><h3 style=\"box-sizing: border-box; font-weight: 400; font-size: 16px; margin: 0px 0px 10px; font-family: &quot;Microsoft YaHei&quot;; color: rgb(128, 128, 128); white-space: normal; background-color: rgb(255, 255, 255);\"><span style=\"box-sizing: border-box; color: rgb(0, 0, 0);\"><strong style=\"box-sizing: border-box;\"><span style=\"box-sizing: border-box; color: rgb(255, 0, 0);\">参数</span>&nbsp;灵活控制拍摄参数</strong></span></h3><p style=\"box-sizing: border-box; margin-top: 0px; margin-bottom: 1em; color: rgb(128, 128, 128); font-family: &quot;Microsoft YaHei&quot;; font-size: 14px; white-space: normal; background-color: rgb(255, 255, 255);\"><strong style=\"box-sizing: border-box;\">在暗光、弱光的光线条件下，ISO应设置为能保持你手持的安全快门速度的最低限度。</strong></p><p style=\"box-sizing: border-box; margin-top: 0px; margin-bottom: 1em; color: rgb(128, 128, 128); font-family: &quot;Microsoft YaHei&quot;; font-size: 14px; white-space: normal; background-color: rgb(255, 255, 255);\">一般情况下，我不会特别关注手机摄影的曝光参数，拍摄时基本上是根据想要的画面选择不同的曝光来测定对象的。因为人物拍摄得比较多，所以大多数情况下，我都是对人物的脸部进行测光，以保证最重要的部分曝光准确。同时，手机镜头的光圈都是固定的，只能靠快门来平衡曝光，所以拍摄者自己调整曝光参数的空间可以说是很小的。</p><p style=\"box-sizing: border-box; margin-top: 0px; margin-bottom: 1em; color: rgb(128, 128, 128); font-family: &quot;Microsoft YaHei&quot;; font-size: 14px; white-space: normal; background-color: rgb(255, 255, 255);\">手机摄影在高感方面毋庸置疑是个短板，如果使用高的ISO，照片的品质必定会很差。所以说，实际上暗光摄影是手机摄影势必无法胜任的，已经完全超出了它的能力范围。我所使用的苹果手机系统自带相机好像没有调整ISO或是快门这样的选项，不过听说在有些手机摄影APP中，可以单独选择ISO或快门进行调整。一般情况下，当我需要去考虑在ISO和快门之间如何平衡时，都是在光线很暗的情况下，这时如果拍摄静止对象，可以选择低ISO，以及慢速快门，不过前提是必须要用三脚架。如果是拍摄动态的对象，那么就要考虑快门速度是否能够凝固住那一瞬间。选择高ISO确实能够提高快门速度，但是当ISO高到一定程度时，图片质量就会大幅下降。所以在暗光以及弱光的光线条件下，为了得到尽可能好的成像效果，ISO应设置为能保持你手持的安全快门速度的最低限度。</p><p style=\"text-align: center;\"><img src=\"/travelWeb/Public/upload/image/20170407/1491526215100608.jpg\" alt=\" 瓦拉纳希是印度教的圣地，每天都有成千上万的教徒来到这里的恒河边沐浴祈福，因此这里也是游客聚集最多的地方\"/></p><p><span style=\"background-color: rgb(51, 51, 51); color: rgb(247, 247, 247); font-family: &quot;Microsoft YaHei&quot;; font-size: 14px; letter-spacing: 1px;\">瓦拉纳希是印度教的圣地，每天都有成千上万的教徒来到这里的恒河边沐浴祈福，因此这里也是游客聚集最多的地方</span></p><p><span style=\"background-color: rgb(51, 51, 51); color: rgb(247, 247, 247); font-family: &quot;Microsoft YaHei&quot;; font-size: 14px; letter-spacing: 1px;\"><br/></span></p><p><br/></p><h3 style=\"box-sizing: border-box; font-weight: 400; font-size: 16px; margin: 0px 0px 10px; font-family: &quot;Microsoft YaHei&quot;; color: rgb(128, 128, 128); white-space: normal; background-color: rgb(255, 255, 255);\"><span style=\"box-sizing: border-box; color: rgb(0, 0, 0);\"><strong style=\"box-sizing: border-box;\"><span style=\"box-sizing: border-box; color: rgb(255, 0, 0);\">抓拍</span>&nbsp;抓拍与沟通生动人物状态</strong></span></h3><p style=\"box-sizing: border-box; margin-top: 0px; margin-bottom: 1em; color: rgb(128, 128, 128); font-family: &quot;Microsoft YaHei&quot;; font-size: 14px; white-space: normal; background-color: rgb(255, 255, 255);\"><strong style=\"box-sizing: border-box;\">如果在拍摄中碰到了干扰主体的背景时，我们可以通过变换机位尽量来避免，同时也可以再靠近主体，让其在画面中占更大的比例。</strong></p><p style=\"box-sizing: border-box; margin-top: 0px; margin-bottom: 1em; color: rgb(128, 128, 128); font-family: &quot;Microsoft YaHei&quot;; font-size: 14px; white-space: normal; background-color: rgb(255, 255, 255);\">谈到如何拍摄儿童，儿童的天性是活泼而且爱动的，特别是在你要拍摄他们时更是如此，这势必会给手机拍摄带来一定的困难，因为手机的对焦和快门响应速度较慢，往往等你按下快门，好的瞬间已经过去。不过我们如果选择使用高速连拍的方式来拍摄，就可以很好地解决这个问题。</p><p style=\"box-sizing: border-box; margin-top: 0px; margin-bottom: 1em; color: rgb(128, 128, 128); font-family: &quot;Microsoft YaHei&quot;; font-size: 14px; white-space: normal; background-color: rgb(255, 255, 255);\">相对于儿童来说，老人行动就会比较迟缓，拍摄时容易得多，而且也易于沟通。拍摄老人时，抓取他们的表情神态是重点，如果能很好地拍摄下来那些岁月留下的痕迹，会使你的照片更加生动且具有感染力。</p><p style=\"box-sizing: border-box; margin-top: 0px; margin-bottom: 1em; color: rgb(128, 128, 128); font-family: &quot;Microsoft YaHei&quot;; font-size: 14px; white-space: normal; background-color: rgb(255, 255, 255);\">妇女的拍摄则相对要困难一些，因为许多女性容易害羞，一看你在拍摄她们，就会笑着跑开，或者左右躲闪，有些更是会直接拒绝，对于拒绝拍摄的女性绝对不能强行拍摄。所以在拍摄之前要做一些沟通。不过有时沟通过后，她们的表情会不太自然，那么这时偷拍也是一种不错的选择。</p><p style=\"box-sizing: border-box; margin-top: 0px; margin-bottom: 1em; color: rgb(128, 128, 128); font-family: &quot;Microsoft YaHei&quot;; font-size: 14px; white-space: normal; background-color: rgb(255, 255, 255);\">被摄主体的背景我们是无法选择的，有时它能够突出主体，有时也会让被摄对象淹没其中。如果碰到干扰主体的背景时，我们可以通过变换机位尽量来避免，也可以再靠近主体，让其在画面中占更大的比例。背景和被摄体有内在联系的，就要在构图上下功夫，要能体现两者之间关系，主次分明，更好的交代画面故事。</p><p><img class=\"size-full wp-image-439175\" alt=\"印度教徒有在恒河里沐浴祈福的习俗。照片里的老人沐浴完后在更衣，天很冷，但是依然精神矍铄\" src=\"/travelWeb/Public/upload/image/20170407/1491526289219720.jpg\" width=\"750\" height=\"563\"/></p><p class=\"wp-caption-text\" style=\"box-sizing: border-box; margin-top: 0px; margin-bottom: 0px; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial; padding: 5px 10px 8px; text-align: center; color: rgb(247, 247, 247); letter-spacing: 1px;\"><span style=\"color: rgb(247, 247, 247); font-family: &quot;Microsoft YaHei&quot;; font-size: 14px; letter-spacing: 1px; text-align: center; background-color: rgb(51, 51, 51);\">印度教徒有在恒河里沐浴祈福的习俗。照片里的老人沐浴完后在更衣，天很冷，但是依然精神矍铄</span><span style=\"background-color: rgb(51, 51, 51); color: rgb(247, 247, 247); font-family: &quot;Microsoft YaHei&quot;; font-size: 14px; letter-spacing: 1px;\"><br/></span></p><p class=\"wp-caption-text\" style=\"box-sizing: border-box; margin-top: 0px; margin-bottom: 0px; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial; padding: 5px 10px 8px; color: rgb(247, 247, 247); letter-spacing: 1px;\"><span style=\"color: rgb(247, 247, 247); font-family: &quot;Microsoft YaHei&quot;; font-size: 14px; letter-spacing: 1px; text-align: center; background-color: rgb(51, 51, 51);\"><br/></span></p><h3 style=\"box-sizing: border-box; font-weight: 400; font-size: 16px; margin: 0px 0px 10px; font-family: &quot;Microsoft YaHei&quot;; color: rgb(128, 128, 128); white-space: normal; background-color: rgb(255, 255, 255);\"><span style=\"box-sizing: border-box; color: rgb(0, 0, 0);\"><strong style=\"box-sizing: border-box;\"><span style=\"box-sizing: border-box; color: rgb(255, 0, 0);\">光线</span>&nbsp;巧用光线 捕捉最佳瞬间</strong></span></h3><p style=\"box-sizing: border-box; margin-top: 0px; margin-bottom: 1em; color: rgb(128, 128, 128); font-family: &quot;Microsoft YaHei&quot;; font-size: 14px; white-space: normal; background-color: rgb(255, 255, 255);\"><strong style=\"box-sizing: border-box;\">我们可以通过光线勾勒主体，渲染氛围。手机摄影的用光也要遵循摄影的一般美学规律。</strong></p><p style=\"box-sizing: border-box; margin-top: 0px; margin-bottom: 1em; color: rgb(128, 128, 128); font-family: &quot;Microsoft YaHei&quot;; font-size: 14px; white-space: normal; background-color: rgb(255, 255, 255);\">好瞬间的出现并不一定有什么特定时间，所谓“对的时间”，实际上还要看你想拍摄什么样的画面，同时你还要在“对的地方”。我觉得选择“对的地方”有时甚至比选择“对的时间”还重要。如果找错地方，即使整天待在那里，也没有办法拍摄到好的照片，反之，则要容易得多。所以根据自己想拍的内容，寻找合适的地方，再寻找最佳的时间点。一般我喜欢在早晚时间段拍摄，因为这时的光线最漂亮，天空和地面的反差也不是很大。陷阱式拍摄，是我经常选择的一种方式。选择一个光线好的地方，等待合适的被摄者。这样做的缺点，就是有点被动，有时往往会一无所获。不过如果拍到了，画面会很漂亮。</p><p style=\"box-sizing: border-box; margin-top: 0px; margin-bottom: 1em; color: rgb(128, 128, 128); font-family: &quot;Microsoft YaHei&quot;; font-size: 14px; white-space: normal; background-color: rgb(255, 255, 255);\">摄影中我们可以通过光线勾勒主体，渲染氛围。手机摄影的用光，与相机没有什么不同，都要遵循摄影的一般美学规律。侧光、逆光都是人们经常使用的用光方式，在实际拍摄中，能够很好的突出人物，让画面主次分明。但是逆光对焦是不太容易的一件事情，即使相机也同样如此。解决办法是，预先选择一个距离和亮度都相近的物体，对准聚焦，并锁定，然后就可以对准真正要拍摄对像重新构图拍摄，不用再担心无法对焦了。而且保持锁定可以连续拍摄，除非拍摄条件发生变化。</p><p><img class=\"size-full wp-image-439173\" alt=\"瓦拉纳希的恒河边，人们除了在这里进行宗教活动外，还可以洗衣晒被 \" src=\"/travelWeb/Public/upload/image/20170407/1491526429977682.jpg\" width=\"750\" height=\"563\"/></p><p class=\"wp-caption-text\" style=\"box-sizing: border-box; margin-top: 0px; margin-bottom: 0px; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial; padding: 5px 10px 8px; text-align: center; color: rgb(247, 247, 247); letter-spacing: 1px;\"><span style=\"color: rgb(247, 247, 247); font-family: &quot;Microsoft YaHei&quot;; font-size: 14px; letter-spacing: 1px; text-align: center; background-color: rgb(51, 51, 51);\">瓦拉纳希的恒河边，人们除了在这里进行宗教活动外，还可以洗衣晒被</span></p><p class=\"wp-caption-text\" style=\"box-sizing: border-box; margin-top: 0px; margin-bottom: 0px; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial; padding: 5px 10px 8px; color: rgb(247, 247, 247); letter-spacing: 1px;\"><br/></p><h3 style=\"box-sizing: border-box; font-weight: 400; font-size: 16px; margin: 0px 0px 10px; font-family: &quot;Microsoft YaHei&quot;; color: rgb(128, 128, 128); white-space: normal; background-color: rgb(255, 255, 255);\"><span style=\"box-sizing: border-box; color: rgb(255, 0, 0);\"><strong style=\"box-sizing: border-box;\">手机摄影是否存在机位秘诀</strong></span></h3><p style=\"box-sizing: border-box; margin-top: 0px; margin-bottom: 1em; color: rgb(128, 128, 128); font-family: &quot;Microsoft YaHei&quot;; font-size: 14px; white-space: normal; background-color: rgb(255, 255, 255);\"><span style=\"box-sizing: border-box; color: rgb(0, 0, 0);\"><strong style=\"box-sizing: border-box;\">拍摄儿童</strong></span></p><p style=\"box-sizing: border-box; margin-top: 0px; margin-bottom: 1em; color: rgb(128, 128, 128); font-family: &quot;Microsoft YaHei&quot;; font-size: 14px; white-space: normal; background-color: rgb(255, 255, 255);\">儿童的天性活泼爱动，特别是在你要拍摄他们时更是如此，这会给手机拍摄带来一定的困难，因为手机的对焦和快门响应速度较慢，往往等你按下快门，好的瞬间已经过去。不过我们使用连拍的方式来拍摄，可以很好地解决这个问题。</p><p style=\"box-sizing: border-box; margin-top: 0px; margin-bottom: 1em; color: rgb(128, 128, 128); font-family: &quot;Microsoft YaHei&quot;; font-size: 14px; white-space: normal; background-color: rgb(255, 255, 255);\"><span style=\"box-sizing: border-box; color: rgb(0, 0, 0);\"><strong style=\"box-sizing: border-box;\">拍摄老人</strong></span></p><p style=\"box-sizing: border-box; margin-top: 0px; margin-bottom: 1em; color: rgb(128, 128, 128); font-family: &quot;Microsoft YaHei&quot;; font-size: 14px; white-space: normal; background-color: rgb(255, 255, 255);\">老人行动迟缓，拍摄时相对容易，而且也易于沟通。抓取他们的表情神态是重点，拍摄那些岁月留下的痕迹，会使你的照片更具有感染力。</p><p style=\"box-sizing: border-box; margin-top: 0px; margin-bottom: 1em; color: rgb(128, 128, 128); font-family: &quot;Microsoft YaHei&quot;; font-size: 14px; white-space: normal; background-color: rgb(255, 255, 255);\"><span style=\"box-sizing: border-box; color: rgb(0, 0, 0);\"><strong style=\"box-sizing: border-box;\">拍摄妇女</strong></span></p><p style=\"box-sizing: border-box; margin-top: 0px; margin-bottom: 1em; color: rgb(128, 128, 128); font-family: &quot;Microsoft YaHei&quot;; font-size: 14px; white-space: normal; background-color: rgb(255, 255, 255);\">妇女的拍摄相对要困难一些，因为许多人会容易害羞，一看你拍摄，就会笑着跑开，或者左右躲闪，有些就是直接拒绝，对于拒绝的就不能强行拍摄。所以在拍摄之前要做一些沟通。不过有时沟通过后，她们的表情会不太自然，那么偷拍也是一种不错的选择。</p><p style=\"box-sizing: border-box; margin-top: 0px; margin-bottom: 1em; color: rgb(128, 128, 128); font-family: &quot;Microsoft YaHei&quot;; font-size: 14px; white-space: normal; background-color: rgb(255, 255, 255);\"><span style=\"box-sizing: border-box; color: rgb(0, 0, 0);\"><strong style=\"box-sizing: border-box;\">拍摄总结</strong></span></p><p style=\"box-sizing: border-box; margin-top: 0px; margin-bottom: 1em; color: rgb(128, 128, 128); font-family: &quot;Microsoft YaHei&quot;; font-size: 14px; white-space: normal; background-color: rgb(255, 255, 255);\">被摄主体的背景我们是无法选择的，有时它能够突出主体，有时也会让被摄对象淹没其中。如果碰到干扰主体的背景时，我们可以通过变换机位尽量来避免，也可以再靠近主体，让其在画面中占更大的比例。</p><p style=\"box-sizing: border-box; margin-top: 0px; margin-bottom: 1em; color: rgb(128, 128, 128); font-family: &quot;Microsoft YaHei&quot;; font-size: 14px; white-space: normal; background-color: rgb(255, 255, 255);\"><br/></p><p style=\"box-sizing: border-box; margin-top: 0px; margin-bottom: 1em; color: rgb(128, 128, 128); font-family: &quot;Microsoft YaHei&quot;; font-size: 14px; white-space: normal; background-color: rgb(255, 255, 255);\"><a href=\"http://fotomen.cn/2016/08/2011/\" target=\"_self\" title=\"手机轻旅拍 手机旅拍3招实战技巧\" style=\"letter-spacing: 1px; font-family: sans-serif;\">文章来自：http://fotomen.cn/2016/08/2011/</a></p>','admin','2017-04-07 08:56:59') [ RunTime:0.7586s ]
+
+[ 2017-04-07T10:39:43+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchTips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `tips` WHERE `tips_title` LIKE '13'  [ RunTime:0.0156s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-07T10:39:45+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchTips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tips` WHERE `tips_title` LIKE '13'  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-07T10:39:46+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchTips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tips` WHERE `tips_title` LIKE '13'  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-07T10:39:46+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchTips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tips` WHERE `tips_title` LIKE '13'  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-07T10:39:47+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchTips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tips` WHERE `tips_title` LIKE '13'  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-07T10:39:47+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchTips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tips` WHERE `tips_title` LIKE '13'  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-07T10:40:05+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchTips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tips` WHERE `tips_title` LIKE '13'  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-07T10:40:06+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchTips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tips` WHERE `tips_title` LIKE '13'  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-07T10:40:06+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchTips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tips` WHERE `tips_title` LIKE '13'  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-07T10:40:45+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchTips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `tips` WHERE `tips_title` LIKE '12'  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-07T10:40:47+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchTips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tips` WHERE `tips_title` LIKE '12'  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-07T10:40:47+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchTips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tips` WHERE `tips_title` LIKE '12'  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-07T10:40:47+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchTips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tips` WHERE `tips_title` LIKE '12'  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-07T10:40:47+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchTips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `tips` WHERE `tips_title` LIKE '12'  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-07T10:40:50+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchTips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tips` WHERE `tips_title` LIKE '12'  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-07T10:43:00+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchTips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tips` WHERE `tips_title` LIKE '12'  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-07T10:43:00+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchTips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tips` WHERE `tips_title` LIKE '12'  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-07T10:48:07+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchTips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `tips` WHERE `tips_title` LIKE 'asa'  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-07T10:48:17+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchTips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `tips` WHERE `tips_title` LIKE '123'  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-07T10:55:01+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchTips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `tips` WHERE `tips_title` LIKE '123'  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-07T10:56:36+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchTips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tips` WHERE `tips_title` LIKE '1213'  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-07T10:57:36+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchTips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tips` WHERE `tips_title` LIKE '123'  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-07T10:57:50+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchTips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `tips` WHERE `tips_title` LIKE '123'  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-07T11:03:04+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchTips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `tips` WHERE `tips_title` LIKE '123'  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-07T11:03:42+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchTips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tips` WHERE `tips_title` LIKE '123'  [ RunTime:0.0000s ]
+
+[ 2017-04-07T11:05:20+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchTips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `tips` WHERE `tips_title` LIKE '123'  [ RunTime:0.0000s ]
+
+[ 2017-04-07T11:05:41+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchTips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `tips` WHERE `tips_title` LIKE '123'  [ RunTime:0.0000s ]
+
+[ 2017-04-07T11:06:11+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchTips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `tips` WHERE `tips_title` LIKE 'asa'  [ RunTime:0.0000s ]
+
+[ 2017-04-07T11:06:39+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchTips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `tips` WHERE `tips_title` LIKE 'sas'  [ RunTime:0.0010s ]
+
+[ 2017-04-07T11:07:16+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchTips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-04-07T11:07:51+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchTips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-07T11:08:24+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchTips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tips` WHERE `tips_title` LIKE 'dasd'  [ RunTime:0.0000s ]
+
+[ 2017-04-07T11:08:37+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchTips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016600s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `tips` WHERE `tips_title` LIKE '123'  [ RunTime:0.0000s ]
+
+[ 2017-04-07T16:08:11+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchTips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `tips` WHERE `tips_title` LIKE '123'  [ RunTime:0.0010s ]
+
+[ 2017-04-07T16:12:08+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchTips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `tips` WHERE `tips_title` LIKE '清明'  [ RunTime:0.0010s ]
+
+[ 2017-04-07T16:18:01+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchTips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `tips` WHERE `tips_title` LIKE '清明'  [ RunTime:0.0010s ]
+
+[ 2017-04-07T16:18:11+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchTips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `tips` WHERE `tips_title` LIKE '123'  [ RunTime:0.0010s ]
+
+[ 2017-04-07T16:18:12+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchTips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `tips` WHERE `tips_title` LIKE '123'  [ RunTime:0.0010s ]
+
+[ 2017-04-07T16:18:13+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchTips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `tips` WHERE `tips_title` LIKE '123'  [ RunTime:0.0010s ]
+
+[ 2017-04-07T16:18:13+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchTips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tips` WHERE `tips_title` LIKE '123'  [ RunTime:0.0010s ]
+
+[ 2017-04-07T16:18:14+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchTips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `tips` WHERE `tips_title` LIKE '123'  [ RunTime:0.0000s ]
+
+[ 2017-04-07T16:23:32+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchTips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tips` WHERE `tips_title` LIKE '123'  [ RunTime:0.0000s ]
+
+[ 2017-04-07T16:24:33+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchTips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tips` WHERE `tips_title` LIKE '123'  [ RunTime:0.0025s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-07T16:24:59+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchTips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tips` WHERE `tips_title` LIKE '123'  [ RunTime:0.0025s ]
+
+[ 2017-04-07T16:54:04+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchTips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tips` WHERE `tips_title` LIKE '%123%'  [ RunTime:0.0000s ]
+
+[ 2017-04-07T16:54:42+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchTips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `tips` WHERE `tips_title` LIKE '%123%'  [ RunTime:0.0010s ]
+
+[ 2017-04-07T16:54:52+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchTips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `tips` WHERE `tips_title` LIKE '%123%'  [ RunTime:0.0000s ]
+
+[ 2017-04-07T16:55:00+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchTips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tips` WHERE `tips_title` LIKE '%清明%'  [ RunTime:0.0000s ]
+
+[ 2017-04-07T17:27:38+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchTips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `tips` WHERE `tips_title` LIKE '%123%'  [ RunTime:0.0010s ]
+
+[ 2017-04-07T17:30:09+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchTips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tips` WHERE `tips_title` LIKE '%123%'  [ RunTime:0.0000s ]
+ERR: 模板不存在:D:/wamp/www/travelWeb/Admin/View/Index/searchTips.html
+
+[ 2017-04-07T17:30:10+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchTips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `tips` WHERE `tips_title` LIKE '%123%'  [ RunTime:0.0010s ]
+ERR: 模板不存在:D:/wamp/www/travelWeb/Admin/View/Index/searchTips.html
+
+[ 2017-04-07T17:30:29+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchTips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `tips` WHERE `tips_title` LIKE '%123%'  [ RunTime:0.0000s ]
+
+[ 2017-04-07T17:30:35+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchTips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `tips` WHERE `tips_title` LIKE '%清明%'  [ RunTime:0.0010s ]
+
+[ 2017-04-07T17:30:53+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchTips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `tips` WHERE `tips_title` LIKE '%123%'  [ RunTime:0.0010s ]
+ERR: 模板不存在:D:/wamp/www/travelWeb/Admin/View/Index/searchTips.html
+
+[ 2017-04-07T17:53:07+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchTips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.1248s ]
+SQL: SELECT * FROM `tips` WHERE `tips_title` LIKE '%123%'  [ RunTime:0.0000s ]
+
+[ 2017-04-07T18:11:47+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchTips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tips` WHERE `tips_title` LIKE '%123%'  [ RunTime:0.0000s ]
+
+[ 2017-04-07T18:12:33+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchTips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tips` WHERE `tips_title` LIKE '%123%'  [ RunTime:0.0000s ]
+
+[ 2017-04-07T18:14:02+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchTips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `tips` WHERE `tips_title` LIKE '%123%'  [ RunTime:0.0000s ]
+
+[ 2017-04-07T18:18:00+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchTips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tips` WHERE `tips_title` LIKE '%123%'  [ RunTime:0.0000s ]
+
+[ 2017-04-07T18:20:42+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchTips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `tips` WHERE `tips_title` LIKE '%123%'  [ RunTime:0.0010s ]
+
+[ 2017-04-07T18:20:50+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchTips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `tips` WHERE `tips_title` LIKE '%清明%'  [ RunTime:0.0000s ]
+
+[ 2017-04-07T18:21:47+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchTips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tips` WHERE `tips_title` LIKE '%123%'  [ RunTime:0.0000s ]
+
+[ 2017-04-07T18:21:47+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchTips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tips` WHERE `tips_title` LIKE '%123%'  [ RunTime:0.0000s ]
+
+[ 2017-04-07T18:21:48+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchTips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tips` WHERE `tips_title` LIKE '%123%'  [ RunTime:0.0000s ]
+
+[ 2017-04-07T18:21:48+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchTips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `tips` WHERE `tips_title` LIKE '%123%'  [ RunTime:0.0010s ]
+
+[ 2017-04-07T18:27:01+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchTips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `tips` WHERE `tips_title` LIKE '%2%'  [ RunTime:0.0000s ]
+
+[ 2017-04-07T18:30:12+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchTips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `tips` WHERE `tips_title` LIKE '%123%'  [ RunTime:0.0010s ]
+
+[ 2017-04-07T18:30:20+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchTips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tips` WHERE `tips_title` LIKE '%清明%'  [ RunTime:0.0000s ]
+
+[ 2017-04-07T18:32:58+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchTips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tips` WHERE `tips_title` LIKE '%123%'  [ RunTime:0.0010s ]
+
+[ 2017-04-07T18:33:11+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchTips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `tips` WHERE `tips_title` LIKE '%123%'  [ RunTime:0.0000s ]
+
+[ 2017-04-07T18:33:45+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchTips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tips` WHERE `tips_title` LIKE '%123%'  [ RunTime:0.0000s ]
+
+[ 2017-04-07T18:34:08+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchTips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tips` WHERE `tips_title` LIKE '%123%'  [ RunTime:0.0000s ]
+
+[ 2017-04-07T18:34:31+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchTips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tips` WHERE `tips_title` LIKE '%123%'  [ RunTime:0.0000s ]
+
+[ 2017-04-07T18:35:05+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchTips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `tips` WHERE `tips_title` LIKE '%123%'  [ RunTime:0.0010s ]
+
+[ 2017-04-07T18:35:47+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchTips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `tips` WHERE `tips_title` LIKE '%123%'  [ RunTime:0.0000s ]
+
+[ 2017-04-07T18:36:11+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchTips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `tips` WHERE `tips_title` LIKE '%123%'  [ RunTime:0.0010s ]
+
+[ 2017-04-07T18:36:17+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchTips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `tips` WHERE `tips_title` LIKE '%手机%'  [ RunTime:0.0000s ]
+
+[ 2017-04-07T18:36:21+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchTips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `tips` WHERE `tips_title` LIKE '%dsada%'  [ RunTime:0.0000s ]
+
+[ 2017-04-07T18:38:34+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchTips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `tips` WHERE `tips_title` LIKE '%sasa%'  [ RunTime:0.0000s ]
+
+[ 2017-04-07T18:38:53+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchTips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `tips` WHERE `tips_title` LIKE '%dasda%'  [ RunTime:0.0000s ]
+
+[ 2017-04-07T18:39:38+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchTips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `tips` WHERE `tips_title` LIKE '%123%'  [ RunTime:0.0000s ]
+
+[ 2017-04-07T18:49:05+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchTips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tips` WHERE `tips_title` LIKE '%qing吗%'  [ RunTime:0.0000s ]
+
+[ 2017-04-07T18:49:13+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchTips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `tips` WHERE `tips_title` LIKE '%清明%'  [ RunTime:0.0000s ]
+
+[ 2017-04-07T18:50:27+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchTips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `tips` WHERE `tips_title` LIKE '%清明%'  [ RunTime:0.0000s ]
+
+[ 2017-04-07T18:59:03+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchTips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `tips` WHERE `tips_title` LIKE '%清明%'  [ RunTime:0.0000s ]
+
+[ 2017-04-07T19:00:03+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchTips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tips` WHERE `tips_title` LIKE '%123%'  [ RunTime:0.0000s ]
+
+[ 2017-04-07T19:00:08+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchTips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tips` WHERE `tips_title` LIKE '%清明%'  [ RunTime:0.0000s ]
+
+[ 2017-04-07T19:13:44+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchTips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tips` WHERE `tips_title` LIKE '%123%'  [ RunTime:0.0000s ]
+
+[ 2017-04-07T19:15:50+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchTips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tips` WHERE `tips_title` LIKE '%清明%'  [ RunTime:0.0000s ]
+
+[ 2017-04-07T19:15:51+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchTips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tips` WHERE `tips_title` LIKE '%清明%'  [ RunTime:0.0000s ]
+
+[ 2017-04-07T19:15:56+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchTips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `tips` WHERE `tips_title` LIKE '%清明%'  [ RunTime:0.0000s ]
+
+[ 2017-04-07T19:16:02+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchTips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `tips` WHERE `tips_title` LIKE '%123%'  [ RunTime:0.0000s ]
+
+[ 2017-04-07T19:16:32+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchTips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `tips` WHERE `tips_title` LIKE '%123%'  [ RunTime:0.0000s ]
+
+[ 2017-04-07T19:17:42+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchTips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tips` WHERE `tips_title` LIKE '%123%'  [ RunTime:0.0000s ]
+
+[ 2017-04-07T19:17:56+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchTips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `tips` WHERE `tips_title` LIKE '%123%'  [ RunTime:0.0000s ]
+
+[ 2017-04-07T19:18:07+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchTips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `tips` WHERE `tips_title` LIKE '%123%'  [ RunTime:0.0010s ]
+
+[ 2017-04-07T19:18:45+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchTips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `tips` WHERE `tips_title` LIKE '%123%'  [ RunTime:0.0010s ]
+
+[ 2017-04-07T19:24:36+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchTips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `tips` WHERE `tips_title` LIKE '%123%'  [ RunTime:0.0000s ]
+
+[ 2017-04-07T19:24:50+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchTips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tips` WHERE `tips_title` LIKE '%123%'  [ RunTime:0.0000s ]
+
+[ 2017-04-07T19:28:12+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchTips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `tips` WHERE `tips_title` LIKE '%123%'  [ RunTime:0.0000s ]
+
+[ 2017-04-07T19:28:19+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchTips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `tips` WHERE `tips_title` LIKE '%清明%'  [ RunTime:0.0000s ]
+
+[ 2017-04-07T19:28:34+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchTips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `tips` WHERE `tips_title` LIKE '%123%'  [ RunTime:0.0000s ]
+
+[ 2017-04-07T19:28:40+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchTips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `tips` WHERE `tips_title` LIKE '%清明%'  [ RunTime:0.0010s ]
+
+[ 2017-04-07T19:29:23+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchTips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `tips` WHERE `tips_title` LIKE '%123%'  [ RunTime:0.0000s ]
+
+[ 2017-04-07T19:29:30+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchTips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016600s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tips` WHERE `tips_title` LIKE '%清明%'  [ RunTime:0.0156s ]
+
+[ 2017-04-07T19:29:45+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchTips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tips` WHERE `tips_title` LIKE '%手机%'  [ RunTime:0.0780s ]
+
+[ 2017-04-07T19:30:23+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchTips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `tips` WHERE `tips_title` LIKE '%sas%'  [ RunTime:0.0000s ]
+

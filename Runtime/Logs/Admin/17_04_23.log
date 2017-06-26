@@ -1,0 +1,763 @@
+[ 2017-04-23T09:25:07+08:00 ] ::1 /travelWeb/index.php/Admin/Index/addNew
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0156s ]
+SQL: INSERT INTO `news` (`news_title`,`news_content`,`news_time`) VALUES ('江西遂川荣获“中国美丽梯田之乡”称号','<p style=\"text-align:center\"><img src=\"/travelWeb/Public/upload/image/20170423/1492910443451962.jpg\"/></p><p style=\"margin-top: 0px; margin-bottom: 0px; padding: 0px; font-family: 宋体, sans-serif; font-size: 14px; white-space: normal; background-color: rgb(241, 244, 255);\"><span style=\"color: rgb(64, 64, 64); font-stretch: normal; font-size: 10.5pt; line-height: 32px; font-family: 宋体; widows: 1; background-color: rgb(255, 255, 255); text-indent: 36px;\">“中国十大最美梯田之乡”新闻发布会在遂川县大汾镇举行。（中国江西网供图）</span></p><p style=\"margin-top: 0px; margin-bottom: 0px; padding: 0px; font-family: 宋体, sans-serif; font-size: 14px; white-space: normal; background-color: rgb(241, 244, 255);\">&nbsp;</p><p style=\"margin-top: 0px; margin-bottom: 0px; padding: 0px; font-family: 宋体, sans-serif; font-size: 14px; white-space: normal; background-color: rgb(241, 244, 255);\"><span style=\"\">　　4月20日，“第三届全国融媒体看江西” 采访团最后一站来到遂川，上午，“中国十大最美梯田之乡”新闻发布会在遂川县大汾镇举行，遂川县高山梯田群落综合打分列首位，荣获“中国最美梯田之乡”称号。</span></p><p><span style=\"font-size:16px\"></span></p><p style=\"margin-top: 0px; margin-bottom: 0px; padding: 0px;\"><br/><span style=\"\">　　据了解，遂川县有十万亩高山梯田群落，品质超群，点多线长面广，变幻无穷，历史悠久。记者站在观景台处远眺，梯田千层万阶，形随山变，田中水映着天空，映着躬耕的农民和犁地的水牛，勾勒出一幅绝美的田园山水画卷。据讲解员介绍，梯田如今的耕种仍以最古朴的方式，牛拉犁、铲翻地、以泥巴筑田塍，处处是人与自然和谐相处的风景。</span></p><p style=\"margin-top: 0px; margin-bottom: 0px; padding: 0px;\"><br/><span style=\"\">　　遂川梯田主要分布在客家人居住的西部山区丘陵地带，唐宋以来，一代代的遂川客家人依山造田，耕读传家，逐步形成了独具特色的遂川客家文化。一壶狗牯脑茶，几碟客家小吃，一段舞龙戏狮，向世人传递着客家文明，更赋予高山梯田故事与生命。</span></p><p style=\"margin-top: 0px; margin-bottom: 0px; padding: 0px;\"><br/><span style=\"\">　　记者抵达桃源梯田景区观景台时，骤雨初霁，不远处的山间浮起层层薄雾，仿若置身仙境。</span></p><p style=\"margin-top: 0px; margin-bottom: 0px; padding: 0px;\"><br/><span style=\"\">　　据悉，遂川旅游资源丰富，近年来，遂川县大力实施“全景遂川，全域旅游”战略。今年更是举全县之力主抓梯田旅游集聚区建设，大力推进梯田旅游开发。</span></p><p style=\"margin-top: 0px; margin-bottom: 0px; padding: 0px;\"><br/><span style=\"\">　　遂川县长肖凌秋在新闻发布会上称，遂川从2014年桃源梯田被腾讯、环球等网友评选为“全球十大最美梯田”，到今年央视《新闻直播间》直播桃源梯田春耕美景，再到荣获“中国最美梯田之乡”这一殊荣，遂川高山梯田实现了精彩的“三连跳”。遂川将以此为契机大力发展生态乡村旅游，打响“中国最美梯田之乡”品牌，把旅游产业作为打赢遂川精准脱贫攻坚战的重要抓手。</span></p><p style=\"margin-top: 0px; margin-bottom: 0px; padding: 0px;\"><br/><span style=\"\">　　家住遂川县滁峰村的古先生今天似乎格外高兴，看到遂川县高山梯田群落荣获“中国美丽梯田之乡”称号，在与记者聊天过程中，他嘴角的笑意从未褪去，古先生告诉记者，他很愿意家乡可以发展旅游，这样，就可以促进经济发展，自己如今在外地工作，如果以后家乡发展起来，他很想回来，自己对家乡很熟悉，做导游也是好的。</span></p><p style=\"margin-top: 0px; margin-bottom: 0px; padding: 0px;\"><span style=\"font-family:宋体\"></span>&nbsp;</p><p style=\"text-align:center\"><span style=\"font-family:宋体\"><img src=\"/travelWeb/Public/upload/image/20170423/1492910445356518.jpg\"/></span></p><p style=\"margin-top: 0px; margin-bottom: 0px; padding: 0px; text-align: center;\"><span style=\"color: rgb(64, 64, 64); text-align: justify; font-stretch: normal; line-height: 32px; font-family: 宋体; widows: 1; background-color: rgb(255, 255, 255); text-indent: 36px; font-size: 14px;\">遂川县高山梯田群落综合打分列首位，荣获“中国最美梯田之乡”称号。</span></p><p style=\"margin-top: 0px; margin-bottom: 0px; padding: 0px;\"><span style=\"color: rgb(64, 64, 64); text-align: justify; font-stretch: normal; font-size: 18px; line-height: 32px; font-family: 楷体, 楷体_GB2312; widows: 1; background-color: rgb(255, 255, 255); text-indent: 36px;\"></span>&nbsp;</p><p style=\"text-align:center\"><span style=\"color: rgb(64, 64, 64); text-align: justify; font-stretch: normal; font-size: 18px; line-height: 32px; font-family: 楷体, 楷体_GB2312; widows: 1; background-color: rgb(255, 255, 255); text-indent: 36px;\"><img src=\"/travelWeb/Public/upload/image/20170423/1492910446866272.jpg\"/></span></p><p style=\"margin-top: 0px; margin-bottom: 0px; padding: 0px; text-align: center;\"><span style=\"color: rgb(64, 64, 64); text-align: justify; widows: 1; background-color: rgb(255, 255, 255); text-indent: 36px; font-stretch: normal; font-size: 10.5pt; line-height: 32px; font-family: 宋体;\">遂川县大汾米岭梯田风景区景观。</span></p><p style=\"margin-top: 0px; margin-bottom: 0px; padding: 0px;\"><span style=\"color: rgb(64, 64, 64); text-align: justify; font-size: 18px; font-family: 楷体, 楷体_GB2312; widows: 1; background-color: rgb(255, 255, 255); text-indent: 36px; font-stretch: normal; line-height: 32px;\"></span>&nbsp;</p><p style=\"text-align:center\"><span style=\"color: rgb(64, 64, 64); text-align: justify; font-size: 18px; font-family: 楷体, 楷体_GB2312; widows: 1; background-color: rgb(255, 255, 255); text-indent: 36px; font-stretch: normal; line-height: 32px;\"><img src=\"/travelWeb/Public/upload/image/20170423/1492910446111645.jpg\"/></span></p><p style=\"margin-top: 0px; margin-bottom: 0px; padding: 0px; text-align: center;\"><span style=\"color: rgb(64, 64, 64); text-align: justify; widows: 1; background-color: rgb(255, 255, 255); text-indent: 36px; font-stretch: normal; font-size: 10.5pt; line-height: 32px; font-family: 宋体;\">遂川县桃源梯田景色。</span></p><p style=\"margin-top: 0px; margin-bottom: 0px; padding: 0px;\"><span style=\"color: rgb(64, 64, 64); text-align: justify; font-size: 18px; font-family: 楷体, 楷体_GB2312; widows: 1; background-color: rgb(255, 255, 255); text-indent: 36px; font-stretch: normal; line-height: 32px;\"></span>&nbsp;</p><p style=\"margin-top: 0px; margin-bottom: 0px; padding: 0px; text-align: center;\"><span style=\"color: rgb(64, 64, 64); text-align: justify; font-size: 18px; font-family: 楷体, 楷体_GB2312; widows: 1; background-color: rgb(255, 255, 255); text-indent: 36px; font-stretch: normal; line-height: 32px;\"><img src=\"/travelWeb/Public/upload/image/20170423/1492910447550763.jpg\"/></span></p><p style=\"margin-top: 0px; margin-bottom: 0px; padding: 0px; text-align: center;\"><span style=\"color: rgb(64, 64, 64); text-align: justify; widows: 1; background-color: rgb(255, 255, 255); text-indent: 36px; font-stretch: normal; font-size: 10.5pt; line-height: 32px; font-family: 宋体;\">客家民宿。</span></p><p></p><p><br/></p>','2017-04-23 09:25:06') [ RunTime:0.4700s ]
+
+[ 2017-04-23T09:42:02+08:00 ] ::1 /travelWeb/index.php/Admin/Index/manageTips
+ERR: 1054:Unknown column 'posts_time' in 'order clause'
+ [ SQL语句 ] : SELECT * FROM `tips` ORDER BY posts_time desc 
+
+[ 2017-04-23T09:43:16+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchTips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tips` WHERE `tips_title` LIKE '%不%' ORDER BY tips_time desc  [ RunTime:0.0156s ]
+
+[ 2017-04-23T09:43:17+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchTips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tips` WHERE `tips_title` LIKE '%不%' ORDER BY tips_time desc  [ RunTime:0.0000s ]
+
+[ 2017-04-23T09:43:19+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchTips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tips` WHERE `tips_title` LIKE '%不%' ORDER BY tips_time desc  [ RunTime:0.0000s ]
+
+[ 2017-04-23T09:43:19+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchTips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `tips` WHERE `tips_title` LIKE '%不%' ORDER BY tips_time desc  [ RunTime:0.0000s ]
+
+[ 2017-04-23T09:43:19+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchTips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tips` WHERE `tips_title` LIKE '%不%' ORDER BY tips_time desc  [ RunTime:0.0000s ]
+
+[ 2017-04-23T09:43:20+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchTips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tips` WHERE `tips_title` LIKE '%不%' ORDER BY tips_time desc  [ RunTime:0.0000s ]
+
+[ 2017-04-23T09:43:21+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchTips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tips` WHERE `tips_title` LIKE '%不%' ORDER BY tips_time desc  [ RunTime:0.0000s ]
+
+[ 2017-04-23T09:43:21+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchTips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tips` WHERE `tips_title` LIKE '%不%' ORDER BY tips_time desc  [ RunTime:0.0000s ]
+
+[ 2017-04-23T09:44:02+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchViews
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sights` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `sights` WHERE `sights_name` LIKE '%武%' ORDER BY sights_id desc  [ RunTime:0.0000s ]
+
+[ 2017-04-23T09:49:36+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchViews
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sights` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `sights` WHERE `sights_name` LIKE '%仙女%' ORDER BY sights_id desc  [ RunTime:0.0000s ]
+
+[ 2017-04-23T09:49:37+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchViews
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sights` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sights` WHERE `sights_name` LIKE '%仙女%' ORDER BY sights_id desc  [ RunTime:0.0000s ]
+
+[ 2017-04-23T09:50:30+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchViews
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `sights` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `sights` WHERE `sights_name` LIKE '%仙女%' ORDER BY sights_id desc  [ RunTime:0.0000s ]
+
+[ 2017-04-23T09:50:41+08:00 ] ::1 /travelWeb/index.php/Admin/Index/returnView
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sights` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sights` WHERE `sights_id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-04-23T09:50:48+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchViews
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sights` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `sights` WHERE `sights_name` LIKE '%仙女%' ORDER BY sights_id desc  [ RunTime:0.0000s ]
+
+[ 2017-04-23T09:51:05+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchViews
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sights` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sights` WHERE `sights_name` LIKE '%仙女%' ORDER BY sights_id desc  [ RunTime:0.0000s ]
+
+[ 2017-04-23T09:53:08+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchViews
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sights` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sights` WHERE `sights_name` LIKE '%仙女%' ORDER BY sights_id desc  [ RunTime:0.0000s ]
+
+[ 2017-04-23T09:54:14+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchTips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `tips` WHERE `tips_title` LIKE '%不%' ORDER BY tips_time desc  [ RunTime:0.0000s ]
+
+[ 2017-04-23T09:54:42+08:00 ] ::1 /travelWeb/index.php/Admin/Index/delTip
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0000s ]
+SQL: DELETE FROM `tips` WHERE `tips_id` = 14 [ RunTime:0.1248s ]
+
+[ 2017-04-23T09:55:01+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchTips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tips` WHERE `tips_title` LIKE '%不%' ORDER BY tips_time desc  [ RunTime:0.0000s ]
+
+[ 2017-04-23T09:57:16+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchTips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tips` WHERE `tips_title` LIKE '%不%' ORDER BY tips_time desc  [ RunTime:0.0000s ]
+
+[ 2017-04-23T09:58:52+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchTips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tips` WHERE `tips_title` LIKE '%不%' ORDER BY tips_time desc  [ RunTime:0.0000s ]
+
+[ 2017-04-23T10:03:19+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchTips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tips` WHERE `tips_title` LIKE '%不%' ORDER BY tips_time desc  [ RunTime:0.0000s ]
+
+[ 2017-04-23T10:05:07+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchTips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tips` WHERE `tips_title` LIKE '%不%' ORDER BY tips_time desc  [ RunTime:0.0000s ]
+
+[ 2017-04-23T10:06:23+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchTips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tips` WHERE `tips_title` LIKE '%不%' ORDER BY tips_time desc  [ RunTime:0.0000s ]
+
+[ 2017-04-23T10:09:27+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchTips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tips` WHERE `tips_title` LIKE '%不%' ORDER BY tips_time desc  [ RunTime:0.0000s ]
+
+[ 2017-04-23T10:11:20+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchTips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tips` WHERE `tips_title` LIKE '%不%' ORDER BY tips_time desc  [ RunTime:0.0000s ]
+
+[ 2017-04-23T10:14:37+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchNews
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `news` WHERE `news_title` LIKE '%dsad%' ORDER BY news_time desc  [ RunTime:0.0000s ]
+
+[ 2017-04-23T10:14:37+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchNews
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` WHERE `news_title` LIKE '%dsad%' ORDER BY news_time desc  [ RunTime:0.0000s ]
+
+[ 2017-04-23T10:14:38+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchNews
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` WHERE `news_title` LIKE '%dsad%' ORDER BY news_time desc  [ RunTime:0.0000s ]
+
+[ 2017-04-23T10:14:38+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchNews
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` WHERE `news_title` LIKE '%dsad%' ORDER BY news_time desc  [ RunTime:0.0000s ]
+
+[ 2017-04-23T10:14:38+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchNews
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `news` WHERE `news_title` LIKE '%dsad%' ORDER BY news_time desc  [ RunTime:0.0000s ]
+
+[ 2017-04-23T10:14:39+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchNews
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `news` WHERE `news_title` LIKE '%dsad%' ORDER BY news_time desc  [ RunTime:0.0000s ]
+
+[ 2017-04-23T10:14:39+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchNews
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` WHERE `news_title` LIKE '%dsad%' ORDER BY news_time desc  [ RunTime:0.0000s ]
+
+[ 2017-04-23T10:14:54+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchNews
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` WHERE `news_title` LIKE '%das%' ORDER BY news_time desc  [ RunTime:0.0000s ]
+
+[ 2017-04-23T10:14:55+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchNews
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `news` WHERE `news_title` LIKE '%das%' ORDER BY news_time desc  [ RunTime:0.0000s ]
+
+[ 2017-04-23T10:14:55+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchNews
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `news` WHERE `news_title` LIKE '%das%' ORDER BY news_time desc  [ RunTime:0.0010s ]
+
+[ 2017-04-23T10:14:55+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchNews
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `news` WHERE `news_title` LIKE '%das%' ORDER BY news_time desc  [ RunTime:0.0000s ]
+
+[ 2017-04-23T10:16:16+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchNews
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` WHERE `news_title` LIKE '%afds%' ORDER BY news_time desc  [ RunTime:0.0000s ]
+
+[ 2017-04-23T10:16:37+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchNews
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` WHERE `news_title` LIKE '%江%' ORDER BY news_time desc  [ RunTime:0.0000s ]
+
+[ 2017-04-23T10:17:04+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchNews
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `news` WHERE `news_title` LIKE '%江%' ORDER BY news_time desc  [ RunTime:0.0000s ]
+
+[ 2017-04-23T10:17:21+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchNews
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` WHERE `news_title` LIKE '%不%' ORDER BY news_time desc  [ RunTime:0.0000s ]
+
+[ 2017-04-23T10:17:25+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchNews
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` WHERE `news_title` LIKE '%江%' ORDER BY news_time desc  [ RunTime:0.0000s ]
+
+[ 2017-04-23T10:17:26+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchNews
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` WHERE `news_title` LIKE '%江%' ORDER BY news_time desc  [ RunTime:0.0000s ]
+
+[ 2017-04-23T10:17:56+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchNews
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` WHERE `news_title` LIKE '%gr%' ORDER BY news_time desc  [ RunTime:0.0000s ]
+
+[ 2017-04-23T10:17:56+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchNews
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` WHERE `news_title` LIKE '%gr%' ORDER BY news_time desc  [ RunTime:0.0000s ]
+
+[ 2017-04-23T10:20:43+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchNews
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `news` WHERE `news_title` LIKE '%dsd%' ORDER BY news_time desc  [ RunTime:0.0000s ]
+
+[ 2017-04-23T10:22:51+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchTips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tips` WHERE `tips_title` LIKE '%fds%' ORDER BY tips_time desc  [ RunTime:0.0156s ]
+
+[ 2017-04-23T10:22:51+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchTips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tips` WHERE `tips_title` LIKE '%fds%' ORDER BY tips_time desc  [ RunTime:0.0000s ]
+
+[ 2017-04-23T10:23:12+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchTips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tips` WHERE `tips_title` LIKE '%fdf%' ORDER BY tips_time desc  [ RunTime:0.0000s ]
+
+[ 2017-04-23T10:23:18+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchTips
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tips` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tips` WHERE `tips_title` LIKE '%不%' ORDER BY tips_time desc  [ RunTime:0.0000s ]
+
+[ 2017-04-23T10:25:09+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchNews
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016600s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` WHERE `news_title` LIKE '%da%' ORDER BY news_time desc  [ RunTime:0.0156s ]
+
+[ 2017-04-23T10:25:22+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchNews
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` WHERE `news_title` LIKE '%江%' ORDER BY news_time desc  [ RunTime:0.0000s ]
+
+[ 2017-04-23T10:27:53+08:00 ] ::1 /travelWeb/index.php/Admin/Index/delNew
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0030s ]
+SQL: DELETE FROM `news` WHERE `news_id` = 1 [ RunTime:0.0080s ]
+
+[ 2017-04-23T10:28:32+08:00 ] ::1 /travelWeb/index.php/Admin/Index/addNew
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0000s ]
+SQL: INSERT INTO `news` (`news_title`,`news_content`,`news_time`) VALUES ('新闻','<p>这是内容这是内容这是内容这是内容这是内容</p>','2017-04-23 10:28:32') [ RunTime:0.0468s ]
+
+[ 2017-04-23T10:29:04+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchNews
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.016600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016600s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `news` WHERE `news_title` LIKE '%江%' ORDER BY news_time desc  [ RunTime:0.0000s ]
+
+[ 2017-04-23T11:31:24+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchPosts
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:searchPosts
+
+[ 2017-04-23T11:31:52+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchPost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `posts` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `posts` WHERE `posts_title` LIKE '%fdfs%' ORDER BY posts_time desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `comments` [ RunTime:0.0000s ]
+
+[ 2017-04-23T11:31:55+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchPost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `posts` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `posts` WHERE `posts_title` LIKE '%哈哈%' ORDER BY posts_time desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `comments` [ RunTime:0.0000s ]
+
+[ 2017-04-23T11:32:00+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchPost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `posts` [ RunTime:0.0316s ]
+SQL: SELECT * FROM `posts` WHERE `posts_title` LIKE '%哈%' ORDER BY posts_time desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `comments` [ RunTime:0.0000s ]
+
+[ 2017-04-23T11:32:15+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchPost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `posts` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `posts` WHERE `posts_title` LIKE '%求%' ORDER BY posts_time desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `comments` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comments` WHERE `posts_id` = 5 ORDER BY comments_time desc  [ RunTime:0.0000s ]
+
+[ 2017-04-23T11:32:28+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchPost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `posts` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `posts` WHERE `posts_title` LIKE '%测试%' ORDER BY posts_time desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `comments` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comments` WHERE `posts_id` = 2 ORDER BY comments_time desc  [ RunTime:0.0000s ]
+
+[ 2017-04-23T11:34:00+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchPost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `posts` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `posts` WHERE `posts_title` LIKE '%just%' ORDER BY posts_time desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `comments` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comments` WHERE `posts_id` = 7 ORDER BY comments_time desc  [ RunTime:0.0000s ]
+
+[ 2017-04-23T11:34:49+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchPost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `posts` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `posts` WHERE `posts_title` LIKE '%jus%' ORDER BY posts_time desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `comments` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comments` WHERE `posts_id` = 7 ORDER BY comments_time desc  [ RunTime:0.0000s ]
+
+[ 2017-04-23T11:36:29+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchPost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `posts` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `posts` WHERE `posts_title` LIKE '%777%' ORDER BY posts_time desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `comments` [ RunTime:0.0000s ]
+
+[ 2017-04-23T11:36:33+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchPost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `posts` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `posts` WHERE `posts_title` LIKE '%ju%' ORDER BY posts_time desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `comments` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `comments` WHERE `posts_id` = 7 ORDER BY comments_time desc  [ RunTime:0.0000s ]
+
+[ 2017-04-23T11:36:43+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchPost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `posts` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `posts` WHERE `posts_title` LIKE '%just%' ORDER BY posts_time desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `comments` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `comments` WHERE `posts_id` = 7 ORDER BY comments_time desc  [ RunTime:0.0000s ]
+
+[ 2017-04-23T11:36:57+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchPost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `posts` [ RunTime:0.0936s ]
+SQL: SELECT * FROM `posts` WHERE `posts_title` LIKE '%just%' ORDER BY posts_time desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `comments` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comments` WHERE `posts_id` = 7 ORDER BY comments_time desc  [ RunTime:0.0000s ]
+
+[ 2017-04-23T11:37:14+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchPost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `posts` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `posts` WHERE `posts_title` LIKE '%j%' ORDER BY posts_time desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `comments` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comments` WHERE `posts_id` = 7 ORDER BY comments_time desc  [ RunTime:0.0000s ]
+
+[ 2017-04-23T11:38:33+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchPost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.016600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016600s ]
+SQL: SHOW COLUMNS FROM `posts` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `posts` WHERE `posts_title` LIKE '%just%' ORDER BY posts_time desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `comments` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comments` WHERE `posts_id` = 7 ORDER BY comments_time desc  [ RunTime:0.0000s ]
+
+[ 2017-04-23T11:41:46+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchPost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `posts` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `posts` WHERE `posts_title` LIKE '%just%' ORDER BY posts_time desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `comments` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comments` WHERE `posts_id` = 7 ORDER BY comments_time desc  [ RunTime:0.0000s ]
+
+[ 2017-04-23T13:13:57+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchPost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `posts` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `posts` WHERE `posts_title` LIKE '%j%' ORDER BY posts_time desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `comments` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comments` WHERE `posts_id` = 7 ORDER BY comments_time desc  [ RunTime:0.0000s ]
+
+[ 2017-04-23T13:14:30+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchPost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `posts` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `posts` WHERE `posts_title` LIKE '%j%' ORDER BY posts_time desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `comments` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comments` WHERE `posts_id` = 7 ORDER BY comments_time desc  [ RunTime:0.0000s ]
+
+[ 2017-04-23T13:15:44+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchPost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `posts` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `posts` WHERE `posts_title` LIKE '%j%' ORDER BY posts_time desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `comments` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comments` WHERE `posts_id` = 7 ORDER BY comments_time desc  [ RunTime:0.0000s ]
+
+[ 2017-04-23T13:15:51+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchPost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `posts` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `posts` WHERE `posts_title` LIKE '%j%' ORDER BY posts_time desc  [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `comments` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comments` WHERE `posts_id` = 7 ORDER BY comments_time desc  [ RunTime:0.0000s ]
+
+[ 2017-04-23T13:17:16+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchPost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `posts` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `posts` WHERE `posts_title` LIKE '%j%' ORDER BY posts_time desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `comments` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `comments` WHERE `posts_id` = 7 ORDER BY comments_time desc  [ RunTime:0.0000s ]
+
+[ 2017-04-23T13:17:44+08:00 ] ::1 /travelWeb/index.php/Admin/Index/searchPost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `posts` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `posts` WHERE `posts_title` LIKE '%j%' ORDER BY posts_time desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `comments` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `comments` WHERE `posts_id` = 7 ORDER BY comments_time desc  [ RunTime:0.0000s ]
+
+[ 2017-04-23T13:21:59+08:00 ] ::1 /travelWeb/index.php/Admin/Index/delPost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `posts` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `comments` [ RunTime:0.0010s ]
+SQL: DELETE FROM `posts` WHERE `posts_id` = 7 [ RunTime:0.4232s ]
+SQL: DELETE FROM `comments` WHERE `posts_id` = 7 [ RunTime:0.0156s ]
+
+[ 2017-04-23T13:33:27+08:00 ] ::1 /travelWeb/index.php/Admin/Index/delPost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `posts` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `comments` [ RunTime:0.0000s ]
+SQL: DELETE FROM `comments` WHERE `posts_id` = 6 [ RunTime:0.0000s ]
+SQL: DELETE FROM `posts` WHERE `posts_id` = 6 [ RunTime:0.0000s ]
+
+[ 2017-04-23T13:34:07+08:00 ] ::1 /travelWeb/index.php/Admin/Index/delPost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `posts` [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `comments` [ RunTime:0.0000s ]
+SQL: DELETE FROM `posts` WHERE `posts_id` = 5 [ RunTime:0.0156s ]
+
+[ 2017-04-23T13:37:01+08:00 ] ::1 /travelWeb/index.php/Admin/Index/delPost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `posts` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `comments` [ RunTime:0.0030s ]
+SQL: DELETE FROM `comments` WHERE `posts_id` = 4 [ RunTime:0.0432s ]
+SQL: DELETE FROM `posts` WHERE `posts_id` = 4 [ RunTime:0.0000s ]
+
+[ 2017-04-23T13:38:14+08:00 ] ::1 /travelWeb/index.php/Admin/Index/post?id=8
+ERR: 非法操作:post
+
+[ 2017-04-23T14:22:38+08:00 ] ::1 /travelWeb/index.php/Admin/Index/function%20URL()%20%7B%20[native%20code]%20%7D/delCom
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:function URL() { [native code] }
+
+[ 2017-04-23T14:23:20+08:00 ] ::1 /travelWeb/index.php/Admin/Index/delCom
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `comments` [ RunTime:0.0156s ]
+NOTIC: [8] Undefined variable: com D:\wamp\www\travelWeb\Admin\Controller\IndexController.class.php 第 276 行.
+
+[ 2017-04-23T14:23:26+08:00 ] ::1 /travelWeb/index.php/Admin/Index/delCom
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `comments` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: com D:\wamp\www\travelWeb\Admin\Controller\IndexController.class.php 第 276 行.
+
+[ 2017-04-23T14:23:27+08:00 ] ::1 /travelWeb/index.php/Admin/Index/delCom
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `comments` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: com D:\wamp\www\travelWeb\Admin\Controller\IndexController.class.php 第 276 行.
+
+[ 2017-04-23T14:24:30+08:00 ] ::1 /travelWeb/index.php/Admin/Index/delCom
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `comments` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: com D:\wamp\www\travelWeb\Admin\Controller\IndexController.class.php 第 277 行.
+
+[ 2017-04-23T14:25:19+08:00 ] ::1 /travelWeb/index.php/Admin/Index/delCom
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `comments` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: com D:\wamp\www\travelWeb\Admin\Controller\IndexController.class.php 第 277 行.
+
+[ 2017-04-23T14:25:41+08:00 ] ::1 /travelWeb/index.php/Admin/Index/delCom
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `comments` [ RunTime:0.0156s ]
+NOTIC: [8] Undefined variable: com D:\wamp\www\travelWeb\Admin\Controller\IndexController.class.php 第 277 行.
+
+[ 2017-04-23T14:28:01+08:00 ] ::1 /travelWeb/index.php/Admin/Index/delCom
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `comments` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: com D:\wamp\www\travelWeb\Admin\Controller\IndexController.class.php 第 277 行.
+
+[ 2017-04-23T14:28:05+08:00 ] ::1 /travelWeb/index.php/Admin/Index/delCom
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `comments` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: com D:\wamp\www\travelWeb\Admin\Controller\IndexController.class.php 第 277 行.
+
+[ 2017-04-23T14:29:18+08:00 ] ::1 /travelWeb/index.php/Admin/Index/delCom
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `comments` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: com D:\wamp\www\travelWeb\Admin\Controller\IndexController.class.php 第 277 行.
+
+[ 2017-04-23T14:30:18+08:00 ] ::1 /travelWeb/index.php/Admin/Index/delCom
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-23T14:30:31+08:00 ] ::1 /travelWeb/index.php/Admin/Index/delCom
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-23T14:30:56+08:00 ] ::1 /travelWeb/index.php/Admin/Index/delCom
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `comments` [ RunTime:0.0000s ]
+SQL: DELETE FROM `comments` WHERE `comments_id` = 13 [ RunTime:0.0468s ]
+
+[ 2017-04-23T14:32:04+08:00 ] ::1 /travelWeb/index.php/Admin/Index/returnView
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sights` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sights` WHERE `sights_id` = 7 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-04-23T14:35:34+08:00 ] ::1 /travelWeb/index.php/Admin/Index/delCom
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `comments` [ RunTime:0.0030s ]
+SQL: DELETE FROM `comments` WHERE `comments_id` = 22 [ RunTime:0.0166s ]
+
+[ 2017-04-23T21:26:17+08:00 ] ::1 /travelWeb/index.php/Admin/Index/delUser
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0040s ]
+SQL: DELETE FROM `users` WHERE `user_id` = 7 [ RunTime:0.6874s ]
+
+[ 2017-04-23T21:42:58+08:00 ] ::1 /travelWeb/index.php/Admin/Index/showFollow?type=follows&&userid=9
+ERR: 非法操作:showFollow
+
+[ 2017-04-23T22:06:16+08:00 ] ::1 /travelWeb/index.php/Admin/Index/user?name=Henry
+ERR: 模板不存在:D:/wamp/www/travelWeb/Admin/View/Index/user.html
+
+[ 2017-04-23T22:06:26+08:00 ] ::1 /travelWeb/index.php/Admin/Index/user?name=Henry
+ERR: 模板不存在:D:/wamp/www/travelWeb/Admin/View/Index/user.html
+
+[ 2017-04-23T22:21:49+08:00 ] ::1 /travelWeb/index.php/Admin/Index/user?name=abc
+ERR: 模板不存在:D:/wamp/www/travelWeb/Admin/View/Index/user.html
+
+[ 2017-04-23T22:22:08+08:00 ] ::1 /travelWeb/index.php/Admin/Index/user?name=abc
+ERR: 模板不存在:D:/wamp/www/travelWeb/Admin/View/Index/user.html
+
+[ 2017-04-23T22:50:19+08:00 ] ::1 /travelWeb/index.php/Admin/Index/function%20URL()%20%7B%20[native%20code]%20%7D/delUserCom
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:function URL() { [native code] }
+
+[ 2017-04-23T22:51:25+08:00 ] ::1 /travelWeb/index.php/Admin/Index/delUserCom
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `comments` [ RunTime:0.0156s ]
+SQL: DELETE FROM `comments` WHERE `comments_id` = 17 [ RunTime:0.0624s ]
+
+[ 2017-04-23T22:55:21+08:00 ] ::1 /travelWeb/index.php/Admin/Index/showuser?name=Henry
+ERR: 1054:Unknown column 'comments_time' in 'order clause'
+ [ SQL语句 ] : SELECT * FROM `posts` WHERE `posts_id` = 2 ORDER BY comments_time desc LIMIT 1  
+
+[ 2017-04-23T23:00:13+08:00 ] ::1 /travelWeb/index.php/Admin/Index/delUserPost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `posts` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `comments` [ RunTime:0.0000s ]
+SQL: DELETE FROM `posts` WHERE `posts_id` = 20 [ RunTime:0.0176s ]
+

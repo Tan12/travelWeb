@@ -1,0 +1,60 @@
+body{
+	padding-top: 20px;
+	font-size: 16px;
+	font-family: "Open Sans",serif;
+	background: transparent;
+}
+h1{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.margin-base-vertical{
+	margin: 20px 0;
+}
+.panel{
+	background-color: rgba(255, 255, 255, 0.9);
+	margin-top: 40px;
+	padding-bottom: 40px;
+}
+.panel .panel-head{
+	margin-top: 20px;
+}
+.panel .panel-head a{
+	font-weight: bold;
+    font-size: 15px;
+	color: #666;
+}
+.panel .panel-head a.active {
+    color: #029f5b;
+    font-size: 18px;
+}
+.panel .panel-head hr{
+	margin-top: 10px;
+	margin-bottom: 0px;
+	clear: both;
+	border: 0;
+	height: 1px;
+	background-image: -webkit-linear-gradient(left,rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.15),rgba(0, 0, 0, 0));
+	background-image: -moz-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,0,0.15),rgba(0,0,0,0));
+	background-image: -ms-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,0,0.15),rgba(0,0,0,0));
+	background-image: -o-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,0,0.15),rgba(0,0,0,0));
+}
+#submit{
+	width: 60%;
+	height: 40px;
+	font-weight: bold;
+}
+#verifyPic{
+	width: 175px;
+	height: 50px;
+}
+.form-control{
+	width: 60%;
+	display: inline-block;
+	margin-top: 10px;
+}
+.panel .panel-body form label{
+	text-align: left;
+}
+#register-form{
+	display:none;
+}

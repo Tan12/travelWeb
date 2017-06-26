@@ -1,0 +1,112 @@
+/*用户信息*/
+.user-part{
+	background-color: #fff;
+	position: relative;
+	height: 220px;
+    -moz-box-shadow: 0 1px 3px rgba(0,0,0,.12);
+    -webkit-box-shadow: 0 1px 3px rgba(0,0,0,.12);
+    box-shadow: 0 1px 3px rgba(0,0,0,.12);
+}
+.maozi{
+	width: 150px;
+    height: 100px;
+    background: #fff;
+    position: absolute;
+    left: 15px;
+    top: -40px;
+    z-index: -1;
+    -moz-box-shadow: 0 0 4px rgba(0,0,0,.2);
+    -webkit-box-shadow: 0 0 4px rgba(0,0,0,.2);
+    box-shadow: 0 0 4px rgba(0,0,0,.2);
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.without-side{
+	position: relative;
+    height: 170px;
+}
+
+.img{
+	background: #fff;
+    left: 5px;
+    position: absolute;
+    top: -35px;
+    width: 140px;
+    height: 190px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+}
+.img .user-pic{
+	height: 140px;
+    position: relative;
+}
+.img .counts{
+	width: 140;
+	height: 50px;
+	background-color: #fcfcfc;
+    text-align: center;
+}
+.img .counts .followers,
+.img .counts .follows{
+	display: block;
+    height: 40px;
+    padding: 5px 0;
+}
+.img .counts .follows{
+	float: left;
+    width: 70px;
+    border-right: 1px solid #EDEDED;
+}
+
+.user-info{
+	width: 620px;
+    margin: 20px 0 0 180px;
+    display: inline;
+    float: left;
+    position: relative;
+}
+
+.user-tabs{
+	background: #FAFAFA;
+    border-top: 1px solid #EDEDED;
+    position: relative;
+}	
+.user-tabs .navbar-nav{
+	float: left;
+}
+.user-tabs .navbar-nav>li {
+    float: left;
+}
+
+
+/*用户内容*/
+.show-details{
+	width: 100%;
+}
+.show-details .warnning{
+	text-align: center;
+}
+
+
+/*我的帖子*/
+.post-preview{
+    width: 100%;
+    padding: 0 20px;
+    border: 1px solid #ccc;
+}
+.margin-top-20{
+    padding: 0;
+}
+
+/* 我的评论 */
+#real-coms{
+    min-height: 300px;
+}
+#real-coms .post-content{
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

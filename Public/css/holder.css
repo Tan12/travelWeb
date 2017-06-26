@@ -1,0 +1,26 @@
+@charset "utf-8";      
+.holder a {
+    text-decoration: none;
+	border: 1px solid #AAE;
+	color: #15B;
+}
+
+.holder a, .holder span {
+    display: inline-block;
+    padding: 0.1em 0.4em;
+    margin-right: 5px;
+	margin-bottom: 5px;
+}
+
+.holder .current {
+    background: #09F;
+    color: #fff;
+	border: 1px solid #AAE;
+}
+
+.holder .current.prev, .holder .current.next{
+	color:#999;
+	border-color:#999;
+	background:#fff;
+}
+

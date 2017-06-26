@@ -1,0 +1,15 @@
+[ 2017-04-02T16:16:09+08:00 ] ::1 /travelWeb/index.php/Admin/Index/message?id=1
+ERR: 非法操作:message
+
+[ 2017-04-02T20:54:53+08:00 ] ::1 /travelWeb/index.php/Admin/Index/message?id=2
+ERR: 非法操作:message
+
+[ 2017-04-02T22:41:13+08:00 ] ::1 /travelWeb/index.php/Admin/Index/demo/json/data.json
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+ERR: 非法操作:demo
+
+[ 2017-04-02T22:41:20+08:00 ] ::1 /travelWeb/index.php/Admin/Index/demo/scripts/image_upload.php
+ERR: 非法操作:demo
+
